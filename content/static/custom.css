@@ -1,0 +1,110 @@
+/*
+ * My customized CSS starts here
+ */
+
+.entry-content {
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline {
+  display: inline;
+}
+
+/* Styles for Figures & Images (Better Figures & Images plugin) */
+
+img {
+  /* border: 1px solid #bbb; */
+  /* border-radius: 3px; */
+  /* padding: 4px;
+       margin: 0em 1em 1em 0em;
+       box-shadow: 4px 4px 4px 0px rgba(128, 128, 128, 0.5); */
+}
+img.align-right {
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+img.align-left {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.figure {
+  /* border: 1px solid #bbb; */
+  /* border-radius: 3px; */
+  padding: 4px;
+  float: left;
+  margin: 0 1em 1em 0;
+  /* box-shadow: 4px 4px 4px 0px rgba(128, 128, 128, 0.5); */
+}
+.figure.align-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+.figure.align-left {
+  float: left;
+}
+.figure img {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+
+  float: left;
+}
+.figure p.caption {
+  margin: 0;
+  font-size: 80%;
+  padding: 4px;
+  float: left;
+  text-align: left;
+}
+.figure div.legend {
+  padding: 4px;
+  font-size: 80%;
+  color: #aaa;
+  font-style: italic;
+
+  float: left;
+}
+
+/* Code block style*/
+pre {
+  font-size: 1.6rem;
+}
+
+/* Responsive Youtube videos classes (http://coolestguidesontheplanet.com/videodrome/youtube/) */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 960px;
+  /*margin: 0 1em 1em 0;*/
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+blockquote {
+  font-size: inherit;
+}
+
+blockquote footer {
+  font-size: 90%;
+}
