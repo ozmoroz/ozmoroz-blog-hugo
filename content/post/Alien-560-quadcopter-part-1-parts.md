@@ -5,6 +5,8 @@ Date: 2016-09-23
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [multirotors]
+aliases:
+  - /2016/09/alien-560-quadcopter-build-part-1-parts.html
 ---
 
 When I was at school, I was an electronics geek. I was spending days in a library looking for schematics of AM radios and circuits of blinking lights and beeping sounds, and then long evenings in an electronics club trying to solder them together. Unfortunately, none of the stuff I built ever worked properly: radios received only static, lights blinked out of order, and beepers screaked. But most of all I was obsessed with remote control models.
@@ -13,7 +15,7 @@ I had a book about remote control models my dad gave to me. It was a 300-pages m
 
 Many years passed, but my yearning for remote control models remained. And finally, when I moved to Australia I decided that I had waited long enough. I bought my first hobby-grade remote controlled car, then another one, and before I knew I had a few.
 
-![Rack full of R/C cars]({filename}/images/rc_cars_rack_large.jpg){.center}
+![Rack full of R/C cars](/images/rc_cars_rack_large.jpg)
 
 Those cars are a lot of fun to play with, and they are quite reliable. The oldest one I own is eight years old and still going strong. It had to repair it after some accidents, but it was nothing major.
 

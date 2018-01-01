@@ -6,6 +6,8 @@ Category: lifestyle
 Slug: why-i-want-autopilot
 Series: ["Building a small GPS drone"]
 Tags: [multirotors]
+aliases:
+  - /2017/11/why-i-want-autopilot.html
 ---
 
 About a year ago Hobbyking was having one of their "Flash Sale" events. During a few days, they dropped prices on a few hundred items. An online shopaholic in me couldn't miss it. I meticulously studied the offerings until I found something worthy of my attention and money. That was a <a href="https://hobbyking.com/en_us/jumper-218-pro-quad-copter-arf.html">Jumper 218 Pro</a> racing quadcopter, almost ready to run. A bargain at a just a bit over $100! I just needed to add an RC receiver.

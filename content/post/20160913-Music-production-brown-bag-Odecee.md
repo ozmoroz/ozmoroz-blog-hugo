@@ -4,9 +4,11 @@ Date: 2016-09-13
 Author: Sergey Stadnik
 Category: lifestyle
 tags: [music_production]
+alias:
+  - /2016/09/introduction-to-ios-music-production-brown-bag.html
 ---
 
-![Music band with iPad]({filename}/images/abstract-music-rock-bw.jpg)
+![Music band with iPad](/images/abstract-music-rock-bw.jpg)
 
 I work at [Odecee](http://odecee.com.au/). It is a technology consultancy company with a difference.  They understand that people are their main and only asset, so they tend to hire smart IT professionals, pay them well, and give them cool toys.
 
@@ -16,12 +18,9 @@ We have monthly sessions on web development, DevOps, mobile development, and "ki
 
 I myself recently took an opportunity to present a brown bag on the basics of iOS music production. The reason I wanted to talk about music to a technical audience is because engineers often see the world through a lens of their technical skills. They like no one can benefit from a creative freedom music gives them. For engineers music, especially electronic music, is a perfect creative media. It is technical but, at the same time, it is unstructured. It obeys laws of physics but musicians don't need to rely on formulas to create.
 
-<!-- PELICAN_END_SUMMARY -->
-
+<!-- more -->
 <p>
-<div class="video-container">
-<iframe width="960" height="540" src="https://www.youtube.com/embed/waH0r7ntXAc" frameborder="0" allowfullscreen></iframe></iframe>
-</div>
+{{<youtube waH0r7ntXAc>}}
 </p>
 
 I hold a view that everyone can be a musician. Making music should be fun, the tools should be easily available and easy to use. Unfortunately, it is often perceived as something highly complex and expensive, only accessible to a few chosen ones. That point of view is reinforced by a [current state of desktop music production tools](../../2012/09/cost-and-comlexity-of-making-electronic.html). But fortunately for us, Apple delivered yet another mobile revolution and this one passed mostly unnoticed by the general public - [the revolution in mobile music production](../../2013/01/music-production-for-masses-ios-to.html). As with many other areas, iPhones and iPads made music making what it should be - easy, fun and accessible.

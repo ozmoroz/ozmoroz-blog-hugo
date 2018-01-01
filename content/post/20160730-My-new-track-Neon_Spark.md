@@ -5,6 +5,8 @@ Author: Sergey Stadnik
 Category: lifestyle
 tags: [music_production]
 Slug: my-new-track-neon-spark
+aliases:
+  - /2016/07/my-new-track-neon-spark.html
 ---
 
 I wrote another track - "Neon Spark". Here it is:
@@ -14,7 +16,7 @@ I wrote another track - "Neon Spark". Here it is:
 	<source src="http://ozmoroz-pub.s3.amazonaws.com/music/Neon_Spark.m4a" type='audio/mp4'>
 </audio>
 
-![Neon Spark artwork]({filename}/images/triumph_by_ba86irl.jpg)
+![Neon Spark artwork](/images/triumph_by_ba86irl.jpg)
 
 <a href="http://ozmoroz-pub.s3.amazonaws.com/music/Neon_Spark.m4a" download target="_blank">Download the track</a>
 

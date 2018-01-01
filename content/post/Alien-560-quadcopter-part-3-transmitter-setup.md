@@ -5,10 +5,12 @@ Date: 2016-10-09
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [multirotors]
+aliases:
+  - /2016/10/alien-560-quadcopter-build-part-3-transmitter-setup.html
 ---
 
 I wish I could tell you that setting up the transmitter was straightforward, but unfortunately, it wasn't.  I'll do my best to describe what I did, although I'm not sure my process is 100% repeatable.
-<!-- PELICAN_END_SUMMARY -->
+<!-- more -->
 
 I have a [Turnigy 9XR Pro transmitter](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=68660) with a [FrSky JR module](http://www.hobbyking.com/hobbyking/store/__41609__FrSky_XJT_2_4Ghz_Combo_Pack_for_JR_w_Telemetry_Module_X8R_8_16Ch_S_BUS_ACCST_Telemetry_Receiver.html). It is a digital radio with lots of features: updateable firmware, model memory, custom sound files and so on.
 
@@ -18,7 +20,7 @@ All subsequent setup is performed on the transmitter itself via the series of th
 
 A long press on the left side 4-position switch gets you to the main menu.
 
-![9xr Pro Main menu]({filename}/images/9xr_pro_main_menu.jpg){.center}
+![9xr Pro Main menu](/images/9xr_pro_main_menu.jpg)
 
 - Go into **Controls** to change the channel order. Pixhawk requires the channels to be in **AETR** order: *Aileron*, *Elevator*, *Throttle*, *Rudder*. However, although that is a correct order for [Mode 2 radio](https://www.modelflight.com.au/blog/difference-between-mode-1-vs-mode-2/) I have, the order may be different for Mode 1.
 
@@ -30,7 +32,7 @@ A long press on the left side 4-position switch gets you to the main menu.
 
 A long press on the right side 4-position switch gets you to the main menu. Here you need to create a new entry for your model.
 
-![9xr Pro model select menu]({filename}/images/9xr_pro_model_select_menu.jpg){.center}
+![9xr Pro model select menu](/images/9xr_pro_model_select_menu.jpg)
 
 Once you create a new model name, there are a few settings which need to be set up for it.
 
@@ -49,13 +51,13 @@ Pixhawk has [quite a few flight modes](http://ardupilot.org/copter/docs/flight-m
 - **AIL D/R** switch on the right is mapped to **Auto** mode and overrides other mode settings except for RTL switch.
 - The 3-way switch is mapped to **Stabilize**,  **Alt Hold**, and **Loiter**, but only if RTL or Auto are not enabled.
 
-![9xr Pro switches]({filename}/images/9xr_pro_switches.jpg){.center}
+![9xr Pro switches](/images/9xr_pro_switches.jpg)
 
 The way I did that was with the combination of logical switches and mixer configuration. An important thing to understand is that the flight channels are mapped to the values on *Channel 5* according to the configuration you define in Mission Planner or QGroundCtrl (more on that later). So all you need to do is to map different flight modes to values evenly spread across -100 ... +100 range on channel 5. That involves a few steps:
 
 Enter **Model Setup** &#8594; **L.Switches** menu. Logical switches can have On and Off values just like real switches, but they are defined by logical formulas rather than positions of the handles on the transmitter. Set up logical switches like this:
 
-![9xr Pro logical switches menu]({filename}/images/9xr_pro_logical_switches_menu.jpg){.center}
+![9xr Pro logical switches menu](/images/9xr_pro_logical_switches_menu.jpg)
 
 This effectively corresponds to the following formulas:
 
@@ -67,17 +69,17 @@ This effectively corresponds to the following formulas:
 
 Next set up flight modes in **Modes** menu.
 
-![9xr Pro flight modes menu]({filename}/images/9xr_pro_modes_menu.jpg){.center}
+![9xr Pro flight modes menu](/images/9xr_pro_modes_menu.jpg)
 
 You can see that Flight Mode 1 - *Return* is triggered by **ELE D/R** switch, while 4 other modes: *Stabil*, *Alt Ho(ld)*, *Loiter*, and *Auto* are triggered by logical switches L2 to L5 respectively.
 
 And finally, enter **Mixer** menu. These are probably the most complex settings in the entire transmitter, and I'm going to cover just enough of it to set up the flight modes the way we want.
 
-![9xr Pro mixer menu]({filename}/images/9xr_pro_mixer_menu.jpg){.center}
+![9xr Pro mixer menu](/images/9xr_pro_mixer_menu.jpg)
 
 You can see that channels 1 to 4 are mapped 100% to *Aileron*, *Elevator*, *Throttle*, *Rudder* (remember I told you about **AERT** channel order?), while channel 5 is different. It is configured to trigger the discrete values depending on the values of the switches we have previously set up. All the CH5 submixes are identical except for **Offset** and **Switch** values.
 
-![9xr Pro edit mix menu]({filename}/images/9xr_pro_edit_mix_menu.jpg){.center}
+![9xr Pro edit mix menu](/images/9xr_pro_edit_mix_menu.jpg)
 
 * 1st: has **Weight: 33**, **Offset: -100**, and **Switch: ELE**
 * 2nd: **Weight: 33**, **Offset: -77**, and **Switch: L2**

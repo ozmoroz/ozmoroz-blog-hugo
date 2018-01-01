@@ -4,13 +4,16 @@ Date: 2016-09-12
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [career]
+images: ["/images/road_ahead.jpg"]
+alias:
+  - /2016/09/road-ahead.html
 ---
 
 It’s been nearly a year since I wrote that post: [A new chapter](../../2015/09/a-new-chapter.html). During that time I did a bit of traveling, spent a fair amount of time slacking off at the beach (you can’t resist that during summer time in Australia), but most of all I was studying. I was keen to deliver on my resolution to pick up lasting fundamental skills.
 
-![Road Ahead sign]({filename}/images/road_ahead.jpg)
+![Road Ahead sign](/images/road_ahead.jpg)
 
-<!-- PELICAN_END_SUMMARY -->
+<!-- more -->
 As I already [had an experience with online education](../../2012/07/composing-and-producing-electronic.html) and found it as good, if not better, than in-person training, I went for online courses again. There is no shortage of opportunities for online learning for anyone who wants to pick up new skills, especially in technology: [Coursera](https://www.coursera.org/), [Pluralsight](https://www.pluralsight.com/), [Udemy](https://www.udemy.com), [Lynda.com](https://www.lynda.com), just to name a few, provide lots on online courses covering a wide variety of technologies. Most of them are very affordable or even free. I listened to a few lectures on [Coursera.org](https://www.coursera.org/) before, however I never took them seriously. And just when I was deciding what to learn next, an email arrived into my mailbox advertising a brand new [Full Stack Web Development Specialization](https://www.coursera.org/specializations/full-stack). In Coursera’s lingo, a specialization is a sequence of related courses which progress you to a particular goal, in this case – becoming a full stack developer, i.e. a developer who is capable of creating both back-end and front-end sides of a software solution, in this instance in JavaScript. That specialization was advertised to include the following courses:
 
 * [HTML, CSS and JavaScript](https://www.coursera.org/learn/html-css-javascript)

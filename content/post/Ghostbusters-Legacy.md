@@ -3,6 +3,8 @@ Title: "Ghostbusters: Legacy"
 Date: 2017-09-05
 Author: Sergey Stadnik
 Category: lifestyle
+aliases:
+ - /2017/09/ghostbusters-legacy.html
 ---
 
 Sometimes I see dreams which are like movies: they are vivid, bright and clear. It doesn't happen often, but whenever it does, I rush to write them down first thing in the morning before I forget them.
@@ -10,7 +12,7 @@ Here is another one. I am not a writer. If anyone wants to take this and turn it
 Here we go...
 
 **It's been 27 years since the original Ghostbusters saved New York City from Vigo.**
-<!-- PELICAN_END_SUMMARY -->
+<!-- more -->
 
 An organisation called The Legacy fights a new threat - humans possessed by ghosts. That combination makes those creatures extremely violent and dangerous. The technology developed by the Ghostbusters seems to have been lost: long gone are the proton blasters and high-tech traps. Members of The Legacy go into their battles armed with swords, crossbows and guns (Walking Dead - style).
 

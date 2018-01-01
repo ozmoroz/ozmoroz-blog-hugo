@@ -6,10 +6,12 @@ Author: Sergey Stadnik
 Category: technology
 Tags: [javascript]
 Slug: mocking-es6-dependencies-1
+aliases:
+  - /2017/09/mocking-es6-dependencies-1.html
 ---
 
 Not so long ago I faced a problem: I needed to mock ES6 module’s dependencies for unit testing. The reason for mocking dependencies in unit tests is the following: when I write a unit test, I want to test the functionality of a single unit of code, hence a unit test. However, if a module has any dependencies, those dependencies need be satisfied. That may mean importing and executing code in other modules. As a result, the unit test loses its _purity_ – the test results will depend not only on the module I’m focusing on but also on the other code my module depends on.
-<!-- PELICAN_END_SUMMARY -->
+<!--more-->
 
 ### Summary:
 
@@ -28,36 +30,37 @@ As documented in <a href="https://stackoverflow.com/a/38414108/10557">this stack
 
 Let's say we have `export1.js` module which exports a single function:
 
-~~~~javascript hl_lines="1"
+{{<highlight javascript "hl_lines=1">}}
 console.log('If you can see that, export1.js is evaluated');
 
 export const exportFunc = () => {
   return 'This is real exportFunc from export1';
 };
-~~~~
+{{</highlight>}}
 
 Pay attention to the `console.log` here. That is to check whether this module is evaluated during the unit test's execution.
 
 Then there's another module `module1` which imports and calls it:
 
-~~~~javascript
+{{<highlight javascript>}}
 import { exportFunc } from './export1';
 
 export const myFunc = () => {
   return exportFunc();
 };
-~~~~
+{{</highlight>}}
 
 Then a unit test for <code>module1</code> which mocks <code>export1</code> would look like this:
 
-~~~~javascript
+{{<highlight javascript>}}
 'use strict';
 import { myFunc } from './module1';
 import * as export1 from './export1';
 
 /* global beforeEach, describe, sinon */
 
-describe.only('import * from - a dependency in another module', () => {
+describe.only('import * from - a dependency in another module',
+() => {
   let export1Mock;
 
   beforeEach(() => {
@@ -77,24 +80,24 @@ describe.only('import * from - a dependency in another module', () => {
     export1Mock.restore();
   });
 });
-~~~~
+{{</highlight>}}
 
-![Test completed successfully]({filename}/images/export_func1_function_called_passed.png)
+![Test completed successfully](/images/export_func1_function_called_passed.png)
 
 That is not very straightforward, but not too bad either. Pretty much like <a href="http://thejsguy.com/2015/01/28/mocking-services-in-angular-with-$provide.html">Angular's $provide syntax</a>.
 
 Let's unpack what's going on here.
 
-~~~~javascript
+{{<highlight javascript>}}
 import { myFunc } from './module1';
 import * as export1 from './export1';
-~~~~
+{{</highlight>}}
 
 Here we import <code>function</code> from <code>module1</code> we are tesing as usual. However, we use <code>import * as</code> technique to import <code>export1</code> module containing the dependencies we want to mock. The entire <code>export1</code> module is imported as <code>export1Mock</code> _object_.
 
 Then we replace <code>export_func1</code> of <code>export1Module</code> with a [sinon mock](http://sinonjs.org/releases/v3.3.0/mocks/). That mock expectes <code>export_func1</code> to be called once and returns string <code>'This is mocked export_func1'</code>.
 
-~~~~javascript
+{{<highlight javascript>}}
 beforeEach(() => {
   export1Mock = sinon.mock(export1);
   export1Mock
@@ -102,24 +105,24 @@ beforeEach(() => {
     .once()
     .returns('This is mocked exportFunc');
 });
-~~~~
+{{</highlight>}}
 
 After that, we call <code>myFunc</code> and verify that it calls our mocked instance of <code>export_func1</code> rather than real one.
 
-~~~~javascript
+{{<highlight javascript>}}
 it('export_func1 function should be called', () => {
   myFunc();
   export1Mock.verify();
 });
-~~~~
+{{</highlight>}}
 
 Finally, we reset our mocked function to get it ready for the next test / iteration.
 
-~~~~javascript
+{{<highlight javascript>}}
 afterEach(() => {
   export1Mock.restore();
 });
-~~~~
+{{</highlight>}}
 
 However, there is an issues with this approach. As you may have noticed, we can see the output of the <code>console.log</code> we've put into <code>export1.js</code>, that means that the module was evaluated despite the fact we mocked it.
 

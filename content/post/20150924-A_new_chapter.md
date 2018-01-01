@@ -4,10 +4,12 @@ Date: 2015-09-24
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [career]
+aliases:
+  - /2015/09/a-new-chapter.html
 ---
 
 Today I was informed that my position was made redundant. I have been here for 3 years and I enjoyed it, but it will soon be over, and I will be on the market again looking for new job. I am a bit disappointed but other than that I’m fine – I’ve been through that before. When something ends, it also manifests a beginning of a new chapter. There is no use to obsess over what has already happened. Instead I need to look into the future and decide what I am going to do next.
-<!-- PELICAN_END_SUMMARY -->
+<!-- more -->
 
 As I know from my previous experiences, it starts with a feeling of euphoria. When a job ends, I would be overwhelmed with a feeling of freedom. "This time," I would think, "I have a chance to find a job I will truly love. Oh maybe I will start my own business. I can do whatever I want &mdash; the sky is the limit!" But not long after that I would start applying for jobs exactly like the one I had before. After a few weeks a depression would slowly creep in. By that time I would be spending most of time on the job boards frantically refreshing the search page trying to pick up job ads which have just been posted. I would apply for multiple jobs a day, and still would be getting very few, if any, replies. Then after another couple of weeks I would become desperate. And the feelings of freedom and purpose I had in the beginning would be long gone&hellip;
 

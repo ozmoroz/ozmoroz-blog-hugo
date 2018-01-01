@@ -3,6 +3,8 @@ Title: How to set up Git on Windows
 Date: 2015-11-03
 Author: Sergey Stadnik
 Category: technology
+aliases:
+  - /2015/11/how-to-set-up-git-on-windows/
 ---
 
 I finally found a way to set up Git on Windows in a way that it isn't painful to use. Here's how to do that:
@@ -18,6 +20,6 @@ That's it.
 
 Git Extensions come with a handy fully-functional UI.
 
-![Git Exstensions User Interface]({filename}/images/2015-11-03_git_extensions.png)
+![Git Exstensions User Interface](/images/2015-11-03_git_extensions.png)
 
 And Git Credentials Manager securely stores your git passwords so that you don't need to re-enter them every single time.

@@ -4,6 +4,8 @@ Date: 2017-09-14
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [esk8]
+aliases:
+  - /ozmoroz.com/2017/09/my-midlife-crisis.html
 ---
 
 <a href="https://lh3.googleusercontent.com/-zYYiD73B9eg/WbnmCByYiJI/AAAAAAAA3Jk/wna4Hvm_ldAF5A8XZ28-hqXat3VARhWnwCE0YBhgL/s720/20170820_160924.jpg"><img src="https://lh3.googleusercontent.com/-zYYiD73B9eg/WbnmCByYiJI/AAAAAAAA3Jk/wna4Hvm_ldAF5A8XZ28-hqXat3VARhWnwCE0YBhgL/s640/20170820_160924.jpg" alt="My new Evolve skateboard and I" /></a>
@@ -11,7 +13,7 @@ Tags: [esk8]
 They say every man goes through a midlife crisis. They used to be associated with flashy purchases like fast cars or motorbikes. But recently a new trend started to emerge. Generation X men coming into a mid-age increasingly choose carbon fibre bicycles over Porsches. This is in part because of the financial pressure - <a href="http://www.epi.org/publication/charting-wage-stagnation/">there has been no real wage growth over the last few decades</a>, and at the same time, a larger proportion of the income needs to be allocated towards mortgage payments and other living expenses. Besides, men are chasing their youth, which is the essence of a midlife crisis, while Porsches are frowned upon as a sign of old age since only older men can afford them.
 
 But every man is different. I honestly thought that my midlife crisis was behind me without any flashy manifestations. Well, I bought a red car ten years ago but it doesn't count (sort of, right?). As for a bicycle, I have never been a bike person. I had a decent bicycle, but I barely rode it, and most of the time it was just idly sitting in my garage. Moreover, a geek should have a special kind of geeky midlife crisis, or otherwise, what's the fun in it?
-<!-- PELICAN_END_SUMMARY -->
+<!--more-->
 
 A month ago I was at <a href="http://www.tge.melbourne/">Technology &amp; Gadget Expo</a> in Melbourne where I saw a booth with electric skateboards. I rode skateboards a little bit when I was a teenager 25 years ago. Back then in Russia, we didn't know the difference between the skateboards and longboards, we just rode whatever we could get a hold of. Although I wasn't very good at it, skateboards since had a special place in my heart. But that passion just laid dormant inside of me.
 

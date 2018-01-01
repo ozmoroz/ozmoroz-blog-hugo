@@ -4,6 +4,8 @@ Date: 2015-09-17
 Author: Sergey Stadnik
 Category: technology
 Tags: [gadgets]
+aliases:
+  - /2015/09/a-new-chapter.html
 ---
 
 I really like my [OnePlus One](https://oneplus.net/one) phone. It is an exemplary engineering achievement proving that it is possible to design a mobile phone as powerful as leading brand’s flagship models but costing half of their price.
@@ -12,7 +14,7 @@ Oneplus One is powered by [Cyanogen OS](https://cyngn.com/cyanogen-os), an open 
 
 `12.1-YOG4PAS1N0` is Cyanogen OS 12.1 based on Android&trade; 5.1.1.
 Unfortunately, once that update installed on my OnePlus One, it rendered the phone practically unusable. The problems included LTE connection dropping out, random freezes and reboots, application crashing, you name it&hellip; And after a couple weeks I had enough and decided to do something about that. So, I said goodbye to Cyanogen OS and hello to CyanogenMod Nightly Builds.
-<!-- PELICAN_END_SUMMARY -->
+<!-- more -->
 
 Although they are closely related, Cyanogen OS and CyanogenMod [are not the same](http://www.xda-developers.com/corporate-explained-whos-cyanogen-whats-cyanogen-os/). The technical difference, though, is very minor. However, because CyanogenMod is not endorsed by OnePlus, it does not receive OnePlus updates, it does not contain applications bundled with Cyanogen OS (which are mostly crapware anyway, with an exception of excellent CameraNext).
 Oh, and **installing CyanogenMod may void your warranty**. You’ve been warned.
