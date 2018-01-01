@@ -8,7 +8,7 @@ Series: ["Building a small GPS drone"]
 Tags: [multirotors]
 ---
 
-![Quadcopter](https://lh3.googleusercontent.com/-1HQcq8c4nPI/WkdMe4ga2pI/AAAAAAAA6H8/zh_5dpq3ZE0IqyvpH4UqO_4rSlCSozBXQCE0YBhgL/s800/pexels-photo-529599.jpeg){.center}
+![Quadcopter](https://lh3.googleusercontent.com/-1HQcq8c4nPI/WkdMe4ga2pI/AAAAAAAA6H8/zh_5dpq3ZE0IqyvpH4UqO_4rSlCSozBXQCE0YBhgL/s800/pexels-photo-529599.jpeg)
 
 A flight controller is the brain of any multirotor; it is the most crucial component. When my <a href="../../2016/09/alien-560-quadcopter-build-part-1-parts.html">Alien 560 quadcopter</a> <a href="https://youtu.be/SFSsMt6lBdg">fell from the sky</a>, I figured out it happened because its flight controller malfunctioned mid-flight. Therefore, when I <a href="http://ozmoroz.com/2017/11/why-i-want-autopilot.html">decided to build a new drone</a> and started choosing the components, a flight controller was the most difficult choice to make.
 
@@ -16,16 +16,13 @@ Racing quadcopters are the most popular segment of the market right now, and the
 
 Another popular option for GPS-enabled drones is <a href="https://www.dji.com/naza-m-v2">DJI Naza</a>. DJI is the current market leader, and their Phantom and Mavic drones are well-known to consumers. They also make Naza-M flight controllers renowned among drone hobbyists for their stability and simplicity of use.
 
-<a href="https://www.dji.com/naza-m-v2?site=brandsite&amp;from=landing_page">
-<img class="center" src="https://lh3.googleusercontent.com/-Hogi68paxtI/WkhOkIBD35I/AAAAAAAA6LU/TZFmGf4BQX0nWu1QAchsAo_bcp7H9arRwCE0YBhgL/s400/Naza_m2.jpg" alt="DJI Naza-M V2"/></a>
-<div class="caption text-center">DJI Naza-M V2 | Source: <a href="https://www.dji.com/naza-m-v2?site=brandsite&amp;from=landing_page">dji.com</a></div>
+{{<figure src="https://lh3.googleusercontent.com/-Hogi68paxtI/WkhOkIBD35I/AAAAAAAA6LU/TZFmGf4BQX0nWu1QAchsAo_bcp7H9arRwCE0YBhgL/s400/Naza_m2.jpg" caption="DJI Naza-M V2" attr="dji.com" attrlink="https://www.dji.com/naza-m-v2?site=brandsite&amp;from=landing_page">}}
 
 Unfortunately, a Naza wasn't a right choice for my project. First of all, DJI controllers are designed for larger aircraft, and I was worried that I wouldn't be able to fit it into the frame I chose. Besides, while Naza is excellent for smooth cruising camera drones, they are not famous for their agile acrobatic flight capabilities. And that was the kind of flying I eventually wanted to get into.
 
 After all the consideration I settled on a flight controller from a Pixhawk family. Pixhawk was a flight controller designed by <a href="https://pixhawk.org/">PX4 open hardware project</a> and manufactured by <a href="https://3dr.com/">3D Robotics</a> (3DR).
 
-[![Pixhawk flight controller](https://lh3.googleusercontent.com/-CsIJFeTzOAo/WkhPykfS_QI/AAAAAAAA6L0/C_PxTCfuvxAS0C8X7W2JKZGt6HBaxqB0ACE0YBhgL/s640/pixhawk.jpg){.center}](https://pixhawk.org/)
-<div class="caption text-center">Pixhawk Flight Controller | Source: <a href="https://pixhawk.org/">pixhawk.org</a></div>
+{{<figure src="https://lh3.googleusercontent.com/-CsIJFeTzOAo/WkhPykfS_QI/AAAAAAAA6L0/C_PxTCfuvxAS0C8X7W2JKZGt6HBaxqB0ACE0YBhgL/s640/pixhawk.jpg" caption="Pixhawk Flight Controller" attr="pixhawk.org" attrlink="https://pixhawk.org/">}}
 
 Before DJI Mavic won consumer's hearts, 3DR were the leaders of the drone market. The pinnacle of their creation, <a href="https://3dr.com/solo-drone/">Solo smart drone</a>, released in 2015, was the most advanced consumer drone of that time. An unrivalled (at the time) simplicity of use combined with capabilities of Pixhawk flight controller and PX4 autopilot software was a truly winning combination. Unfortunately, 3DR has got complacent. They didn't present a successor to an ageing Solo in the next two years. And when DJI unveiled Mavic, 3DR lost their leadership. Subsequently, the company has entered financial dire straits and then realigned themselves towards corporate rather than consumer market.  I don't think we are likely to see any new drones from them.
 
@@ -33,7 +30,6 @@ Despite the 3DR's demise, PX4 series of flight controllers lives on. Thanks to t
 
 There are two flight stacks available for PX4 series of flight controllers: <a href="http://px4.io/">PX4</a> and <a href="http://ardupilot.org/">ArduPilot</a>. Flight stack is an autopilot firmware which runs on a flight controller. Ardupilot is more popular among DIY drone community since it is being developed more actively and it has more features than PX4. Ardupilot documentation <a href="http://ardupilot.org/copter/docs/common-autopilots.html">lists the compatible hardware options</a> on its wiki page. Unfortunately, that page is outdated. For example, the original <a href="http://ardupilot.org/copter/docs/common-pixhawk-overview.html">Pixhawk</a> is not manufactured by 3DR any longer. To make things more complicated, I needed not just a quality PX4 flight controller but also a small one, since I was going to put it into a small size frame. Unfortunately, most of the PX4 controllers are quite large. However, there are a few that were designed with small racing drones in mind. I narrowed down my choice to 2 options which ticked both quality and size boxes: <a href="https://pixhawk.org/modules/pixracer">Pixracer</a> and <a href="http://www.holybro.com/product/8">Pixfalcon</a>. These two are very similar, although Pixracer has a bit more advanced hardware and better connectivity. Unfortunately, ordering a <a href="https://store.mrobotics.io/category-s/112.htm">genuine </a>Pixracer was a too expensive option for me, and I didn't want to settle for one of its countless no-name clones. On the other hand, Hobbyking offered a reasonable price on <a href="https://hobbyking.com/en_us/pixfalcon-micro-px4-autopilot-plus-micro-m8n-gps-and-mega-pbd-power-module.html">Pixfalcon package</a> with a quality combo GPS/compass unit and a PDB (power distribution board) with a built-in power module, which is necessary to power the flight controller. Moreover, Pixfalcon looked suspiciously similar to the official 3DR <a href="https://store.3dr.com/products/3dr-pixhawk">Pixhawk Mini</a>. Therefore, I settled on Pixfalcon.
 
-[![Pixfalcon flight controller](https://lh3.googleusercontent.com/-AOHTtmJapLE/WkhR1k-0JGI/AAAAAAAA6Mc/dCLm1poVZwwiU1tjYv1vA-lLYvO08l_lwCE0YBhgL/s320/pixfalcon.png){.center}](http://www.holybro.com/product/8)
-<div class="caption text-center">Pixfalcon flight controller | Source: <a href="http://www.holybro.com/product/8">www.holybro.com</a></div>
+{{<figure src="https://lh3.googleusercontent.com/-AOHTtmJapLE/WkhR1k-0JGI/AAAAAAAA6Mc/dCLm1poVZwwiU1tjYv1vA-lLYvO08l_lwCE0YBhgL/s320/pixfalcon.png" caption="Pixfalcon flight controller" attr="www.holybro.com" attrlink="http://www.holybro.com/product/8">}}
 
 Later I found out that CUAV released a <a href="http://www.cuav.net/?dt_portfolio=pixhack-nano-%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F">Pixhawk Nano</a> flight controller, which could also have been a viable choice, but it was too late.
