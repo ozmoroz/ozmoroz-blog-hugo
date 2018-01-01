@@ -7,10 +7,11 @@ Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-11
 Summary: Our last day at the Philippines.
+aliases:
+  - /2011/02/freediving-in-philippines-day-11.html
 ---
 
-![A restaurant at "Blue Orchid"](https://lh3.googleusercontent.com/-Y3IMJYOiFbo/S5t3Op-gvrI/AAAAAAAADA8/giMPzZt6dyU/s960-Ic42/SDC11663.JPG "A restaurant at \"Blue Orchid\"")
-<div class="caption">A restaurant at &quot;Blue Orchid&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-Y3IMJYOiFbo/S5t3Op-gvrI/AAAAAAAADA8/giMPzZt6dyU/s960-Ic42/SDC11663.JPG" caption="A restaurant at \"Blue Orchid\"">}}
 
 Back when I was preparing for the trip, I got in touch with Julia, and
 she told me that I had a choice to stay in one of two hotels: Club
@@ -65,8 +66,7 @@ Singapore. Then Michael offered him a job as a manager of the hotel;
 Mark moved to the Philippines and since then has been living there.
 How's that for a career change?
 
-![Our last dinner table at "Club Serena"](https://lh3.googleusercontent.com/-5ulBwgzcuYk/S5t6uXhGO6I/AAAAAAAADA8/MdsInhlRscc/s960-Ic42/SDC11893.JPG "Our last dinner table at \"Club Serena\"")
-<div class="caption">Our last dinner table at &quot;Club Serena&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-5ulBwgzcuYk/S5t6uXhGO6I/AAAAAAAADA8/MdsInhlRscc/s960-Ic42/SDC11893.JPG" caption="Our last dinner table at \"Club Serena\"">}}
 
 That was our last evening in the Philippines, and Club Serena's owners
 decided to arrange a farewell beach party for us. After the sunset a
@@ -82,8 +82,7 @@ a breeze and many of the lanterns fell into the sea. But if you ask
 me, that was symbolical that freedivers' desires fall into the sea rather
 than take to the air. I think that's the way it should be.
 
-![Launching a flying lantern](https://lh3.googleusercontent.com/-9W2BvJ9Pwj4/S5t6xcV-68I/AAAAAAAADA8/Wl8LPkJQUEI/s960-Ic42/SDC11882.JPG "Launching a flying lantern")
-<div class="caption">Launching a flying lantern</div>
+{{<figure src="https://lh3.googleusercontent.com/-9W2BvJ9Pwj4/S5t6xcV-68I/AAAAAAAADA8/Wl8LPkJQUEI/s960-Ic42/SDC11882.JPG" caption="Launching a flying lantern">}}
 
 __The end of the eleventh day.__
 

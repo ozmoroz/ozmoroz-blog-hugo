@@ -7,6 +7,8 @@ Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-6.html
 Summary: Having arrived, as usual, at 10 a.m. after breakfast at Club Serena, I found that almost everyone was so exhausted after the previous day's march, that even the morning yoga hadn't happened.
+aliases:
+  - /2011/02/freediving-in-philippines-day-6.html.html
 ---
 
 Having arrived, as usual, at 10 a.m. after breakfast at Club Serena, I
@@ -15,8 +17,7 @@ march, that even the morning yoga hadn't happened. A bit later the
 people slowly began to crawl together to the pool area, complaining of
 pain in various limbs.
 
-![Breakfast at "Blue Orchid"](https://lh3.googleusercontent.com/-y5yc2sQ_vZ8/S5t3iSLqrbI/AAAAAAAADA8/Yybjoyc3dBc/s960-Ic42/SDC11667.JPG "Breakfast at \"Blue Orchid\"")
-<div class="caption">Breakfast at &quot;Blue Orchid&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-y5yc2sQ_vZ8/S5t3iSLqrbI/AAAAAAAADA8/Yybjoyc3dBc/s960-Ic42/SDC11667.JPG" caption="Breakfast at Blue Orchid">}}
 
 Our spearfishers, once again, went hunting early in the morning. And
 for the rest of us, at least for those who were able to, a static
@@ -45,9 +46,7 @@ need to care about anything, don't even need to breathe. My heart beat
 slows down.
 
 <p>
-<div class="video-container">
-<iframe width="960" height="540" src="https://www.youtube.com/embed/9y1Loz8AOLE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{{<youtube 9y1Loz8AOLE>}}
 </p>
 
 When a sense of discomfort increased, I, as Julia taught, stretched out
@@ -61,8 +60,7 @@ after a three-minute breath-hold we breathe for at least 6 minutes. I
 did a 3:06 on the second attempt and 3:30 on the third. And that was
 the end of the static session for the day.
 
-![Judging by the fins, this is me](https://lh3.googleusercontent.com/-oIANaHVkra4/S5t33C81EOI/AAAAAAAADA8/DINOiD75o1c/s480-Ic42/PICT0018.JPG "Judging by the fins, this is me")
-<div class="caption">Judging by the fins, this is me</div>
+{{<figure src="https://lh3.googleusercontent.com/-oIANaHVkra4/S5t33C81EOI/AAAAAAAADA8/DINOiD75o1c/s480-Ic42/PICT0018.JPG" caption="Judging by the fins, this is me">}}
 
 And after dinner we took a boat and went to a place where we were told
 sea turtles could be seen. But on the way we made a stop to have
@@ -89,8 +87,7 @@ rope on the opposite side of the boat. Because of the current it was
 pointless to carry on diving; and we set off for the reef to look for
 turtles.
 
-![An underwater "flower"](https://lh3.googleusercontent.com/-4VFYBrs7kZo/S5t37bTMMFI/AAAAAAAADA8/4GDLWEMl80E/s960-Ic42/PICT0046.JPG "An underwater \"flower\"")
-<div class="caption">An underwater &quot;flower&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-4VFYBrs7kZo/S5t37bTMMFI/AAAAAAAADA8/4GDLWEMl80E/s960-Ic42/PICT0046.JPG" caption="An underwater \"flower\"">}}
 
 Usually the water in this area of the Philippines is very clean and
 visibility in the water is at least 15 meters. But on that day we were

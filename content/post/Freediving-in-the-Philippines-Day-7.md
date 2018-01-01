@@ -7,6 +7,8 @@ Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-7
 Summary: On that day Julia planned filming her TV project. On the reef near Pescador Island, where we dived a few days earlier, was an arch in the reef under the water – "The Cathedral". The arch's entry was at 18 meters depth, and the exit at 28. Julia wanted to film herself and few other freedivers swimming through the arch.
+aliases:
+  - /2011/02/freediving-in-philippines-day-7.html
 ---
 
 On that day Julia planned filming her TV project. On the reef near
@@ -15,9 +17,7 @@ reef under the water – "The Cathedral". The arch's entry was at 18
 meters depth, and the exit at 28. Julia wanted to film herself and few
 other freedivers swimming through the arch.
 
-![View from the roof of "Blue Orchid"](https://lh3.googleusercontent.com/-X-HX4duBk-M/S5t3RoFPDGI/AAAAAAAADA8/9j3IJBMnUUY/s960-Ic42/SDC11656.JPG "View from the roof of
-&quot;Blue Orchid&quot;")
-<div class="caption">View from the roof of &quot;Blue Orchid&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-X-HX4duBk-M/S5t3RoFPDGI/AAAAAAAADA8/9j3IJBMnUUY/s960-Ic42/SDC11656.JPG" caption="View from the roof of \"Blue Orchid\"">}}
 
 Therefore, in the morning we boarded the boat and went to the island.
 The plan was to do some depth diving first. We arrived at the island,
@@ -57,8 +57,7 @@ inside the arch near the entrance. Julia and Tania were diving into
 the arch, and Andrew was filming them. In the meantime the others spread
 out along the reef.
 
-![Fishermen near Pescador Island](https://lh3.googleusercontent.com/-ajXMbtQu5QU/S5t4gR0a3AI/AAAAAAAADA8/lhs-dW9xgtE/s960-Ic42/SANY0080.JPG "Fishermen near Pescador Island")
-<div class="caption">Fishermen near Pescador Island</div>
+{{<figure src="https://lh3.googleusercontent.com/-ajXMbtQu5QU/S5t4gR0a3AI/AAAAAAAADA8/lhs-dW9xgtE/s960-Ic42/SANY0080.JPG" caption="Fishermen near Pescador Island">}}
 
 I floated on the surface above the arch and watched our girls diving
 down. I was curious what was down there. I took a deep breath and
@@ -91,8 +90,7 @@ themselves are of unusual shape and the foot inside them is bent in a
 special way, which is very uncomfortable but provides better
 performance.
 
-![Cameraman](https://lh3.googleusercontent.com/-Gbu12ei4rXw/S5t35-hZMVI/AAAAAAAADA8/zB-b2Kl2XEs/s960-Ic42/PICT0038.JPG "Cameraman")
-<div class="caption">Cameraman</div>
+{{<figure src="https://lh3.googleusercontent.com/-Gbu12ei4rXw/S5t35-hZMVI/AAAAAAAADA8/zB-b2Kl2XEs/s960-Ic42/PICT0038.JPG" caption="Cameraman">}}
 
 A monofin was invented in the 70s in the Soviet Union by
 fin-swimming athletes. They became popular in the rest of the world
@@ -141,8 +139,7 @@ special aids are used. At the deepest point a freediver unleashes a
 gas-filled float, which then pulls him up. Such an extreme is not for
 everyone, and not just because of the enormous depth.
 
-![Club Serena's pool](https://lh3.googleusercontent.com/-WHX6BjxVdn0/S5t3qmc7Q2I/AAAAAAAADA8/H28sSfZMFbg/s960-Ic42/SANY0005.JPG "Club Serena's pool")
-<div class="caption">Club Serena's pool</div>
+{{<figure src="https://lh3.googleusercontent.com/-WHX6BjxVdn0/S5t3qmc7Q2I/AAAAAAAADA8/H28sSfZMFbg/s960-Ic42/SANY0005.JPG" caption="Club Serena's pool">}}
 
 In this kind of competition an athlete's life depends on technical aids, which can
 fail. In the history of the competitions, there were several deaths

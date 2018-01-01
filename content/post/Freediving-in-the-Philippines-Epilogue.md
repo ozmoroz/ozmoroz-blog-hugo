@@ -1,12 +1,14 @@
 ---
 Title: Freediving in the Philippines. Epilogue
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-02-09
+Date: 2011-02-10
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-epilogue
 Summary: Some people asked me why I needed that. Here's why.
+aliases:
+  - /2011/02/freediving-in-philippines-epilogue.html
 ---
 
 _Some people asked me why I needed that. Here's why_

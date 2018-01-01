@@ -7,6 +7,8 @@ Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-8
 Summary: Return to the Kawasan Falls
+aliases:
+  - /2011/02/freediving-in-philippines-day-8.html
 ---
 
 There isn't much to write about that day – we didn't dive. Our team divided
@@ -27,9 +29,7 @@ process, thanks to the fact that my little Sanyo could shoot in the
 water.
 
 <p>
-<div class="video-container">
-<iframe width="960" height="540" src="https://www.youtube.com/embed/qVj6s8gaRqQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{{<youtube qVj6s8gaRqQ>}}
 <div class="caption">Under the waterfall</div>
 </p>
 
@@ -45,8 +45,7 @@ nature was disturbed; the spell was broken; and filming made no sense.
 We made a stop at a small restaurant beside the lake to taste local
 coconuts.
 
-![The dam](https://lh3.googleusercontent.com/-Mg5zqDfqKsA/S5t6TwdXLII/AAAAAAAADA8/KwFv-c5N4J0/s960-Ic42/SDC11843.JPG "The dam")
-<div class="caption">The dam</div>
+{{<figure src="https://lh3.googleusercontent.com/-Mg5zqDfqKsA/S5t6TwdXLII/AAAAAAAADA8/KwFv-c5N4J0/s960-Ic42/SDC11843.JPG" caption="The dam">}}
 
 Coconuts grow right there on the trees. They are offered to tourists on
 the spot: torn off a tree, then the top is chopped off with a huge

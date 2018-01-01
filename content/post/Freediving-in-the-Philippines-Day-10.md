@@ -1,12 +1,14 @@
 ---
 Title: Freediving in the Philippines. Day 10
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-02-08
+Date: 2011-02-07
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-10
 Summary: We are visiting Badian Island Resort.
+aliases:
+  - /2011/02/freediving-in-philippines-day-10.html
 ---
 
 Surprisingly, I did not have a hangover next morning. Either I did not
@@ -14,8 +16,7 @@ drink as much as I thought I did, or the quality of the local rum was
 much better than I expected. Therefore I, as usual, appeared by the
 pool of Club Serena at 10 a.m.
 
-![A view fon the roof of "Blue Orchid"](https://lh3.googleusercontent.com/-X-HX4duBk-M/S5t3RoFPDGI/AAAAAAAADA8/9j3IJBMnUUY/s960-Ic42/SDC11656.JPG "A view fon the roof of \"Blue Orchid\"")
-<div class="caption">A view fon the roof of &quot;Blue Orchid&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-X-HX4duBk-M/S5t3RoFPDGI/AAAAAAAADA8/9j3IJBMnUUY/s960-Ic42/SDC11656.JPG" caption="A view fon the roof of \"Blue Orchid\"">}}
 
 We had a depth diving scheduled for the morning. A buoy was put right
 beyond the reef for us, and those few people who were able after the
@@ -35,8 +36,7 @@ could dive to 20+ meters pretty comfortably. Although I did not beat
 my previous record on that day, I was OK with it. Everything has its
 place and time, and I knew I would have another opportunity sooner or later.
 
-![A turtle](https://lh3.googleusercontent.com/-pEkf3ca8EeY/S69FyZdL-lI/AAAAAAAADIs/epE7Q_5oRpI/s960-Ic42/IMG_1375.jpg "A turtle")
-<div class="caption">A turtle</div>
+{{<figure src="https://lh3.googleusercontent.com/-pEkf3ca8EeY/S69FyZdL-lI/AAAAAAAADIs/epE7Q_5oRpI/s960-Ic42/IMG_1375.jpg" caption="A turtle">}}
 
 Furthermore, I began to realise what was holding me back. It wasn't the
 pressure – even at 26 meters I could successfully equalise pressure in
@@ -59,8 +59,7 @@ completely conquered the world of freediving. Fins made of carbon
 fibre or glass fibre are also very efficient, whereas my fins, made of
 rubber and plastic, were not as good.
 
-![A scene with a guitar](https://lh3.googleusercontent.com/-tdPQuS4_sig/S69GlWKx-9I/AAAAAAAADJA/icRpfbcpbmA/s960-Ic42/IMG_1459.jpg "A scene with a guitar")
-<div class="caption">A scene with a guitar</div>
+{{<figure src="https://lh3.googleusercontent.com/-tdPQuS4_sig/S69GlWKx-9I/AAAAAAAADJA/icRpfbcpbmA/s960-Ic42/IMG_1459.jpg" caption="A scene with a guitar">}}
 
 Besides, I was plainly freezing. As I mentioned earlier, my own open
 cell wetsuit was too warm for the tropical waters of the Philippines,
@@ -113,8 +112,7 @@ operators from Moscow, and they made an exception for us. For a modest
 fee of 1500 pesos (around $30) we were promised a tour, a buffet
 dinner, and an entertainment program.
 
-![Badian Island Resort, reception](https://lh3.googleusercontent.com/-VuGjCGvSg7A/S5t6lF3xQmI/AAAAAAAADA8/kWLzafF7E2c/s960-Ic42/SDC11857.JPG "Badian Island Resort, reception")
-<div class="caption">Badian Island Resort, reception</div>
+{{<figure src="https://lh3.googleusercontent.com/-VuGjCGvSg7A/S5t6lF3xQmI/AAAAAAAADA8/kWLzafF7E2c/s960-Ic42/SDC11857.JPG" caption="Badian Island Resort, reception">}}
 
 It was already dark when we set off. From our hotel we had to ride 40
 minutes by car to the pier, and then travel for another 10 minutes on
@@ -141,8 +139,7 @@ than I would pay in Australia. I decided to pass with Hardy's and
 ordered a glass of a house red instead. In the meantime, we were all
 looking forward to the show.
 
-![Spas with rose petals](https://lh3.googleusercontent.com/-ezREksIsJs0/S5t6mVGA3KI/AAAAAAAADA8/yyEfBMMR1I8/s960-Ic42/SDC11860.JPG "Spas with rose petals")
-<div class="caption">Spas with rose petals</div>
+{{<figure src="https://lh3.googleusercontent.com/-ezREksIsJs0/S5t6mVGA3KI/AAAAAAAADA8/yyEfBMMR1I8/s960-Ic42/SDC11860.JPG" caption="Spas with rose petals">}}
 
 For those 10 days while we were in the Philippines, we didn't see any
 manifestation of the local culture. And we were very interested to
@@ -157,8 +154,7 @@ the contrary – it looked very nice. It just didn't feel like Filipino
 dancing. Rather, it was entertainment for foreigners, folk dancing to
 Western music.
 
-![The folk dance show](https://lh3.googleusercontent.com/-1xcnG6W37qg/S5t6sW6Zj2I/AAAAAAAADA8/0lDxqPucWvA/s960-Ic42/SDC11871.JPG "The folk dance show")
-<div class="caption">The folk dance show</div>
+{{<figure src="https://lh3.googleusercontent.com/-1xcnG6W37qg/S5t6sW6Zj2I/AAAAAAAADA8/0lDxqPucWvA/s960-Ic42/SDC11871.JPG" caption="The folk dance show">}}
 
 They danced a few numbers and even tried to lure us into a dance and,
 to some extent, succeeded. After them a man with a guitar came to our

@@ -7,6 +7,8 @@ Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-9
 Summary: The AIDA certification test and my deepest dive.
+aliases:
+  - /2011/02/freediving-in-philippines-day-9.html
 ---
 
 I began the day with a remarkable feat – I got up early and went to
@@ -15,7 +17,7 @@ me doing it was tough. By the end of class I could not wait for it all to
 end. We agreed, as usual, to meet at 10 by the pool, and I went to my
 hotel for breakfast.
 
-![Ocean view from Blue Orchid](https://lh3.googleusercontent.com/-tqykXHaGRJE/S5t3cyceIXI/AAAAAAAADA8/JR5pPAlyyp0/s960-Ic42/SDC11658.JPG)
+{{<figure src="https://lh3.googleusercontent.com/-tqykXHaGRJE/S5t3cyceIXI/AAAAAAAADA8/JR5pPAlyyp0/s960-Ic42/SDC11658.JPG" caption="Ocean view from Blue Orchid">}}
 
 On that day we were going to have practical tests for freedivers'
 certificates. As contenders for the two-star freediver level, members
@@ -40,8 +42,7 @@ diving. We began as usual with some exercises. I pulled myself down
 and up the rope by the hands a few times, then dived once using fins, and
 after that told Oksana that I was ready.
 
-![Underwater forest](https://lh3.googleusercontent.com/-Ys-09PBphkk/S61jvQu5C-I/AAAAAAAADH4/OWTgMLncGQI/s960-Ic42/IMG_1175.jpg "Underwater forest")
-<div class="caption">Underwater forest</div>
+{{<figure src="https://lh3.googleusercontent.com/-Ys-09PBphkk/S61jvQu5C-I/AAAAAAAADH4/OWTgMLncGQI/s960-Ic42/IMG_1175.jpg" caption="Underwater forest">}}
 
 The first step was to remove the mask at 10 meters. To make it more
 clear for us, Oksana tied two tags to the rope: at 10 and 15 meters. I
@@ -74,7 +75,7 @@ visible from the surface. Freedivers who dive to greater depths
 usually know how long it takes and let the safety diver know when and at what
 depth they need to be met.
 
-![Underwater corals](https://lh3.googleusercontent.com/-4JC-VP7ndWc/S61kvO6QW0I/AAAAAAAADH8/Jh0-QmjpAik/s960-Ic42/IMG_1189.jpg)
+{{<figure src="https://lh3.googleusercontent.com/-4JC-VP7ndWc/S61kvO6QW0I/AAAAAAAADH8/Jh0-QmjpAik/s960-Ic42/IMG_1189.jpg" alt="Underwater corals">}}
 
 When it was my turn to take the test, Oksana dived, and I was lying on
 the surface watching her silhouette fading out of sight. When she
@@ -197,7 +198,7 @@ would not have reached 22 meters in such conditions. But at that
 moment when I was ready to turn around and go back, I looked down and saw the
 plane just a few meters below me.
 
-![Nemo](https://lh3.googleusercontent.com/-aM8vFiuFFLg/S61od89w8fI/AAAAAAAADIM/x8N4bU0Pkhg/s960-Ic42/IMG_1194.jpg)
+{{<figure src="https://lh3.googleusercontent.com/-aM8vFiuFFLg/S61od89w8fI/AAAAAAAADIM/x8N4bU0Pkhg/s960-Ic42/IMG_1194.jpg" caption="Nemo">}}
 
 A few days before, Julia told us that on the Red Sea visibility in the
 water can be such that the depth tag, which an athlete has to reach,

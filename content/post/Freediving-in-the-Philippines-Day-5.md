@@ -1,20 +1,21 @@
 ---
 Title: Freediving in the Philippines. Day 5
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-02-01
+Date: 2011-01-31
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-5
 Summary: The story of this day will not be as long as the previous ones. We didn't dive on Day 5. Instead, we went canyoning.
+aliases:
+  - /2011/02/freediving-in-philippines-day-5.html
 ---
 
 The story of this day will not be as long as the previous ones. We
 didn't dive on Day 5. Instead, we went canyoning.
-<!-- <div class="blog-toc"> -->
+<!-- more -->
 
-![At the beginning of the path](https://lh3.googleusercontent.com/-YWy1UjV2vDk/S6b4HJz4uHI/AAAAAAAADA8/cGgSR3x9z2A/s960-Ic42/image193.jpg "At the beginning of the path")
-<div class="caption">At the beginning of the path</div>
+{{<figure src="https://lh3.googleusercontent.com/-YWy1UjV2vDk/S6b4HJz4uHI/AAAAAAAADA8/cGgSR3x9z2A/s960-Ic42/image193.jpg" caption="At the beginning of the path">}}
 
 Kawasan Falls are located about 20 minutes away by car from our hotels.
 It is a cascade of one large and two smaller waterfalls. We were told
@@ -33,8 +34,7 @@ tens of meters on a single breath. However, after just 10 minutes we
 came to the cliff, which ended with a five-meter drop with a rocky
 pool at the bottom. Wolfgang declared that we had to jump.
 
-![The first obstacle](https://lh3.googleusercontent.com/-CNRv0OZxTsk/S6b4JwCVhVI/AAAAAAAADA8/S1XAADTlszQ/s800-Ic42/image196.jpg "The first obstacle")
-<div class="caption">The first obstacle</div>
+{{<figure src="https://lh3.googleusercontent.com/-CNRv0OZxTsk/S6b4JwCVhVI/AAAAAAAADA8/S1XAADTlszQ/s800-Ic42/image196.jpg" caption="The first obstacle">}}
 
 Most of us were brave enough, and after a few moments of hesitation, we
 one by one stepped over the ledge and plunged into the river below.
@@ -61,8 +61,7 @@ the third one. And it was indeed a sight worth seeing. Water was
 thundering down from 20-meter height and like a white shower falling
 into the lake at the bottom.
 
-![We had to swim at some places](https://lh3.googleusercontent.com/-lcGKACX_5dE/S6b4Nm_qsRI/AAAAAAAADA8/HCGtP7l4tnc/s960-Ic42/image202.jpg "We had to swim at some places")
-<div class="caption">We had to swim at some places</div>
+{{<figure src="https://lh3.googleusercontent.com/-lcGKACX_5dE/S6b4Nm_qsRI/AAAAAAAADA8/HCGtP7l4tnc/s960-Ic42/image202.jpg" caption="We had to swim at some places">}}
 
 However, the magnificent view was just a part of the attraction. At the edge of the lake a couple of rafts were parked. The rafts were made from thick stalks of bamboo bound together with ropes. Our team, accompanied by two local guides, boarded one of the rafts.
 
@@ -76,8 +75,7 @@ into the cave, the ceiling began to decline and stayed as low as half
 a meter above the water. There was barely enough room for us to lie
 down.
 
-![The waterfall](https://lh3.googleusercontent.com/-R5xrzWjVMqY/S5t6B1QWXNI/AAAAAAAADA8/fTdV1tCmuEE/s960-Ic42/SDC11822.JPG "The waterfall")
-<div class="caption">The waterfall</div>
+{{<figure src="https://lh3.googleusercontent.com/-R5xrzWjVMqY/S5t6B1QWXNI/AAAAAAAADA8/fTdV1tCmuEE/s960-Ic42/SDC11822.JPG" caption="The waterfall">}}
 
 The guide continued to pull our raft forward, and in another few meters
 we made a sharp turn. The cave suddenly ended and we saw a white wall

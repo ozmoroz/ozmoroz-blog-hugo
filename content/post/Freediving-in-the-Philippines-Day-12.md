@@ -6,6 +6,8 @@ Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-12
+aliases:
+  - /2011/02/freediving-in-philippines-day-12.html
 ---
 
 Everything comes to an end. It was time for me to say goodbye to the
@@ -20,8 +22,7 @@ jumped into the car and set off for the airport. On the way, I asked
 the driver to drop in at Club Serena, but having arrived there, I
 found out that everyone else had already left.
 
-![Here I was writing this diary](https://lh3.googleusercontent.com/-QOl2lPEDqRk/S5t3Zo-I8MI/AAAAAAAADA8/LvIPF1ltex4/s960-Ic42/SDC11771.JPG "Here I was writing this diary")
-<div class="caption">Here I was writing this diary</div>
+{{<figure src="https://lh3.googleusercontent.com/-QOl2lPEDqRk/S5t3Zo-I8MI/AAAAAAAADA8/LvIPF1ltex4/s960-Ic42/SDC11771.JPG" alt="rotonda" caption="Here I was writing this diary">}}
 
 Airport, customs, passport control... All of those necessary attributes
 of travel are the same every time. They take a lot of time, but
@@ -35,8 +36,8 @@ trains running between terminals, roads with five lanes in each direction,
 hurrying people... Civilisation. And in the Philippines I did not even
 have a TV in my room, although I can't say I missed it.
 
-![Singapore, Clarke Quay](https://lh3.googleusercontent.com/-q6w8jZ3CnS4/S5t693HG60I/AAAAAAAADA8/IjWEfHc3U5o/s960-Ic42/SDC11904.JPG "Singapore, Clarke Quay")
-<div class="caption">Singapore, Clarke Quay</div>
+{{<figure src="https://lh3.googleusercontent.com/-q6w8jZ3CnS4/S5t693HG60I/AAAAAAAADA8/IjWEfHc3U5o/s960-Ic42/SDC11904.JPG" caption="Singapore, Clarke Quay">}}
+
 
 I had five hours before the flight to Melbourne, while my Russian
 friends had seven hours before theirs to Moscow. We jumped into a taxi
@@ -74,8 +75,7 @@ so strong that it permanently changes the outlook on life. I know that
 happened to me. I do not know what I am going to do with it, but I
 have no doubt everything will be as it should be.
 
-![Night Singapore](https://lh3.googleusercontent.com/-8vkH52yA0bs/S5t7EyhZ8tI/AAAAAAAADA8/eBNwRMoa2WU/s960-Ic42/SDC11916.JPG "Night Singapore")
-<div class="caption">Night Singapore</div>
+{{<figure src="https://lh3.googleusercontent.com/-8vkH52yA0bs/S5t7EyhZ8tI/AAAAAAAADA8/eBNwRMoa2WU/s960-Ic42/SDC11916.JPG" caption="Night Singapore">}}
 
 When I try to trace the chain of events that led me to the Philippines,
 I wonder how it all fit together. This chain is stretched for years,
@@ -114,9 +114,7 @@ My vacation was over, but what I experienced will stay with me forever.
 And I hope that wasn't the last time.
 
 <p>
-<div class="video-container">
-<iframe width="960" height="540" src="https://www.youtube.com/embed/Rsf74MpMqws?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{{<youtube Rsf74MpMqws>}}
 </p>
 
 __The End.__
