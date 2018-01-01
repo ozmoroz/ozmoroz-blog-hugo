@@ -5,11 +5,11 @@ author: Sergey Stadnik
 category: technology
 slug: what-is-data-warehouse
 Summary: What data warehouses are, how they are different from OLTP databases, and why we may want to use them.
+aliases:
+  - /2012/10/what-is-data-warehouse.html
 ---
 
-<div class="figure align-right">
-    <img src="{filename}/images/2012-10-24_data_boxes.jpg" alt="Data warehouse boxes">
-</div>
+![Data warehouse boxes](/images/2012-10-24_data_boxes.jpg)
 
 All database applications can be divided into 2 classes: OLTP and data
 warehouses. OLTP stands for Online Transactions Processing. It's easy to explain

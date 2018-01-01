@@ -5,11 +5,13 @@ Date: 2014-12-31
 Category: technology
 Tags: [oracle]
 Author: Sergey Stadnik
+aliases:
+  - /2014/12/ozbsidian-dark-colour-scheme-for-oracle.html
 ---
 
 This is a spinoff of Obsidian colour scheme for Oracle SQL Developer. It is based on [Obsidian Eclipse colour scheme by Morinar](http://eclipsecolorthemes.org/?view=theme&id=21).
 
-![OzBsidian colour shceme]({filename}/images/2014-12-31_ozbsidian-sqldev_1.png)
+![OzBsidian colour shceme](/images/2014-12-31_ozbsidian-sqldev_1.png)
 
 Unfortunately Oracle doesn't make it easy to import a new colour scheme into SQL Developer, thus a little bit of hacking is required.
 
@@ -19,13 +21,13 @@ Unfortunately Oracle doesn't make it easy to import a new colour scheme into SQL
 
 - Locate `<schemeMap>` tag inside dtcache.xml file. Insert the content of [`ozbsidian-scheme.xml`](https://raw.githubusercontent.com/ozmoroz/ozbsidian-sqldeveloper/master/ozbsidian-scheme.xml) file inside `<schemeMap>` alongside the other colour schemes. Be careful not to break the XML.
 
-![Insert the contents of ozbsidian-scheme.xml after opening schemeMap tag]({filename}/images/ozbzidian_insert_here.png)
+![Insert the contents of ozbsidian-scheme.xml after opening schemeMap tag](/images/ozbzidian_insert_here.png)
 
 - Launch SQL Developer. Navigate to menu Tools->Preferences, then select item Code Editor -> PL/SQL Syntax Colours in the left pane.
 
 - Select "OzBsidian" in the "Scheme" drop down list on the top.
 
-![SQL Developer Settings]({filename}/images/2014-12-31_ozbsidian-sqldev_2.png)
+![SQL Developer Settings](/images/2014-12-31_ozbsidian-sqldev_2.png)
 
 The colours are mostly match Obsidian scheme, although not exactly. For instance, the background is a bit darker. Hence the name is OzBsidian to differentiate it from the original scheme.
 

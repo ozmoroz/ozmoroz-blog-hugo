@@ -6,6 +6,8 @@ Category: lifestyle
 Tags: [music_production]
 Slug: composing-and-producing-electronic
 Summary: How I made a drum groove from Amen Break for second week's assignment of Composing and Producing Electronic Music course.
+aliases:
+  - /2012/07/composing-and-producing-electronic.html
 ---
 
 The assigmnent for week 2 of Composing and Producing Electronic Music
@@ -22,25 +24,25 @@ edit.
 
 Here’s the 100% quantized groove:
 
-![100% quantized groove]({filename}/images/2012-07-08-image001.jpg)
+![100% quantized groove](/images/2012-07-08-image001.jpg)
 
 Then I dropped the original Amen Break groove into Slicex, which
 automatically sliced it. Oops, made a mistake here: before slicing the
 loop should have re-detected it tempo or manually set it to 138.
 
-![Slicing in Slicex]({filename}/images/2012-07-08-image002.png)
+![Slicing in Slicex](/images/2012-07-08-image002.png)
 
 Then dumped into piano roll as groove template.
 
-![Groove template in piano roll]({filename}/images/2012-07-08-image003.jpg)
+![Groove template in piano roll](/images/2012-07-08-image003.jpg)
 
 After that I quantized my drum’s piano roll based on the groove template:
 
-![Quantizing based on groove template]({filename}/images/2012-07-08-image004.jpg)
+![Quantizing based on groove template](/images/2012-07-08-image004.jpg)
 
 And here’s the final Amen Break in MIDI:
 
-![Amen Break in MIDI]({filename}/images/2012-07-08-image005.jpg)
+![Amen Break in MIDI](/images/2012-07-08-image005.jpg)
 
 You can see the waveform of the original Amen Break in the background.
 It is helpful for matching velocities.
@@ -52,11 +54,11 @@ and recreated the cymbals using the [Step Sequencer](http://www.image-line.com/s
 
 Then applied 50% swing:
 
-![Applying 50% swing]({filename}/images/2012-07-08-image006.png)
+![Applying 50% swing](/images/2012-07-08-image006.png)
 
 I also adjusted the cymbal’s pitch to match the original Amen Break:
 
-![Adjusting the cymbal’s pitch]({filename}/images/2012-07-08-image007.png)
+![Adjusting the cymbal’s pitch](/images/2012-07-08-image007.png)
 
 Then I added an orchestral hit into the same step sequencer. And again, adjusted its pitch.
 
@@ -77,7 +79,7 @@ As for mixing, I assigned all the drums to the same mixer track and used
 the level knobs on the pattern tracks to adjust relative volumes of the
 tracks:
 
-![Adjusting relative volumes of tracks]({filename}/images/2012-07-08-image008.png)
+![Adjusting relative volumes of tracks](/images/2012-07-08-image008.png)
 
 As far as I can see, FL does not have a concept of a mixer bus. Instead
 output of each mixer track can be directed to an input of one or more of
@@ -86,19 +88,19 @@ multiple other tracks (hence serve as a submix track).
 
 In the screenshot below I created a “Drums” track (1) to serve as a submix of all the drums tracks (2-7).
 
-![Mixing drum tracks]({filename}/images/2012-07-08-image009.png)
+![Mixing drum tracks](/images/2012-07-08-image009.png)
 
 The circled pictograms on the screenshot above indicate that the output
 of Dummaxx track 2 is directed to the input of Drums track 1. And the
 output of “Drums” track is routed to Master:
 
-![Routing drum tracks to master]({filename}/images/2012-07-08-image010.png)
+![Routing drum tracks to master](/images/2012-07-08-image010.png)
 
 FL puts a limiter into the master track by default, and I left it there
 with the default settings. As a result, the drums sound compressed but I
 reckon it’s actually better that way.
 
-![Limiter]({filename}/images/2012-07-08-image011.png)
+![Limiter](/images/2012-07-08-image011.png)
 
 Here's the end result:
 

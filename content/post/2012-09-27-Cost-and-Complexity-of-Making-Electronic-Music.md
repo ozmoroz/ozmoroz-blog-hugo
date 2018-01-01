@@ -6,11 +6,11 @@ Category: lifestyle
 Tags: [music_production]
 Slug: cost-and-comlexity-of-making-electronic
 Summary: Does making electronic music has to be as complex and expensive as it is?
+aliases:
+  - /2012/09/cost-and-comlexity-of-making-electronic.html
 ---
 
-<div class="figure align-right">
-	<img src="{filename}/images/2012-09-27_piano_laptop.jpg" alt="Piano Laptop">
-</div>
+![Piano Laptop](/images/2012-09-27_piano_laptop.jpg)
 
 The [Composing and Producing Electronic Music](http://online.berklee.edu/courses/composing-and-producing-electronic-music-1) course is finally over. I learned a lot over the past 12 weeks on topics like sound design,
 harmony, song composition and sound mixing. It was a great experience.

@@ -5,11 +5,11 @@ Author: Sergey Stadnik
 Category: technology
 Slug: databases-matter
 Summary: Why every software developer needs to understand how databases work.
+aliases:
+  - /2011/11/databases-matter.html
 ---
 
-<div class="figure align-right">
-	<img src="{filename}/images/2011-11-24_database.png" alt="Database">
-</div>
+![Database](/images/2011-11-24_database.png)
 
 Databases are at the core of virtually all modern information
 technology systems. Sometimes these databases are exposed, for

@@ -6,11 +6,13 @@ Author: Sergey Stadnik
 Category: technology
 Tags: [linux]
 Summary: How to make eth0 autostart on Oracle Linux.
+aliases:
+  - /2012/10/troubleshooting-eth0-in-oracle-linux.html
 ---
 
 A few days ago I installed Oracle Linux in an Oracle VirtualBox VM. Once it was installed I found that eth0 interface wasn't starting upon boot.
 
-![ifconfig eth0 isn't starting]({filename}/images/2012-10-24-oralinux1.png)
+![ifconfig eth0 isn't starting](/images/2012-10-24-oralinux1.png)
 
 That was unusual. I am myself a Linux enthusiast, and I regularly download and install lots of distributions, and, by and large, network works in them out of the box.
 
@@ -25,15 +27,15 @@ For the reference, this was my configuration:
 
 As I said, upon boot eth0 was down. If I tried to bring it up with `ifconfig eth0 up` it came up in IPV6 mode only, no IPV4:
 
-![eth0 only comes up as IPV6]({filename}/images/2012-10-24-oralinux2.png)
+![eth0 only comes up as IPV6](/images/2012-10-24-oralinux2.png)
 
 Hm, weird. What was even more weird was that if I brought it up with `ifup eth0` instead of `ifconfig eth0 up`, IPV4 network started succesfully:
 
-![IPV4 started successfully]({filename}/images/2012-10-24-oralinux3.png)
+![IPV4 started successfully](/images/2012-10-24-oralinux3.png)
 
 Obviously, these 2 were are different. The reason `ifup` worked was because it called `dhclient` to obtain an IP address from a DHCP server
 
-![dhclient]({filename}/images/2012-10-24-oralinux4.png)
+![dhclient](/images/2012-10-24-oralinux4.png)
 
 Whereas `ifconfig` didn’t make that call. And because the network interface did not have an IP address, it stayed down.
 

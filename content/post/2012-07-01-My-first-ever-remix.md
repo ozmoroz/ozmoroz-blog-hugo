@@ -6,6 +6,8 @@ Category: lifestyle
 Tags: [music_production]
 Slug: my-first-ever-remix
 Summary: My first ever remix made for Composing and Producing Electronic Music course
+aliases:
+  - /2012/07/my-first-ever-remix.html
 ---
 
 Here's my first ever remix made as an assignment for [Composing and Producing Electronic Music](http://online.berklee.edu/courses/composing-and-producing-electronic-music-1>) course.
