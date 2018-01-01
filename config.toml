@@ -99,3 +99,8 @@ paginate = 5
 
 # vim: ts=2 sw=2 et
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
