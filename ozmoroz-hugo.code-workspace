@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "themes/hugo-theme-bootstrap4-blog"
+		}
+	],
+	"settings": {}
+}
