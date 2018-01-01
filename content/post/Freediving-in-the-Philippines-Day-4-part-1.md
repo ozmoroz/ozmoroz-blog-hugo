@@ -1,18 +1,19 @@
 ---
 Title: Freediving in the Philippines. Day 4, part 1
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-01-28
+Date: 2011-01-27
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-4-part-1
 Summary: The day was long, so I broke it into 2 parts.
+aliases:
+  - /2011/01/freediving-in-philippines-day-4-part-1.html
 ---
 
 _The day was long, so I broke it into 2 parts._
 
-![My room at "Blue Orchid" was in this cottage](https://lh3.googleusercontent.com/-75j-n2eosOw/S5t3TMfLjbI/AAAAAAAADA8/052NZJStcXY/s960-Ic42/SDC11659.JPG "My room at \"Blue Orchid\" was in this cottage")
-<div class="caption">My room at &quot;Blue Orchid&quot; was in this cottage</div>
+{{<figure src="https://lh3.googleusercontent.com/-75j-n2eosOw/S5t3TMfLjbI/AAAAAAAADA8/052NZJStcXY/s960-Ic42/SDC11659.JPG" caption="My room at Blue Orchid was in this cottage">}}
 
 In the morning two experienced guys went spearfishing with local
 instructor Wolfgang. And for the rest of us a training on "static",
@@ -50,8 +51,7 @@ them. As a result, despite the fact that the water in the pool is
 quite warm – about 30 degrees – an athlete stays stationary for a long time
 in the water; hence he might freeze without a wetsuit.
 
-![Breathing up before the static](https://lh3.googleusercontent.com/-wLKGy8EJa0I/S5t4sqBgElI/AAAAAAAADA8/XxB6IuVZ2v8/s960-Ic42/SDC11701.JPG "Breathing up before the static")
-<div class="caption">Breathing up before the static</div>
+{{<figure src="https://lh3.googleusercontent.com/-wLKGy8EJa0I/S5t4sqBgElI/AAAAAAAADA8/XxB6IuVZ2v8/s960-Ic42/SDC11701.JPG" caption="Breathing up before the static breath holding">}}
 
 Julia separated us into groups according to our experience – our
 beginner team had come together again. We took our positions at the
@@ -93,8 +93,7 @@ continues to pump the blood, and tissues of the body continue to suck
 out the remaining oxygen from the blood and return carbon dioxide. As
 a result, the level of O2 in the blood falls, and the level of CO2 grows.
 
-![Static](https://lh3.googleusercontent.com/-mdJxPnd7q6g/S5t47THqj3I/AAAAAAAADA8/XaBLiBKmOk0/s960-Ic42/SDC11720.JPG Static)
-<div class="caption">Static</div>
+{{<figure src="https://lh3.googleusercontent.com/-mdJxPnd7q6g/S5t47THqj3I/AAAAAAAADA8/XaBLiBKmOk0/s960-Ic42/SDC11720.JPG" caption="Static breath holding">}}
 
 The brain, being the chief regulator of everything in our body, reacts
 differently to each of these indicators. If the oxygen level in the
@@ -138,8 +137,7 @@ all out. And that is why you mustn't ever do a static breath-holding in
 the water alone without the supervision of experienced instructors: if
 something goes wrong, there will be no one to save you.
 
-![Julia is timing our static](https://lh3.googleusercontent.com/-DWRlXzwPqRM/S5t4xmb6e8I/AAAAAAAADA8/vDgRHwMckMY/s960-Ic42/SDC11709.JPG "Julia is timing our static")
-<div class="caption">Julia is timing our static</div>
+{{<figure src="https://lh3.googleusercontent.com/-DWRlXzwPqRM/S5t4xmb6e8I/AAAAAAAADA8/vDgRHwMckMY/s960-Ic42/SDC11709.JPG" caption="Julia is timing our breath holding attempt">}}
 
 When I raised my head from the water and took a breath, I saw Julia
 standing over me with a watch in her hand. She asked whether I did

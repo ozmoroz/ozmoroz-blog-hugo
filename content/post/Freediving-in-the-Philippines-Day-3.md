@@ -1,12 +1,14 @@
 ---
 Title: Freediving in the Philippines. Day 3
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-01-27
+Date: 2011-01-26
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-day-3
 Summary: The next day, having arrived at Club Serena at 8 am, I discovered that the yoga had already started. I asked, and it turned out it started at 6:15. Oops! We agreed that I would come at 10 and I went "home" for breakfast.
+aliases:
+  - /2011/01/freediving-in-philippines-day-3.html
 ---
 
 The next day, having arrived at Club Serena at 8 am, I discovered that
@@ -14,8 +16,7 @@ the yoga had already started. I asked, and it turned out it started at
 6:15. Oops! We agreed that I would come at 10 and I went "home" for
 breakfast.
 
-![Sea view from "Blue Orchid"](https://lh3.googleusercontent.com/-LxqnjfgD0lY/S5t3eDKCswI/AAAAAAAADA8/DoIjHd-aer0/s960-Ic42/SDC11653.JPG "Sea view from \"Blue Orchid\"")
-<div class="caption">Sea view from &quot;Blue Orchid&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-LxqnjfgD0lY/S5t3eDKCswI/AAAAAAAADA8/DoIjHd-aer0/s960-Ic42/SDC11653.JPG" caption="Sea view from Blue Orchid">}}
 
 On that day we had a boat trip planned. Since I got cold on the
 previous day without a wetsuit, I finally decided to suit up. However,
@@ -43,9 +44,7 @@ warmer than ordinary ones. A 3mm open cell wetsuit is as warm as
 ordinary 5mm, yet thinner.
 
 <p>
-<div class="video-container">
-<iframe width="960" height="540" src="https://www.youtube.com/embed/eoM3ktCc8i0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{{<youtube eoM3ktCc8i0>}}
 <div class="caption">Boarding the boats</div>
 </p>
 
@@ -103,8 +102,7 @@ That was a surprise even for me. When I came to the Philippines, I
 thought I could dive to 20 meters. And on the second day I already
 exceeded my expectations…
 
-![Pescador Island](https://lh3.googleusercontent.com/-f_giD3-Cs6U/S5t4efYB7mI/AAAAAAAADA8/krchRqWr-Lw/s960-Ic42/SANY0074.JPG Pescador Island)
-<div class="caption">Pescador Island</div>
+{{<figure src="https://lh3.googleusercontent.com/-f_giD3-Cs6U/S5t4efYB7mI/AAAAAAAADA8/krchRqWr-Lw/s960-Ic42/SANY0074.JPG" caption="Pescador Island">}}
 
 That concluded our training for that day. Those who were tired got over
 to the second boat and went back to the hotel, while all the others
@@ -137,8 +135,7 @@ which requires a contender to pass some tests; three and four stars
 are the advanced levels. And above those are the instructor levels. A few
 folks of our group were already going for three stars.
 
-![On the boat](https://lh3.googleusercontent.com/-7CZIMWIGBzc/S5t4hPuzL8I/AAAAAAAADA8/1pBQ5plbLdU/s960-Ic42/SANY0081.JPG On the boat)
-<div class="caption">On the boat</div>
+{{<figure src="https://lh3.googleusercontent.com/-7CZIMWIGBzc/S5t4hPuzL8I/AAAAAAAADA8/1pBQ5plbLdU/s960-Ic42/SANY0081.JPG" caption="On the boat">}}
 
 There are books written on freediving, and it's not my goal to
 reproduce such a book here. I'll just give a brief overview of what

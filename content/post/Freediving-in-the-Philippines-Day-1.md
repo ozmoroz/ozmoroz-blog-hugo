@@ -1,12 +1,14 @@
 ---
 Title: Freediving in the Philippines. Day 1
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-01-25
+Date: 2011-01-24
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
 Slug: freediving-in-philippines-diary-of
 Summary: Day 1 of my freediving adventure in the Philippines
+aliases:
+  - /2011/01/freediving-in-philippines-diary-of.html
 ---
 
 *In March 2010 I went to Cebu Island of the Philippines with a group of
@@ -31,8 +33,7 @@ was at 1 a.m.), the Singaporeans offered a supper immediately after
 take-off and climb – at 3 o'clock in the morning. I wisely declined the
 "supper".
 
-![At the Singapore Airport](https://lh3.googleusercontent.com/-DNVlDPxr8Oc/S5t3HPxyE0I/AAAAAAAADA8/sKf1GraExKA/s960-Ic42/SDC11646.JPG "At the Singapore Airport")
-<div class="caption">At the Singapore Airport</div>
+{{<figure src="https://lh3.googleusercontent.com/-DNVlDPxr8Oc/S5t3HPxyE0I/AAAAAAAADA8/sKf1GraExKA/s960-Ic42/SDC11646.JPG" caption="At the Singapore Airport">}}
 
 Singapore was a double shock: the size of the airport and the climate.
 The Singapore International Airport consists of three terminals and the
@@ -94,8 +95,7 @@ pictures imprinted in my memory:
     on opposite direction lanes. Perhaps this is why everyone honks
     often – to avoid accidents.
 
-![Motor rickshas](https://lh3.googleusercontent.com/-u07VQGqrTAc/S5t5l5ZQWSI/AAAAAAAADA8/coY2xUmwNqc/s960-Ic42/SDC11794.JPG "Motor rickshas")
-<div class="caption">Motor rickshas</div>
+{{<figure src="https://lh3.googleusercontent.com/-u07VQGqrTAc/S5t5l5ZQWSI/AAAAAAAADA8/coY2xUmwNqc/s960-Ic42/SDC11794.JPG" caption="Motor rickshas">}}
 
 If you think about it, as a matter of fact, there is nothing too
 shocking about it. However, after Melbourne and Singapore the contrast
@@ -120,8 +120,7 @@ recently finished studying and worked as a chemical engineer for the
 government. (The Philippine's government subsidises the training of
 young professionals.)
 
-![On my way to Moal Boal](https://lh3.googleusercontent.com/-rcX2lIT4KK0/S5t3MZwh7vI/AAAAAAAADA8/eMKrlW05nfM/s960-Ic42/SDC11652.JPG "On my way to Moal Boal")
-<div class="caption">On my way to Moal Boal</div>
+{{<figure src="https://lh3.googleusercontent.com/-rcX2lIT4KK0/S5t3MZwh7vI/AAAAAAAADA8/eMKrlW05nfM/s960-Ic42/SDC11652.JPG" caption="On my way to Moal Boal">}}
 
 The radio was on in the car and, to my amusement, the broadcast was in
 English, even advertising. Moreover, almost all the signs I saw during
@@ -141,8 +140,7 @@ rest of the guys at "Club Serena" and have dinner there with them. I
 asked Mark how to get there, and he said that I just had to follow the
 path along the beach. I unpacked my stuff, took a shower, and set off.
 
-!["Blue Orchid"](https://lh3.googleusercontent.com/-_GDMO7OryzM/S5t3NMYaGoI/AAAAAAAADA8/LUADpQjcNSI/s960-Ic42/SDC11662.JPG "\"Blue Orchid\"")
-<div class="caption">&quot;Blue Orchid&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-_GDMO7OryzM/S5t3NMYaGoI/AAAAAAAADA8/LUADpQjcNSI/s960-Ic42/SDC11662.JPG" caption="Blue Orchid">}}
 
 At half past six in the evening the sun was switched off in the
 Philippines. It was getting dark so fast that I did not have time to get
@@ -177,8 +175,7 @@ introduction of everyone to each other, and ended the same traditional
 way – drinking whiskey and rum. At around midnight I said goodbye to
 everyone and went back to my hotel.
 
-!["Club Serena"](https://lh3.googleusercontent.com/-_4hFTcvofSo/S5t3po2iYXI/AAAAAAAADA8/oAPxhCQq8p4/s960-Ic42/SANY0004.JPG "Club Serena")
-<div class="caption">&quot;Club Serena&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-_4hFTcvofSo/S5t3po2iYXI/AAAAAAAADA8/oAPxhCQq8p4/s960-Ic42/SANY0004.JPG" caption="Club Serena">}}
 
 More precisely, I tried to go. I walked a little bit down the beach and
 realised that the rising tide made my return impossible: the beach was

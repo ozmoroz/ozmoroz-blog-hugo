@@ -5,6 +5,8 @@ Date: 2009-11-06
 Author: Sergey Stadnik
 Category: technology
 Tags: [oracle]
+aliases:
+  - /2009/11/dont-mess-with-like.html
 ---
 
 As I have [already shown](../../2009/05/Date-conversions-in-Oracle.html) you, implicit type conversion is one of the most dangerous features of Oracle SQL and PL/SQL. It is dangerous because it happens automatically without your knowledge and may lead to unpredictable results. These problems are most common when dealing with DATE conversions, but not limited to them.
@@ -14,21 +16,21 @@ question](http://stackoverflow.com/questions/1676064/) by [James
 Collins](http://stackoverflow.com/users/143194/james-collins).
 James had a problem, the following query was slow:
 
-~~~~plpgsql
+{{<highlight sql>}}
 SELECT a1.*
 FROM   people a1
 WHERE  a1.ID LIKE '119%'
 AND ROWNUM < 5
-~~~~
+{{</highlight>}}
 
 Despite column `A1.ID` was indexed, the index wasn't used and
 the explain plan looked like this:
 
-~~~~
+{{<highlight sql>}}
 SELECT STATEMENT ALL_ROWS
 Cost: 67 Bytes: 2,592 Cardinality: 4 2 COUNT STOPKEY 1 TABLE ACCESS FULL TABLE people
 Cost: 67 Bytes: 3,240 Cardinality: 5
-~~~~
+{{</highlight>}}
 
 James was wondering why.
 
@@ -43,12 +45,12 @@ You see, `LIKE` pattern-matching condition expects to see character
 types as both left-hand and right-hand operands. When it encounters a
 `NUMBER`, it implicitly converts it to `VARCHAR2`. Hence, that query was basically silently rewritten to this:
 
-~~~~plpgsql
+{{<highlight sql>}}
 SELECT a1.*
 FROM   people a1
 WHERE  To_Char(a1.ID) LIKE '119%'
 AND ROWNUM < 5
-~~~~
+{{</highlight>}}
 
 That was bad for 2 reasons:
 
@@ -61,9 +63,9 @@ ways to resolve it. Some of the possible options are:
 
 1.  Create a [function-based index](http://www.akadia.com/services/ora%5Ffunction%5Fbased%5Findex%5F2.html) on `A1.ID` column:
 
-~~~~plpgsql
+{{<highlight sql>}}
 CREATE INDEX people_idx5 ON people (To_char(ID));
-~~~~
+{{</highlight>}}
 
 2.  If you need to match records on first 3 characters of `ID`
     column, create another column of type `NUMBER` containing just these 3

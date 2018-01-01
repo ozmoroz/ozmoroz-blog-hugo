@@ -6,6 +6,8 @@ Category: lifestyle
 Tags: [gadgets]
 Slug: coming-revolution
 Summary: "Microsoft Kinect is coming, and it is awesome."
+aliases:
+  - /2010/08/coming-revolution.html
 ---
 
 Soon a small black box will enter our living rooms, and that will
@@ -59,9 +61,7 @@ Motion Control is not perfect, but still very good.
 This is what a gameplay with Kinect looks like:
 
 <p>
-<div class="video-container">
-<iframe width="960" height="540" src="https://www.youtube.com/embed/iK_UlfO42sc" frameborder="0" allowfullscreen></iframe>
-</div>
+{{<youtube iK_UlfO42sc>}}
 </p>
 
 I predict that Kinect will be a huge hit. It along with the new Xbox

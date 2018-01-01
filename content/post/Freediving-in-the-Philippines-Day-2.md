@@ -1,7 +1,7 @@
 ---
 Title: Freediving in the Philippines. Day 2
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
-Date: 2011-01-26
+Date: 2011-01-25
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
@@ -17,8 +17,7 @@ reflect what I thought and felt back then, and this is precisely why
 they are valuable. I learned a lot during those 12 days... But I will
 not jump ahead. Read on and you'll see for yourself.*
 
-![Path on the beach from "Blue Orchid" to "Club Serena"](https://lh3.googleusercontent.com/-S-CygXcBETE/S5t3l1BxL3I/AAAAAAAADA8/q1YtSKXu1zI/s960-Ic42/SDC11668.JPG "Path on the beach from "Blue Orchid" to \"Club Serena\"")
-<div class="caption">Path on the beach from &quot;Blue Orchid&quot; to &quot;Club Serena&quot;</div>
+{{<figure src="https://lh3.googleusercontent.com/-S-CygXcBETE/S5t3l1BxL3I/AAAAAAAADA8/q1YtSKXu1zI/s960-Ic42/SDC11668.JPG" caption="Path on the beach from Blue Orchid to Club Serena">}}
 
 Before I went to my hotel, Julia invited me to come at 7 am the next day
 for yoga. I promised that I'd come if I woke up, not trusting in that
@@ -43,8 +42,7 @@ one’s inner self via physical exercises. After yoga I went back to my
 hotel for breakfast and returned to Club Serena. There, our company had
 already started to unpack.
 
-![Unpacking the equipment](https://lh3.googleusercontent.com/-NBtNJSXm_hw/S5t3tOD94PI/AAAAAAAADA8/DLeER-tK2UY/s960-Ic42/SANY0008.JPG "Unpacking the equipment")
-<div class="caption">Unpacking the equipment</div>
+{{<figure src="https://lh3.googleusercontent.com/-NBtNJSXm_hw/S5t3tOD94PI/AAAAAAAADA8/DLeER-tK2UY/s960-Ic42/SANY0008.JPG" caption="Unpacking the equipment">}}
 
 The life of a travelling freediver isn't easy. And that is mostly
 because of fins. The freedivers' fins aren't ordinary. Each freediver's
@@ -94,10 +92,9 @@ opportunity to dive deeper and farther.
 After the breathing, everyone got suited up, i.e. put on wetsuits. As
 for me, on that day I was wearing not a wetsuit, but a stinger suit – a
 protective suit made of Lycra. A stinger suit doesn't warm, but provides
-protection from jellyfish and plankton. 
+protection from jellyfish and plankton.
 
-![A buoy on the water](https://lh3.googleusercontent.com/-pTIyQ0cT6Ek/S5t3z88ApxI/AAAAAAAADA8/Y8EqDvnnRbM/s960-Ic42/PICT0004.JPG "A buoy on the water")
-<div class="caption">A buoy on the water</div>
+{{<figure src="https://lh3.googleusercontent.com/-pTIyQ0cT6Ek/S5t3z88ApxI/AAAAAAAADA8/Y8EqDvnnRbM/s960-Ic42/PICT0004.JPG" caption="A buoy on the water">}}
 
 The local guys had already placed the buoys for us beyond the reef. The
 reef itself stretches along the beach about 15 meters from the shore.
@@ -116,15 +113,11 @@ movement causes muscle tension, hence consumes oxygen stored in the
 lungs and blood. Therefore, freedivers must move as efficiently as
 possible underwater. The correct way to begin a dive is like this:
 
-> Start lying relaxed on the water and breathing deeply through the
-> snorkel.\
-> Take last breath, filling your lungs fully with air. Then bend over at
-> 90 degrees at your waist and reach down with your hands.\
-> Raise your feet out of the water and bring your legs to the vertical
-> position, straightening your body.\
-> The weight of your lower body will push you down and you'll find
-> yourself quietly sliding down.\
-> Once your feet are underwater, start finning.
+  - Start lying relaxed on the water and breathing deeply through the snorkel.
+  - Take last breath, filling your lungs fully with air. Then bend over at 90 degrees at your waist and reach down with your hands.
+  - Raise your feet out of the water and bring your legs to the vertical position, straightening your body.
+  - The weight of your lower body will push you down and you'll find yourself quietly sliding down.
+  - Once your feet are underwater, start finning.
 
 It took us some time to learn  the above technique, but in the end
 everyone was able to do that properly.
@@ -172,8 +165,7 @@ very, very small. This may be due to clogged Eustachian tubes or
 sinuses, or other similar reasons. All the others can learn. Everything
 comes with patience and practice.
 
-![Down along the rope](https://lh3.googleusercontent.com/-_FIKz07sCm8/S5t30zaxS4I/AAAAAAAADA8/l9Rhty2RYxY/s960-Ic42/PICT0011.JPG "Down along the rope")
-<div class="caption">Down along the rope</div>
+{{<figure src="https://lh3.googleusercontent.com/-_FIKz07sCm8/S5t30zaxS4I/AAAAAAAADA8/l9Rhty2RYxY/s960-Ic42/PICT0011.JPG" caption="Down along the rope">}}
 
 I was lucky: I grew up near the sea and have been diving as long as I
 can remember. Therefore, I could equalise, at least in the simplest way

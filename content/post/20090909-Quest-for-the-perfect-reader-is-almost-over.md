@@ -5,6 +5,8 @@ Author: Sergey Stadnik
 Category: lifestyle
 Tags: [gadgets]
 Slug: quest-for-perfect-reader-is-almost-over
+aliases:
+  - /2009/09/quest-for-perfect-reader-is-almost-over.html
 ---
 
 Those who know me know that I've been searching for a perfect ebook

@@ -8,7 +8,7 @@ Tags: [freediving]
 Slug: freediving-in-philippines-epilogue
 Summary: Some people asked me why I needed that. Here's why.
 aliases:
-  - /2011/02/freediving-in-philippines-epilogue.html
+  - /2011/02/freediving-in-philippines-epilogue
 ---
 
 _Some people asked me why I needed that. Here's why_

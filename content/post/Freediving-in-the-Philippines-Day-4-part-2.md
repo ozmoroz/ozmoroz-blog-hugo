@@ -5,8 +5,10 @@ Date: 2011-01-28
 Author: Sergey Stadnik
 Category: lifestyle
 Tags: [freediving]
-Slug: freediving-in-philippines-day-4-part-2.html
+Slug: freediving-in-philippines-day-4-part-2
 Summary: After the "static" we all went fin-swimming. The proper swimming technique is very important for a freediver because it allows him to push himself through the water column most optimally. I decided to try to swim in long freediving fins and borrowed a pair from a guy who had the same foot size as I have.
+aliases:
+ -- /2011/01/freediving-in-philippines-day-4-part-2.html.html
 ---
 
 After the "static" we all went fin-swimming. The proper swimming
@@ -15,8 +17,7 @@ push himself through the water column most optimally. I decided to try
 to swim in long freediving fins and borrowed a pair from a guy who had
 the same foot size as I have.
 
-![This is what I saw waking up every morning](https://lh3.googleusercontent.com/-vcYPFDh_iDI/S5t3fRO0a0I/AAAAAAAADA8/mPr6ePh2Hns/s960-Ic42/SDC11661.JPG "This is what I saw waking up every morning")
-<div class="caption">This is what I saw waking up every morning</div>
+{{<figure src="https://lh3.googleusercontent.com/-vcYPFDh_iDI/S5t3fRO0a0I/AAAAAAAADA8/mPr6ePh2Hns/s960-Ic42/SDC11661.JPG" caption="This is what I saw waking up every morning">}}
 
 He was learning to swim in a monofin at that time and didn't need them. The fins were too large for me and felt loose on my feet, so I attached them to my feet with rubber bands. That helped and I was not afraid to lose the fins, but the friction of the loose rubber foot pockets on my feet was still pretty uncomfortable. Of our group of beginners, nobody could swim properly in fins because nobody had ever been taught. So, instructor Oksana set off on a task
 of teaching us.
@@ -36,8 +37,7 @@ freediving fins had larger surfaces than my own and swimming in them
 was harder, but they allowed me to develop a greater speed. I didn't
 notice any other fundamental difference.
 
-![The beach of "Club Serena" hotel](https://lh3.googleusercontent.com/-xjllrI-gip0/S5t3oCh-HlI/AAAAAAAADA8/3uCOYjpxbdY/s960-Ic42/SANY0009.JPG "The beach of \"Club Serena\" hotel")
-<div class="caption">The beach of &quot;Club Serena&quot; hotel</div>
+{{<figure src="https://lh3.googleusercontent.com/-xjllrI-gip0/S5t3oCh-HlI/AAAAAAAADA8/3uCOYjpxbdY/s960-Ic42/SANY0009.JPG" caption="The beach of Club Serena hotel">}}
 
 After about half an hour of swimming back and forth, Oksana showed us how to swim dolphin style. Dolphin is a more optimal fin-swimming style – it allows propelling oneself through the water using less force. Therefore, it is used in
 freediving more widely than traditional style. Moreover, it is the
@@ -67,8 +67,7 @@ and forth, something started to come together. By that time everybody
 was very tired, and a lunch was declared. After the lunch we were
 going to do deep-diving without fins.
 
-![I am relaxing after the hard day](https://lh3.googleusercontent.com/-mkXTZKJHEwc/S5t5MPiiMHI/AAAAAAAADA8/xRKVb2LetM4/s960-Ic42/SDC11755.JPG I am relaxing after the hard day)
-<div class="caption">I am relaxing after the hard day</div>
+{{<figure src="https://lh3.googleusercontent.com/-mkXTZKJHEwc/S5t5MPiiMHI/AAAAAAAADA8/xRKVb2LetM4/s960-Ic42/SDC11755.JPG" caption="I am relaxing after the hard day">}}
 
 That time a wetsuit was not necessary. So instead of it I put on my
 stinger suit – a full-body Lycra suit. It does not warm, but it
@@ -97,8 +96,7 @@ moments glides through the water. Then the arms do their strokes
 again,
 and so on.
 
- ![The caught fish](https://lh3.googleusercontent.com/-7YvIEVtP7GE/S5t5RI88q8I/AAAAAAAADA8/zMkeU8APHzc/s960-Ic42/SDC11764.JPG "The caught fish")
- <div class="caption">The caught fish</div>
+{{<figure src="https://lh3.googleusercontent.com/-7YvIEVtP7GE/S5t5RI88q8I/AAAAAAAADA8/zMkeU8APHzc/s960-Ic42/SDC11764.JPG" caption="The caught fish">}}
 
 We started trying, and I resumed my fight with the rope. A freediver
 needs to "dive in", i.e., to begin the dive, so that the rope is

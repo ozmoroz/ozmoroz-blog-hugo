@@ -6,6 +6,8 @@ Author: Sergey Stadnik
 Category: technology
 Tags: [oracle]
 Slug: Date-conversions-in-Oracle
+aliases:
+  - /2009/05/Date-conversions-in-Oracle.html
 ---
 
 When I was going through PL/SQL procedures written by some of my
@@ -42,19 +44,19 @@ out by 2 possible ways: explicitly and implicitly.
 Explicit conversion is when we apply the `TO_DATE` function to the
 string:
 
-~~~~plpgsql
+{{<highlight sql>}}
 v_date DATE;
 v_date := TO_DATE('01/04/2009', 'DD/MM/YYYY');
-~~~~
+{{</highlight>}}
 
 Now `v_date` is a date, representing April 1st, 2009.
 
 Implicit conversion is when we let Oracle to perform the conversion:
 
-~~~~plpgsql
+{{<highlight sql>}}
 v_date DATE;
 v_date := '01-APR-09';
-~~~~
+{{</highlight>}}
 
 It has the same effect. Every time Oracle sees a string in place where
 it expects a date, it is smart enough to perform the conversion for us.
@@ -83,10 +85,10 @@ So, a good practice and rule of thumb for you should be:
 
 Just like this:
 
-~~~~plpgsql
+{{<highlight sql>}}
 v_date DATE;
 v_date := TO_DATE('01/04/2009', 'DD/MM/YYYY');
-~~~~
+{{</highlight>}}
 
 The danger of `NLS_DATE_FORMAT` being changed is the biggest threat but
 not the only one.
@@ -107,14 +109,14 @@ Date where no conversion is necessary.
 
 Let’s have a look at the following example, or should I say a puzzle?
 
-~~~~plpgsql
+{{<highlight sql>}}
 DECLARE
    v_date DATE := '01-APR-09';
    v_date_2 DATE := TO_DATE (v_date, 'DD/MM/YYYY');
 BEGIN
    dbms_output.put_line (TO_CHAR (v_date_2, 'DD/MM/YYYY'));
 END;
-~~~~
+{{</highlight>}}
 
 Try to guess what will be printed as a result.
 
@@ -125,9 +127,9 @@ In fact, you’ll get **‘01/04/0009’**.
 
 This is where it all goes bad:
 
-~~~~plpgsql
+{{<highlight sql>}}
 v_date_2 DATE := TO_DATE (v_date, 'DD/MM/YYYY');
-~~~~
+{{</highlight>}}
 
 And here’s why:
 
@@ -142,18 +144,18 @@ a Date. That happens because Oracle is able to implicitly convert that
 date to a string, effectively turning that line
 into
 
-~~~~plpgsql
+{{<highlight sql>}}
 v_date_2 DATE := TO_DATE (TO_CHAR(v_date), 'DD/MM/YYYY');
-~~~~
+{{</highlight>}}
 
 But, as we’ve already learned, implicit date to string conversions are
 performed using the date format recorded in `NLS_DATE_FORMAT` Oracle
 parameter, which is by default set to `‘DD-MM-RR’`. Hence, what Oracle
 effectively does is this:
 
-~~~~plpgsql
+{{<highlight sql>}}
 v_date_2 DATE := TO_DATE (TO_CHAR(v_date, 'DD-MM-RR'), 'DD/MM/YYYY');
-~~~~
+{{</highlight>}}
 
 Can you spot the error already? The date formats are inconsistent! This
 is what you get when you don’t pay attention to the details.

@@ -6,6 +6,8 @@ Author: Sergey Stadnik
 Category: technology
 Tags: [oracle]
 Slug: SYSDATE-confusions
+aliases:
+  - /2009/11/SYSDATE-confusions.html
 ---
 
 `SYSDATE` is one of the most commonly used Oracle functions. Indeed,
@@ -23,11 +25,11 @@ confused with date/time. For example, if a column in a table is called
 but not date/time. That may lead to a major confusion. Let's imagine
 there is a table `BANK_TRANSACTIONS` containing the following fields:
 
-~~~~sql
+{{<highlight sql>}}
 txn_no     INTEGER,
 txn_amount NUMBER(14,2),
 txn_date   DATE
-~~~~
+{{</highlight>}}
 
 The last field is of the most interest to us. Apparently its data type
 is `DATE`, but is it a date or date/time? We can't tell by just looking
@@ -36,13 +38,13 @@ know. A common case for using DATE columns is including them in date
 range queries. Forexample, if we wanted to get all the bank transactions
 from 1 January 2009 to 31 July 2009 we could write this:
 
-~~~~sql
+{{<highlight sql>}}
 SELECT txn_no,
        txn_amount
 FROM   bank_transactions
 WHERE  txn_date BETWEEN To_date('01-JAN-2009','DD-MON-YYYY')
 AND    To_date('31-JUL-2009','DD-MON-YYYY')
-~~~~
+{{</highlight>}}
 
 And that would be fine if `TXN_DATE` were a **date** column. But if it is
 a date/time, we would just have missed a whole day worth of data. And it
@@ -65,13 +67,13 @@ projects, but that is a whole different story.)
 If you are working with an existing table and you are not sure, you can
 use a fool-proof method like this:
 
-~~~~sql
+{{<highlight sql>}}
 SELECT txn_no,
        txn_amount
 FROM   bank_transactions
 WHERE  txn_date BETWEEN To_date('01-JAN-2009','DD-MON-YYYY')
 AND    To_date('31-JUL-2009','DD-MON-YYYY') + 1 – 1/24/3600
-~~~~
+{{</highlight>}}
 
 `+1 – 1/24/3600` here means “Plus 1 day minus 1 second”. That is because
 “1” in `DATE` type means “1 day”, “1/24” - 1 hour, and there are 3600
@@ -97,13 +99,13 @@ the transaction for the previous month. It looks like a job for SYSDATE!
 You fetch your trusty keyboard and after a few minutes of typing you
 come up with something like this:
 
-~~~~sql
+{{<highlight sql>}}
 SELECT txn_no,
        txn_amount
 FROM   bank_transactions
 WHERE  txn_date BETWEEN Last_day(Add_months(Trunc(SYSDATE),-2)) + 1
 AND    Last_day(Add_months(Trunc(SYSDATE),-1))
-~~~~
+{{</highlight>}}
 
 You create a few lines in `BANK_TRANSACTIONS` table, run a few unit tests
 to make sure your code works and check it into the source control. Job

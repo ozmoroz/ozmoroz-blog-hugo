@@ -4,6 +4,8 @@ Date: 2008-11-06
 Author: Sergey Stadnik
 Category: technology
 Slug: role-play-modelling
+aliases:
+  - /2008/11/role-play-modelling.html
 ---
 
 Virtually every software development methodology stresses a need for
