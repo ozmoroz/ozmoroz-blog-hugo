@@ -7,6 +7,7 @@ Slug: why-i-want-autopilot
 Series: ["Building a small GPS drone"]
 Tags: [multirotors]
 aliases:
+  - /2017/11/armattan-tilt-r-the-beginning.html
   - /2017/11/why-i-want-autopilot.html
 ---
 
