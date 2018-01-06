@@ -1,4 +1,4 @@
-baseURL = "http://ozmoroz.com/"
+baseURL = "https://ozmoroz.com/"
 languageCode = "en-us"
 title = "Sergey Stadnik's blog"
 theme = "hugo-theme-bootstrap4-blog"
@@ -15,18 +15,18 @@ paginate = 5
 
 [[menu.sidebar]]
   name = "Link 1"
-  url = "http://ozmoroz.com"
+  url = "https://ozmoroz.com"
 
 [[menu.sidebar]]
   name = "Link 2"
-  url = "http://ozmoroz.com"
+  url = "https://ozmoroz.com"
 
 # custom navbar menu entry.   See the custom_navbar parameter below for
 # details.
 
 #[[menu.navbar]]
 #  name = "Link 1"
-#  url = "http://ozmoroz.com"
+#  url = "https://ozmoroz.com"
 
 
 # Theme variables
