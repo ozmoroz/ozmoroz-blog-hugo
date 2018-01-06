@@ -13,6 +13,9 @@ paginate = 5
   post = "/:year/:month/:slug/"
   page = "/:slug/"
 
+[taxonomies]
+  series = "series"
+
 [[menu.sidebar]]
   name = "Link 1"
   url = "https://ozmoroz.com"
@@ -24,19 +27,34 @@ paginate = 5
 # custom navbar menu entry.   See the custom_navbar parameter below for
 # details.
 
-#[[menu.navbar]]
-#  name = "Link 1"
-#  url = "https://ozmoroz.com"
+[[menu.navbar]]
+  name = "Now"
+  url = "/now"
+  weight = 1
 
+[[menu.navbar]]
+  name = "About"
+  url = "/about"
+  weight = 2
+
+[[menu.navbar]]
+  name = "Technology"
+  url = "/categories/technology"
+  weight = 3
+
+[[menu.navbar]]
+  name = "Lifestyle"
+  url = "/categories/lifestyle"
+  weight = 4
 
 # Theme variables
 #
 [params]
   # Site author
-  author = "Your Name"
+  author = "Sergey Stadnik"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+  description = "Sergey Stadnik's blog"
 
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"
@@ -64,7 +82,7 @@ paginate = 5
   # the relevant pages
   #   menu = "navbar"
   # or by specifying menu entries in a similar way to the sidebar menu above.
-  #custom_navbar = true
+  custom_navbar = true
 
   # show sharing icons on pages/posts (default: true)
   #sharingicons = true
@@ -98,9 +116,4 @@ paginate = 5
 #[languages.bg]
 
 # vim: ts=2 sw=2 et
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  series = "series"
 
