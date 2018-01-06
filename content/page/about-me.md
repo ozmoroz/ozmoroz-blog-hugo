@@ -1,8 +1,11 @@
+---
 Title: About me
-Date: 2008-10-14 00:02
+Date: 2017-10-14
 Author: Sergey Stadnik
+type: Page
 url: about/
-save_as: about/index.html
+slug: "about"
+---
 
 ![Sergey's photo]({filename}/images/sergey_stadnik.jpg)
 

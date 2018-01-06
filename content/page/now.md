@@ -1,9 +1,12 @@
+---
 Title: What I am doing now
 Menulabel: Now
+type: Page
+slug: "now"
 url: now/
-save_as: now/index.html
 Date: 2017-11-28
 Author: Sergey Stadnik
+---
 
 Here is what currently occupy my days.
 
