@@ -2,7 +2,7 @@
 Title: My new track - Chaos Engine
 Date: 2012-07-23
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Slug: my-new-track-chaos-engine
 Summary: Drum'n'Bass track written for Composing and Producing Electronic Music course

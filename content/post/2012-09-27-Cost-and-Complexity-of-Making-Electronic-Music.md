@@ -2,7 +2,7 @@
 Title: Cost and complexity of making electronic music
 Date: 2012-09-27
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Slug: cost-and-comlexity-of-making-electronic
 Summary: Does making electronic music has to be as complex and expensive as it is?

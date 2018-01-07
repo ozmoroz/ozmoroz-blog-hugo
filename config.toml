@@ -41,12 +41,12 @@ paginate = 5
 
 [[menu.navbar]]
   name = "Technology"
-  url = "/categories/technology"
+  url = "/categories/technology/"
   weight = 3
 
 [[menu.navbar]]
   name = "Lifestyle"
-  url = "/categories/lifestyle"
+  url = "/categories/lifestyle/"
   weight = 4
 
 # Theme variables

@@ -2,7 +2,7 @@
 Title: "James Sinegal: Costco’s Winning Formula"
 Date: 2015-09-16
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 aliases:
   - /2015/09/james-sinegal-costcos-winning-formula.html
 ---

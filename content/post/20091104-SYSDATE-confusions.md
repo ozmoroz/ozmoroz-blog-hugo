@@ -3,7 +3,7 @@ Title: "SYSDATE confusions"
 Series: ["Common mistakes of Oracle programmers"]
 Date: 2009-11-04
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 Slug: SYSDATE-confusions
 aliases:

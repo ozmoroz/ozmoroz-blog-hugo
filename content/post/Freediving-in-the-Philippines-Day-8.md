@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 8
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-02-03
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-8
 Summary: Return to the Kawasan Falls

@@ -3,7 +3,7 @@ Title: Troubleshooting eth0 in Oracle Linux
 slug: troubleshooting-eth0-in-oracle-linux
 Date: 2012-10-24
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [linux]
 Summary: How to make eth0 autostart on Oracle Linux.
 aliases:

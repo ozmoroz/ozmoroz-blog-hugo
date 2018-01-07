@@ -2,7 +2,7 @@
 Title: MIDI routing in FL Studio via a MIDI loopback device
 slug: midi-routing-in-fl-studio-via-midi
 Date: 2014-11-01
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Author: Sergey Stadnik
 Summary: How to record the output of one MIDI track (for example, arpeggiator’s output) into another MIDI track in FL Studio.

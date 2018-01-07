@@ -2,7 +2,7 @@
 Title: Make your life happen
 Date: 2011-02-14
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Slug: make-it-happen
 aliases:
   - /2011/02/make-it-happen.html

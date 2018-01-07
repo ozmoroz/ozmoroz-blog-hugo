@@ -2,7 +2,7 @@
 Title: The issue of risk
 Date: 2008-10-14
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Slug: issue-of-risk_13
 aliases:
   - /2008/10/issue-of-risk_13.html

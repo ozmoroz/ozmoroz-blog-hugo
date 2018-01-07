@@ -2,7 +2,7 @@
 Title: How to get a root password
 Date: 2009-07-26
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Slug: how-to-get-root-password
 aliases:
   - /2009/07/how-to-get-root-password.html

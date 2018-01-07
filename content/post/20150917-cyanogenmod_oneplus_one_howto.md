@@ -2,7 +2,7 @@
 Title: How to install CyanogenMod on Oneplus One
 Date: 2015-09-17
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [gadgets]
 aliases:
   - /2015/09/a-new-chapter.html

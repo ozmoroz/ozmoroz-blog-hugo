@@ -2,7 +2,7 @@
 Title: Coming revolution
 Date: 2010-08-27
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [gadgets]
 Slug: coming-revolution
 Summary: "Microsoft Kinect is coming, and it is awesome."

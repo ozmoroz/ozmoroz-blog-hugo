@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 3
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-01-26
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-3
 Summary: The next day, having arrived at Club Serena at 8 am, I discovered that the yoga had already started. I asked, and it turned out it started at 6:15. Oops! We agreed that I would come at 10 and I went "home" for breakfast.

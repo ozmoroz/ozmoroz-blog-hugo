@@ -2,7 +2,7 @@
 Title: How to separate a stuck windsurfing mast
 Date: 2016-02-05
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [windsurfing]
 aliases:
   - /2016/02/how-to-separate-a-stuck-windsurfing-mast.html

@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 10
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-02-07
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-10
 Summary: We are visiting Badian Island Resort.

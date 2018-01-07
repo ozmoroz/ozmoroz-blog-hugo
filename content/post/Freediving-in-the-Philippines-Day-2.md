@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 2
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-01-25
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-2
 Summary: Day 2 of my freediving adventure in the Philippines

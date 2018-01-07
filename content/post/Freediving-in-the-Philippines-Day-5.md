@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 5
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-01-31
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-5
 Summary: The story of this day will not be as long as the previous ones. We didn't dive on Day 5. Instead, we went canyoning.

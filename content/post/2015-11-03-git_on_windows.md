@@ -2,7 +2,7 @@
 Title: How to set up Git on Windows
 Date: 2015-11-03
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 aliases:
   - /2015/11/how-to-set-up-git-on-windows/
 ---

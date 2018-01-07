@@ -2,7 +2,7 @@
 Title: Make it beautiful
 Date: 2009-10-02
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Slug: make-it-beautiful
 aliases:
  -- /2009/10/make-it-beautiful.html

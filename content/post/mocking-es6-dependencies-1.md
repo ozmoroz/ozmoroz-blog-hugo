@@ -3,7 +3,7 @@ Title: "Mocking ES6 module dependencies with import * from"
 Series: ["Mocking ES6 module dependencies"]
 Date: 2017-09-26
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [javascript]
 Slug: mocking-es6-dependencies-1
 aliases:

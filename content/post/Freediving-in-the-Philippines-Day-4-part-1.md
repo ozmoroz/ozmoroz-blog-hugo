@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 4, part 1
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-01-27
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-4-part-1
 Summary: The day was long, so I broke it into 2 parts.

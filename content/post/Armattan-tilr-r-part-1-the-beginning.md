@@ -2,7 +2,7 @@
 Title: "Why I want an autopilot in my racing drone"
 Date: 2017-11-23
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Slug: why-i-want-autopilot
 Series: ["Building a small GPS drone"]
 Tags: [multirotors]

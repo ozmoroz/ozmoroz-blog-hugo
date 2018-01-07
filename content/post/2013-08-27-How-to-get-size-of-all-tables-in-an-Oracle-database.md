@@ -2,7 +2,7 @@
 Title: How to get size of all tables in an Oracle database schema
 slug: how-to-get-size-of-all-tables-in-oracle
 Date: 2013-08-27
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 Author: Sergey Stadnik
 Summary: An SQL script to get size of all tables in an Oracle database schema.

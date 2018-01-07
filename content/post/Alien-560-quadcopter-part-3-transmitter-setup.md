@@ -3,7 +3,7 @@ Title: "Alien 560 Quadcopter Build - Part 3 - Transmitter setup"
 Series: ["Alien 560 Quadcopter Build"]
 Date: 2016-10-09
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [multirotors]
 aliases:
   - /2016/10/alien-560-quadcopter-build-part-3-transmitter-setup.html

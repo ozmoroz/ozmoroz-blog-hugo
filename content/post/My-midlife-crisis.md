@@ -2,7 +2,7 @@
 Title: My midlife crisis
 Date: 2017-09-14
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [esk8]
 aliases:
   - /ozmoroz.com/2017/09/my-midlife-crisis.html

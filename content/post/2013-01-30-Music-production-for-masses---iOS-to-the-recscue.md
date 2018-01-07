@@ -2,7 +2,7 @@
 Title: Music production for masses - iOS to the recscue!
 Date: 2013-01-30
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Slug: music-production-for-masses-ios-to
 aliases:

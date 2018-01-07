@@ -2,7 +2,7 @@
 Title: My new track - Destination Zero
 Date: 2012-09-27
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Slug: my-new-track-destination-zero
 aliases:

@@ -2,7 +2,7 @@
 Title: Introduction to iOS Music Production Brown Bag
 Date: 2016-09-13
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 tags: [music_production]
 alias:
   - /2016/09/introduction-to-ios-music-production-brown-bag.html

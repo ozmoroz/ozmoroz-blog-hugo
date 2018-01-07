@@ -3,7 +3,7 @@ Title: "Mocking ES6 module dependencies with proxyquire"
 Series: ["Mocking ES6 module dependencies"]
 Date: 2017-09-28
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [javascript]
 Slug: mocking-es6-dependencies-2
 aliases:

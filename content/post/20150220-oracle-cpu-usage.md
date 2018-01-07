@@ -2,7 +2,7 @@
 Title: How to identify Oracle sessions consuming CPU time
 Date: 2015-02-20
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 Slug: oracle-cpu-usage
 aliases:

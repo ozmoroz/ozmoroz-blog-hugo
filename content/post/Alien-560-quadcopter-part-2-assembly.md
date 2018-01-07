@@ -3,7 +3,7 @@ Title: "Alien 560 Quadcopter Build - Part 2 - Assembly"
 Series: ["Alien 560 Quadcopter Build"]
 Date: 2016-09-25
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [multirotors]
 aliases:
   - /2016/09/alien-560-quadcopter-build-part-2-assembly.html

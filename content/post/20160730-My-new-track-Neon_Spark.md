@@ -2,7 +2,7 @@
 Title: My new track - Neon Spark
 Date: 2016-07-30
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 tags: [music_production]
 Slug: my-new-track-neon-spark
 aliases:

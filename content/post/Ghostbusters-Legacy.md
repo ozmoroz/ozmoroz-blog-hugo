@@ -2,7 +2,7 @@
 Title: "Ghostbusters: Legacy"
 Date: 2017-09-05
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 aliases:
  - /2017/09/ghostbusters-legacy.html
 ---

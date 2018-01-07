@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 9
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-02-04
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-9
 Summary: The AIDA certification test and my deepest dive.

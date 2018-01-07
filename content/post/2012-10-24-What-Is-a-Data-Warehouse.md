@@ -2,7 +2,7 @@
 title: "What is a data warehouse?"
 date: 2012-10-24
 author: Sergey Stadnik
-category: technology
+categories: ["technology"]
 slug: what-is-data-warehouse
 Summary: What data warehouses are, how they are different from OLTP databases, and why we may want to use them.
 aliases:

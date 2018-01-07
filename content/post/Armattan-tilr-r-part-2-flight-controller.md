@@ -2,7 +2,7 @@
 Title: "Choosing a flight controller for a GPS drone"
 Date: 2017-12-31
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Slug: choosing-flight-controller
 Series: ["Building a small GPS drone"]
 Tags: [multirotors]

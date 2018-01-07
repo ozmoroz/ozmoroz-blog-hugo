@@ -3,7 +3,7 @@ Title: Freediving in the Philippines. Day 6
 Series: ["Freediving in the Philippines: Diary of a beginner freediver"]
 Date: 2011-02-01
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-6
 Summary: Having arrived, as usual, at 10 a.m. after breakfast at Club Serena, I found that almost everyone was so exhausted after the previous day's march, that even the morning yoga hadn't happened.

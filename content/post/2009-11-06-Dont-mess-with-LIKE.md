@@ -3,7 +3,7 @@ Title: "Don't mess with LIKE"
 Series: ["Common mistakes of Oracle programmers"]
 Date: 2009-11-06
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 aliases:
   - /2009/11/dont-mess-with-like.html

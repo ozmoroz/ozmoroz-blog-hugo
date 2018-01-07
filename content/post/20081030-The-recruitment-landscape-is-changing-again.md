@@ -2,7 +2,7 @@
 Title: The recruitment landscape is changing...again
 Date: 2008-10-30
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Slug: recruitment-landscape-is-changingagain
 aliases:
   - /2008/10/recruitment-landscape-is-changingagain.html

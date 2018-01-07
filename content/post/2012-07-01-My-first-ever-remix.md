@@ -2,7 +2,7 @@
 Title: My first ever remix
 Date: 2012-07-01
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Slug: my-first-ever-remix
 Summary: My first ever remix made for Composing and Producing Electronic Music course

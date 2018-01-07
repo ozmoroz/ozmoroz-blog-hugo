@@ -2,7 +2,7 @@
 Title: Databases matter
 Date: 2011-11-24
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Slug: databases-matter
 Summary: Why every software developer needs to understand how databases work.
 aliases:

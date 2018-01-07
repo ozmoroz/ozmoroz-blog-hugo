@@ -3,7 +3,7 @@ Title: "Mocking same module ES6 dependencies"
 Series: ["Mocking ES6 module dependencies"]
 Date: 2017-10-16
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [javascript]
 Slug: mocking-es6-dependencies-3
 aliases:

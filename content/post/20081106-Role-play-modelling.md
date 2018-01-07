@@ -2,7 +2,7 @@
 Title: Role play modelling
 Date: 2008-11-06
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Slug: role-play-modelling
 aliases:
   - /2008/11/role-play-modelling.html

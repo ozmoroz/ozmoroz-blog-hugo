@@ -2,7 +2,7 @@
 Title: "Composing and producing electronic music: week 2"
 Date: 2012-07-08
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [music_production]
 Slug: composing-and-producing-electronic
 Summary: How I made a drum groove from Amen Break for second week's assignment of Composing and Producing Electronic Music course.

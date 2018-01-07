@@ -2,7 +2,7 @@
 Title: Road Ahead
 Date: 2016-09-12
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [career]
 images: ["/images/road_ahead.jpg"]
 alias:

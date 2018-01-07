@@ -3,7 +3,7 @@ Title: "Date conversion in Oracle part 2"
 Series: ["Common mistakes of Oracle programmers"]
 Date: 2009-05-18
 Author: Sergey Stadnik
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 Slug: Date-conversion-in-Oracle-part-2
 aliases:

@@ -2,7 +2,7 @@
 Title: Quest for the perfect reader is almost over
 Date: 2009-09-09
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [gadgets]
 Slug: quest-for-perfect-reader-is-almost-over
 aliases:

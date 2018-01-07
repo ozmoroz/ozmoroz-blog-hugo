@@ -2,7 +2,7 @@
 Title: A new chapter
 Date: 2015-09-24
 Author: Sergey Stadnik
-Category: lifestyle
+categories: ["lifestyle"]
 Tags: [career]
 aliases:
   - /2015/09/a-new-chapter.html

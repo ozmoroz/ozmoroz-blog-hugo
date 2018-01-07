@@ -2,7 +2,7 @@
 Title: Show information about Oracle sessions
 slug: show-oracle-sessions
 Date: 2015-01-20
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 Author: Sergey Stadnik
 Summary: An SQL script which shows information about Oracle sessions.

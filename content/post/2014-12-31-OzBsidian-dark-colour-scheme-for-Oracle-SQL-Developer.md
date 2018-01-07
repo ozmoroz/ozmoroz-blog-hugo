@@ -2,7 +2,7 @@
 Title: OzBsidian colour scheme for Oracle SQL Developer
 slug: ozbsidian-dark-colour-scheme-for-oracle
 Date: 2014-12-31
-Category: technology
+categories: ["technology"]
 Tags: [oracle]
 Author: Sergey Stadnik
 aliases:
