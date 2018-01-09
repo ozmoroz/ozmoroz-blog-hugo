@@ -7,5 +7,9 @@
 			"path": "themes/hugo-theme-bootstrap4-blog"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"[html]": {
+			"editor.formatOnSave": false
+		}
+	}
 }
