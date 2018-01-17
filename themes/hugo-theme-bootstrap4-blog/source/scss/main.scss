@@ -59,18 +59,33 @@ h6,
 // }
 
 /* Navbar */
-// .navbar {
-//   padding: 0 0.5rem 0 0.5rem;
-// }
+.navbar {
+  padding: 0 1rem;
+}
 
 /* Nav links */
-// .nav-link {
-//   padding-top: 1rem;
-//   padding-bottom: 1rem;
-// }
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+
+  @media (max-width: 767.99px) {
+    padding: 0.5rem;
+
+    &:last-of-type {
+      margin-bottom: 1rem;
+    }
+  }
+  @media (min-width: 768px) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 
 .nav-link.active {
   background-color: #1a242f;
+}
+
+.navbar-toggler {
+  margin: 0.4rem 0;
 }
 
 // .nav-link {

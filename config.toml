@@ -54,6 +54,7 @@ paginate = 5
 [params]
   # Site author
   author = "Sergey Stadnik"
+  brand = "Sergey Stadnik" # Site's brand banner
 
   # Description/subtitle for homepage (can be Markdown)
   description = "Sergey Stadnik's blog"
