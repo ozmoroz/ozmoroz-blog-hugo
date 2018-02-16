@@ -72,7 +72,9 @@
     </li>
     {{ end }}
   </ul>
-  {{ end }}
+  {{ end }}  
+
+  {{ partial "series-index.html" . }}
 
   {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
   <hr>
