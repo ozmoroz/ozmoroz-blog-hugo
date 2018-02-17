@@ -9,25 +9,27 @@
     {{ end }}
   {{end}}    
 
-  <h4>Part {{ add $articleIndex 1 }} of series "{{$seriesName}}"</h4>
+  <section class="related-posts">
+    <h4>Part {{ add $articleIndex 1 }} of series "{{$seriesName}}"</h4>
 
-  {{ $previousArticles := where $series.Pages.ByDate ".Date.Unix" "lt" .Date.Unix }}
-  {{ if gt (len $previousArticles) 0 }}
-    <h5>Previous articles</h5>
-    <ul>
-      {{range $previousArticles}}
+    {{ $previousArticles := where $series.Pages.ByDate ".Date.Unix" "lt" .Date.Unix }}
+    {{ if gt (len $previousArticles) 0 }}
+      <h5>Previous articles</h5>
+      <ul>
+        {{range $previousArticles}}
+          <li><a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+    {{ $nextArticles := where $series.Pages.ByDate ".Date.Unix" "gt" .Date.Unix }}
+    {{ if gt (len $nextArticles) 0 }}
+      <h5>Next articles</h5>
+      <ul>
+      {{ range $nextArticles }}
         <li><a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
       {{ end }}
-    </ul>
-  {{ end }}
-
-  {{ $nextArticles := where $series.Pages.ByDate ".Date.Unix" "gt" .Date.Unix }}
-  {{ if gt (len $nextArticles) 0 }}
-    <h5>Next articles</h5>
-    <ul>
-    {{ range $nextArticles }}
-      <li><a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
+      </ul>
     {{ end }}
-    </ul>
-  {{ end }}
+  </section>
 {{ end }}  

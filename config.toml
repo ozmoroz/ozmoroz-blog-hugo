@@ -18,13 +18,13 @@ paginate = 5
   category = "categories"
   series = "series"
 
-[[menu.sidebar]]
-  name = "Link 1"
-  url = "https://ozmoroz.com"
+# [[menu.sidebar]]
+#   name = "Link 1"
+#   url = "https://ozmoroz.com"
 
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://ozmoroz.com"
+# [[menu.sidebar]]
+#   name = "Link 2"
+#   url = "https://ozmoroz.com"
 
 # custom navbar menu entry.   See the custom_navbar parameter below for
 # details.
@@ -97,12 +97,12 @@ paginate = 5
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
 
-  [params.sidebar]
+  # [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+    # about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
 
     # How many posts to show on the sidebar (Default: 5)
-    #num_recent_posts = 2
+    # num_recent_posts = 5
 
   [params.social]
     # Optional, used for attribution in Twitter cards (ideally not a person

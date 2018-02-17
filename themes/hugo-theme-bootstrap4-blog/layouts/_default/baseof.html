@@ -77,7 +77,9 @@
 
         </div> {{ "<!-- /.blog-main -->" | safeHTML }}
 
-        {{ partial "sidebar.html" . }}
+        {{ if .Site.Params.sidebar}}
+          {{ partial "sidebar.html" . }}
+        {{ end }}
 
       </div> {{ "<!-- /.row -->" | safeHTML }}
     </div> {{ "<!-- /.container -->" | safeHTML }}
