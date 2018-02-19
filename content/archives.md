@@ -1,6 +1,6 @@
 ---
 title: "Blog Index"
-type: archives-type
+type: archives
 aliases:
   - /archives.html
 ---
