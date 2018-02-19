@@ -40,7 +40,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav">
+            <div class="navbar-nav mr-auto">
               {{/* <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a> */}}
               {{- $currentURL := .URL | absLangURL -}}
               {{ if .Site.Params.custom_navbar }}
@@ -54,6 +54,11 @@
                   <a class="nav-link{{ if eq $permalinkURL $currentURL }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
                 {{ end }}
               {{ end }}
+            </div>
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link float-right" href="/archives/">
+                <i class="fa fa-th-list" style="margin-right: 0.5rem"aria-hidden="true"></i><span class="icon-label">Archives</span>
+              </a>
             </div>
           </div>
         </nav>

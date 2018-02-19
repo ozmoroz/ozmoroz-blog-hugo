@@ -7,7 +7,7 @@ url: about/
 slug: "about"
 ---
 
-![Sergey's photo]({filename}/images/sergey_stadnik.jpg)
+![Sergey's photo](/images/sergey_stadnik.jpg)
 
 I am a software developer living in Melbourne, Australia.
 
@@ -90,7 +90,9 @@ When I’m not busy coding, hacking, tweaking and fiddling with computers, I can
 
 ## Social ##
 
-![LinkedIn icon]({filename}/images/In-2C-21px-TM.png){.inline}[  LinkedIn Profile](http://au.linkedin.com/in/sergeystadnik)<br>
-![Twitter icon]({filename}/images/twitter_32.png){.inline}[@stadniks](https://twitter.com/stadniks)
+<ul class="list-unstyled">
+  <li><img alt="LinkedIn icon" style="display: inline-block" src="/images/In-2C-21px-TM.png"><a href="http://au.linkedin.com/in/sergeystadnik">  LinkedIn Profile</a></li>
+  <li><img alt="Twitter icon" style="display: inline-block" src="/images/twitter_32.png"><a href="https://twitter.com/stadniks">@stadniks</a><br></li>
+</ul>
 
 Have anything to say? Send me an email at <sergey@ozmoroz.com>.
