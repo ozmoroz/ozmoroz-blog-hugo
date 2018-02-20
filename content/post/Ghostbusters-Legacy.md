@@ -11,8 +11,9 @@ Sometimes I see dreams which are like movies: they are vivid, bright and clear. 
 Here is another one. I am not a writer. If anyone wants to take this and turn it into a work of art, be my guest. Just let me know.
 Here we go...
 
-**It's been 27 years since the original Ghostbusters saved New York City from Vigo.**
 <!-- more -->
+
+**It's been 27 years since the original Ghostbusters saved New York City from Vigo.**
 
 An organisation called The Legacy fights a new threat - humans possessed by ghosts. That combination makes those creatures extremely violent and dangerous. The technology developed by the Ghostbusters seems to have been lost: long gone are the proton blasters and high-tech traps. Members of The Legacy go into their battles armed with swords, crossbows and guns (Walking Dead - style).
 
