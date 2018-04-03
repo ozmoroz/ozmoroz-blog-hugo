@@ -17,15 +17,16 @@ My core professional specialities are front-end web development and Oracle datab
 ## My technical competencies
 
 - Programming Languages: Javascript, C / C++, Python, Perl, Java, C#, UNIX Shell Scripting, SQL, PL/SQL
-  - Core web skills: HTML5, CSS3, XML, XSLT, Sass, Less
-  - UI Frameworks: Bootstrap, AngularJS, React with Redux
-  - Mobile Frameworks: Apache Cordova, Ionic
-  - Backend Frameworks: Node.JS, Express, Loopback / Strongloop
-  - Databases: MySql, PostgreSQL, MongoDB, Microsoft SQL Server, Oracle
-  - Build tools: NPM, Yarn, Grunt, Gulp, Bower, Yeoman, Webpack
-  - Testing Frameworks: Jasmine, Mocha, Sinon, Enzyme
-  - Version Control: Git, TFS, cvs, svn
-  - Cloud platforms: AWS, RedHat OpenShift
+- Core web skills: HTML5, CSS3, XML, XSLT, Sass, Less
+- UI Frameworks: React, Redux, AngularJS, Bootstrap, Rebass
+- Mobile Frameworks: Apache Cordova, Ionic
+- Backend Frameworks: Node.JS, Express, Loopback / Strongloop
+- Databases: MySql, PostgreSQL, MongoDB, Microsoft SQL Server, Oracle
+- Build & deployment tools: Npm, Grunt, Gulp, Bower, Yeoman, Webpack, Docker
+- CI & CD:	Jenkins, Travis, TeamCity
+- Testing Frameworks: Jasmine, Mocha, Jest, Chai, Sinon, Enzyme, Cypress.io
+- Version Control: Git, TFS, cvs, svn
+- Cloud platforms: AWS, RedHat OpenShift
 
 ## My core business domain skills
 - Retail
