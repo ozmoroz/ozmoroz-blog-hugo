@@ -1,6 +1,5 @@
 ---
 Title: About me
-Date: 2017-10-14
 Author: Sergey Stadnik
 type: Page
 url: about/

@@ -4,7 +4,6 @@ Menulabel: Now
 type: Page
 slug: "now"
 url: now/
-Date: 2017-11-28
 Author: Sergey Stadnik
 ---
 

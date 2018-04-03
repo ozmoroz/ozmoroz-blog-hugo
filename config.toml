@@ -8,6 +8,7 @@ paginate = 5
 copyright = "© 2018 Sergey Stadnik. Powered by [Hugo](https://gohugo.io/)"
 googleAnalytics = "UA-5940328-2"
 disqusShortname = "ozmorozcom"
+enableGitInfo = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
