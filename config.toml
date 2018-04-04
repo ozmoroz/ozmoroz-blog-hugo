@@ -1,6 +1,6 @@
 baseURL = "https://ozmoroz.com/"
 languageCode = "en-us"
-# title = "Sergey Stadnik's blog"
+title = "Sergey Stadnik's blog"
 theme = "hugo-theme-bootstrap4-ozmoroz"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
