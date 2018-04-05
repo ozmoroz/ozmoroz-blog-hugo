@@ -82,7 +82,8 @@ serve:
 
 publish:
 	#rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
-	rsync -e "ssh" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude --checksum
+	rsync -e "ssh" --progress -rvzc --checksum --delete \
+		$(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR)
 	$(BASEDIR)/publish.sh $(SSH_HOST) $(SSH_TARGET_DIR)
 
 .PHONY: help clean build_dev build_prod compress minify serve publish

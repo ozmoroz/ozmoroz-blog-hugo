@@ -5,7 +5,7 @@ Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [esk8]
 aliases:
-  - /ozmoroz.com/2017/09/my-midlife-crisis.html
+  - /2017/09/my-midlife-crisis.html
 ---
 
 <a href="https://lh3.googleusercontent.com/-zYYiD73B9eg/WbnmCByYiJI/AAAAAAAA3Jk/wna4Hvm_ldAF5A8XZ28-hqXat3VARhWnwCE0YBhgL/s720/20170820_160924.jpg"><img src="https://lh3.googleusercontent.com/-zYYiD73B9eg/WbnmCByYiJI/AAAAAAAA3Jk/wna4Hvm_ldAF5A8XZ28-hqXat3VARhWnwCE0YBhgL/s640/20170820_160924.jpg" alt="My new Evolve skateboard and I" /></a>
