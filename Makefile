@@ -3,6 +3,7 @@
 #  brotli (brew install brotli)
 #  devd (https://github.com/cortesi/devd/)
 #  minify (https://github.com/tdewolff/minify/tree/master/cmd/minify)
+#  ngrok (https://ngrok.com)
 
 BROTLI=/usr/local/bin/brotli
 DEVD=devd
@@ -34,8 +35,7 @@ help:
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make build_dev                   build dev site (w/o minification)  '
 	@echo '   make build_prod                  build prod site (with minification) '
-	@echo '   make serve_dev                   serve development web site         '
-	@echo '   make serve_prod                  serve production web site          '
+	@echo '   make serve                       serve web site from public directory '
 	@echo '   make publish                     publish to ozmoroz.com             '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 build_dev'
@@ -75,13 +75,9 @@ compress:
 minify:
 	minify -r -o $(OUTPUTDIR) --match=\.html $(OUTPUTDIR)
 
-# Start Hugo development server (without minification)
-serve_dev:
-	$(HUGO) --cleanDestinationDir --contentDir $(CONTENTDIR) --destination $(OUTPUTDIR) --config $(CONFFILE) $(HUGOOPTS) serve
-
-# Start Hugo production server (with minification and compression)
-serve_prod:
-	$(DEVD) --port=$(PORT) $(OUTPUTDIR)
+# Serve Hugo seb site with devd, allow CORS for tools such as ngrok
+serve:
+	$(DEVD) --port=$(PORT) $(OUTPUTDIR) --crossdomain
 
 
 publish:
@@ -89,4 +85,4 @@ publish:
 	rsync -e "ssh" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude --checksum
 	$(BASEDIR)/publish.sh $(SSH_HOST) $(SSH_TARGET_DIR)
 
-.PHONY: help clean build_dev build_prod compress minify serve_dev serve_prod publish
+.PHONY: help clean build_dev build_prod compress minify serve publish
