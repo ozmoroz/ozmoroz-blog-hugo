@@ -6,7 +6,7 @@ url: about/
 slug: "about"
 ---
 
-![Sergey's photo](/images/sergey_stadnik.jpg)
+<img srcset="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__ 1x,https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=800&auth=MTQ3OTcwMjgwOA__ 2x" src="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__" alt="Sergey Stadnik" />
 
 I am a software developer living in Melbourne, Australia.
 
