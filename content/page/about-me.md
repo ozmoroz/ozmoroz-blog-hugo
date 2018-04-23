@@ -4,6 +4,7 @@ Author: Sergey Stadnik
 type: Page
 url: about/
 slug: "about"
+Date: 2018-04-23
 ---
 
 <img srcset="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__ 1x,https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=800&auth=MTQ3OTcwMjgwOA__ 2x" src="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__" alt="Sergey Stadnik" />
