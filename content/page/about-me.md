@@ -4,7 +4,7 @@ Author: Sergey Stadnik
 type: Page
 url: about/
 slug: "about"
-Date: 2018-04-23
+Date: 2018-06-20
 ---
 
 <img srcset="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__ 1x,https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=800&auth=MTQ3OTcwMjgwOA__ 2x" src="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__" alt="Sergey Stadnik" />
@@ -17,8 +17,8 @@ My core professional specialities are front-end web development and Oracle datab
 
 ## My technical competencies
 
-- Programming Languages: Javascript, C / C++, Python, Perl, Java, C#, UNIX Shell Scripting, SQL, PL/SQL
-- Core web skills: HTML5, CSS3, XML, XSLT, Sass, Less
+- Programming Languages: Javascript, Typescript, C / C++, Python, Perl, Java, C#, UNIX Shell Scripting, SQL, PL/SQL
+- Core web skills: HTML5, CSS3, XML, XSLT, Sass, Less, Flow
 - UI Frameworks: React, Redux, AngularJS, Bootstrap, Rebass
 - Mobile Frameworks: Apache Cordova, Ionic
 - Backend Frameworks: Node.JS, Express, Loopback / Strongloop
@@ -30,11 +30,9 @@ My core professional specialities are front-end web development and Oracle datab
 - Cloud platforms: AWS, RedHat OpenShift
 
 ## My core business domain skills
-- Retail
 - Banking and Financial Services, Superannuation, Insurance, Margin Lending
+- Retail
 - Stock Trading, Wealth Management
-- ASX, CHESS, IRESS, NASDAQ OMX protocol, FIX protocol
-- SWIFT, payment systems
 
 ## What My Co-workers say about me
 
@@ -78,15 +76,11 @@ knowledge of Oracle PL/SQL and has experience with other languages. He is also p
 
 When I’m not busy coding, hacking, tweaking and fiddling with computers, I can be found
 
-- Working out in a gym
-- Doing yoga
+- [Building and flying quadcopters](/tags/multirotors/)
 - [Windsurfing](/tag/windsurfing.html)
+- Working out in a gym
 - Scuba diving or [freediving](/tag/freediving.html)<br>
-  _In fact, I am one of the founders of
-  [Melbourne Freediving Club](http://www.melbournefreedivers.org.au/)_
-- Racing remote control cars
 - [Writing electronic music](/tag/music_production.html)
-- I am also an [Aikido]( https://en.wikipedia.org/wiki/Aikido) _nidan_ (2nd-degree black belt)
 - And last but not the least, spending time with my family and enjoying life :-)
 
 ## Social ##
