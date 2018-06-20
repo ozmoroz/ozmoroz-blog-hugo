@@ -13,6 +13,28 @@ enableGitInfo = true
 pygmentsCodefences = "true"
 pygmentsStyle = "tango"
 
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
 [permalinks]
   post = "/:year/:month/:slug/"
   page = "/:slug/"
