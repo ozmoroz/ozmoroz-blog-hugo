@@ -17,6 +17,8 @@ Unfortunately, passing a parameter into an event handler in React is not straigh
 
 However, don't despair! I will show you how you can pass not even one, but multiple parameters into an `onClick` event handler. In fact, you can apply the same technique to _any_ React event handler. That approach is both easy to implement and has no performance impact.
 
+<!--more-->
+
 ### The solution for buttons
 
 The first thing you need to know is that `onClick` handler already receives a parameter. It is an **event** object. That object has many fields and methods, but the most important for us in this context is **currentTarget** field. That field is an object representing the DOM element **the event handler is attached to**. I.e. for `click` event it is the DOM element which has been clicked. `currentTarget`, too, has many fields and, to complicate the matter, that set of fields may be different for different DOM elements. For example, buttons and input elements have `value` field. Its value is set to the `value` attribute of the corresponding DOM node. Therefore, you can use it pass a value to the handler function: you just need to set the value of the DOM node and query it in the event handler:
