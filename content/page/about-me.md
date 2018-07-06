@@ -7,7 +7,7 @@ slug: "about"
 Date: 2018-06-20
 ---
 
-<img srcset="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__ 1x,https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=800&auth=MTQ3OTcwMjgwOA__ 2x" src="https://pixboost.com/api/2/img/https://ozmoroz-pub.s3.amazonaws.com/images/sergey_photo.jpg/resize?size=400&auth=MTQ3OTcwMjgwOA__" alt="Sergey Stadnik" />
+![My photo](/images/sergey_photo.jpg)
 
 I am a software developer living in Melbourne, Australia.
 
