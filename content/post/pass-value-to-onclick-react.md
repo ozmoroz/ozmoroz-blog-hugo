@@ -1,5 +1,5 @@
 ---
-Title: "How to pass a value to onClick handler in React js"
+Title: "How to pass a value to onClick event handler in React.js"
 Date: 2018-07-02
 Author: Sergey Stadnik
 categories: ["technology"]
