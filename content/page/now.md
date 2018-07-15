@@ -5,7 +5,7 @@ type: Page
 slug: "now"
 url: now/
 Author: Sergey Stadnik
-Date: 2018-06-20
+Date: 2018-07-25
 ---
 
 Here is what currently occupy my days.
@@ -16,10 +16,12 @@ I work as a Senior Front-End Developer at [Latitude Financial Services](https://
 
 ## At home
 
-- I am getting excited about the <a href="/tags/esk8.html">electric skateboarding</a>.
-- I am building [a new quadcopter]({{<ref "post/Armattan-tilr-r-part-1-the-beginning.md">}}) based on [Armattan Tilt-R](http://www.armattanquads.com/armattan-tilt-r/) frame. It will have the full autopilot features and capable of aerobatics.
 - Studying. I enrolled in [30x500 Academy](https://30x500.com/academy/) and slowly working my way through.
-- The books I'm reading: <a href="https://www.amazon.com/Without-Their-Permission-Century-Managed-ebook/dp/B00BAXFJ16">Without Their Permission: How the 21st Century Will Be Made, Not Managed</a> by Alexis Ohanian, [Crysis: Legion](https://www.amazon.com/dp/B004IPP8UA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) by  Peter Watts. I am a sucker for good science fiction.
-- The podcasts I am listening to:  <a href="https://www.fool.com/podcasts/motley-fool-money/">Motley Fool Money</a>, <a href="http://tmsidk.com/">Tell Me Something I Don't Know</a>, <a href="https://tim.blog/podcast/">The Tim Ferriss Show</a>, <a href="http://www.jamesaltucher.com/category/the-james-altucher-show/">The James Altucher Show</a>, <a href="https://radio-t.com/">Radio-T</a>.
+- [Building and flying remote-controlled quadcopters](/tags/multirotors/).
+- The books I'm reading:  
+[Why We Sleep. Unlocking the Power of Sleep and Dreams](http://www.simonandschuster.com/books/Why-We-Sleep/Matthew-Walker/9781501144325) by Matthew Walker,
+<a href="https://www.amazon.com/Without-Their-Permission-Century-Managed-ebook/dp/B00BAXFJ16">Without Their Permission: How the 21st Century Will Be Made, Not Managed</a> by Alexis Ohanian, [Crysis: Legion](https://www.amazon.com/dp/B004IPP8UA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) by  Peter Watts. I am a sucker for good science fiction.
+- The podcasts I am listening to:  
+[Akimbo - a podcast from Seth Godin](https://www.akimbo.me/), [Stacking the Bricks - Real Entrepreneur Confessions](https://stackingthebricks.com/podcast/), <a href="https://tim.blog/podcast/">The Tim Ferriss Show</a>, <a href="http://www.jamesaltucher.com/category/the-james-altucher-show/">The James Altucher Show</a>, <a href="https://radio-t.com/">Radio-T</a>.
 - Writing this blog.
-- Hanging out with my friends and family. Looking forward to the summer when I will be able to unpack my [windsurfing board](/tags/windsurfing.html).
+- Hanging out with my friends and family. Looking forward to the summer when I will be able to unpack my [windsurfing board](/tags/windsurfing/).
