@@ -5,7 +5,7 @@ type: Page
 slug: "now"
 url: now/
 Author: Sergey Stadnik
-Date: 2018-07-25
+Date: 2018-07-15
 ---
 
 Here is what currently occupy my days.
