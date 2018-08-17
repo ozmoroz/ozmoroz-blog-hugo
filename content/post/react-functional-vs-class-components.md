@@ -213,7 +213,7 @@ Open this [CodeSandbox](https://codesandbox.io/s/github/ozmoroz/react-functiona
 
 if you would like to receive helpful tips on React and Javascript like this one, enter your email into the box below to subscribe, and you'll get them in your inbox fresh out of the oven as soon as I publish them.
 
-## More helpful React tips:
+## Other helpful React tips:
 
 - [How to pass a value to `onClick` event handler in React.js](https://ozmoroz.com/2018/07/pass-value-to-onclick-react/)
 - [Mocking ES6 module dependencies with import * from](https://ozmoroz.com/2017/09/mocking-es6-dependencies-1/)
