@@ -11,6 +11,8 @@ React offers two ways to define components: they can be functional or class-base
 
 In this article I will help you understand the difference between functional and class-based components. You will know why you may prefer one over another.
 
+<!--more-->
+
 ### What are functional and class-based components?
 
 A functional component is a Javascript function that takes a single parameter or props object and returns a React component. The returned component then is rendered by React.
