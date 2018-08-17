@@ -18,7 +18,7 @@ THEMEDIR=$(BASEDIR)/themes/hugo-theme-bootstrap4-ozmoroz
 PORT=1313
 
 # SSH of ozmbox1 Degital Ocean box
-SSH_HOST=ozmbox1
+SSH_HOST="ozmbox1-1"
 #SSH_PORT=22
 #SSH_USER=sergey
 SSH_TARGET_DIR=/var/www/ozmoroz.com
