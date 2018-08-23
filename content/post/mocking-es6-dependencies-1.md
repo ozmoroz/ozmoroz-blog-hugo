@@ -131,3 +131,8 @@ Turns out, the content of modules imported via <code>import * as</code> <stron
 In [the next part of the series](../mocking-es6-dependencies-1.html), I will explore an alternative technique which can alleviate the above issue - mocking up Javascript module dependencies with [proxyquire](https://github.com/thlorenz/proxyquire).
 
 _The source code of the examples for this article can be downloaded from [my Github repository](https://github.com/ozmoroz/es6-unit-mockups)._
+
+## Other helpful React tips:
+
+- [How to pass a value to onClick event handler in React.js](/2018/07/pass-value-to-onclick-react/)
+- [What is the difference between functional and class-based React components?](/2018/08/react-functional-vs-class-components/)

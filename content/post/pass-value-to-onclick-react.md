@@ -107,3 +107,8 @@ That's it. Now you know how to pass multiple parameters into a React event handl
 If you liked this tutorial, and you want to read more, enter your email into the box below to subscribe, and I will send you a message as soon as I publish a new article.
 
 Thank you for reading.
+
+## Other helpful React tips:
+
+- [Mocking ES6 module dependencies with import * from](/2017/09/mocking-es6-dependencies-1/)
+- [What is the difference between functional and class-based React components?](/2018/08/react-functional-vs-class-components/)
