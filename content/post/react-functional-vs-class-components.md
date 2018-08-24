@@ -84,7 +84,7 @@ class MyHello extends React.Component {
   }
   componentWillUnmount() {
     // The component is about to be unmounted - clean up
-    ...abstract
+    ...
   }
   render() {
    ...
@@ -155,7 +155,7 @@ You may choose to derive your class-based component from `React.PureComponent` r
 // Class-based component derived from React.PureComponent
 class MyHello extends React.PureComponent {
   // All you need to do is to extend React.PureComponent
-  // instead od React.Component.
+  // instead of React.Component.
 
   render() {
     ...
