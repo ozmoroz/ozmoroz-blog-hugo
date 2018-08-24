@@ -183,7 +183,9 @@ These two techniques have a potential to improve your application performance. H
 
 then **you have to use class-based components just because function components don't have those features**.
 
-However, If your components do not require state, lifecycle methods, refs or advanced performance optimisation techniques then neither functional nor class-based components provide clear advantage one over another. In that case, it ultimately comes down to your preference or decision of your team. Some of the reasons why you may choose functional components over class-based include:
+However, If your components do not require state, lifecycle methods, refs or advanced performance optimisation techniques then neither functional nor class-based components provide clear advantage one over another. In that case, it ultimately comes down to your preference or decision of your team.
+
+Some of the reasons why you may choose functional components over class-based include:
 
 - You are on functional programming path and want to make as much of your code as possible functional,
 - You want your code look as *clean* as possible with a minimal boilerplate,
