@@ -5,10 +5,10 @@ DEVD=devd
 HUGO=hugo
 HUGOOPTS=
 
-BASEDIR=$(CURDIR)
+#BASEDIR=$(CURDIR)
 CONFFILE=config.toml
-CONTENTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/public
+#CONTENTDIR=$(BASEDIR)/content
+#OUTPUTDIR=$(BASEDIR)/public
 PORT=1313
 
 # SSH of ozmbox1 Degital Ocean box
@@ -36,8 +36,8 @@ help:
 # Build the web site
 build:
 	$(HUGO) --cleanDestinationDir \
-	#--baseURL $(BASEURL) \
-	--contentDir $(CONTENTDIR) --destination $(OUTPUTDIR) --config $(CONFFILE) $(HUGOOPTS) \
+	#--baseURL $(BASEURL) --contentDir $(CONTENTDIR) --destination $(OUTPUTDIR)
+	--config $(CONFFILE) $(HUGOOPTS) \
 	--minify
 
 clean:
