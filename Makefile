@@ -36,16 +36,16 @@ help:
 # Build the web site
 build:
 	$(HUGO) --cleanDestinationDir \
-	#--baseURL $(BASEURL) --contentDir $(CONTENTDIR) --destination $(OUTPUTDIR)
 	--config $(CONFFILE) $(HUGOOPTS) \
 	--minify
+	#--baseURL $(BASEURL) --contentDir $(CONTENTDIR) --destination $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 # Serve Hugo web site with devd, allow CORS for tools such as ngrok
 serve:
-	$(DEVD) --port=$(PORT) $(OUTPUTDIR) --crossdomain
+	$(DEVD) --port=$(PORT) ./public --crossdomain
 
 
 .PHONY: help clean serve publish
