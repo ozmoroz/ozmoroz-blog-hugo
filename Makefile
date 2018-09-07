@@ -37,7 +37,8 @@ help:
 build:
 	$(HUGO) --cleanDestinationDir \
 	#--baseURL $(BASEURL) \
-	--contentDir $(CONTENTDIR) --destination $(OUTPUTDIR) --config $(CONFFILE) $(HUGOOPTS)
+	--contentDir $(CONTENTDIR) --destination $(OUTPUTDIR) --config $(CONFFILE) $(HUGOOPTS) \
+	--minify
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
