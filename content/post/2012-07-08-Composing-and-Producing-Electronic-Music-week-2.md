@@ -66,7 +66,7 @@ Here’s final Amen Break in MIDI:
 
 <audio controls "controls" preload="none" name="CPEMS2 Sergey Amen Break MIDI">
     Your user agent does not support the HTML5 Audio element.
-	<source src="http://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey_Amen_Break_MIDI.mp3" type='audio/mpeg'>
+	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey_Amen_Break_MIDI.mp3" type='audio/mpeg'>
 </audio>
 
 Just to add a little variety I found a DnB an appropriate drum kit in
@@ -106,7 +106,7 @@ Here's the end result:
 
 <audio controls "controls" preload="none" name="CPEMS2 Sergey final groove">
     Your user agent does not support the HTML5 Audio element.
-	<source src="http://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey.mp3" type='audio/mpeg'>
+	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey.mp3" type='audio/mpeg'>
 </audio>
 
 That’s all for this assignment. If I had more time, I would program 1 or

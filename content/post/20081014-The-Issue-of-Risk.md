@@ -39,7 +39,7 @@ result is always the same - failure, or infinite slippage of the
 deadline, which is the same as a failure.
 And in every case the failure seemed to have been unexpected. It
 puzzled me - why could nobody predict it? And it happens over and over
-again. A few years ago I was a faithful reader of [The Daily WTF blog](http://thedailywtf.com/). Every day it published failure stories
+again. A few years ago I was a faithful reader of [The Daily WTF blog](https://thedailywtf.com/). Every day it published failure stories
 like the ones I witnessed. So, if we are so smart, why does it keep
 happening over and over again?
 

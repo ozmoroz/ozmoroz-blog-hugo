@@ -16,12 +16,12 @@ This is the original tune by [Loudon Stearns](http://loudonstearns.com/) (who te
 
 <audio controls "controls" preload="none">
 	Your user agent does not support the HTML5 Audio element.
-	<source src="http://ozmoroz-pub.s3.amazonaws.com/music/Sergey_CPEMS1.mp3" type='audio/mpeg'>
+	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Sergey_CPEMS1.mp3" type='audio/mpeg'>
 </audio>
 
 And here is my techno remix
 
 <audio controls "controls" preload="none" name="Sergey CPEMS1 techno remix">
 	Your user agent does not support the HTML5 Audio element.
-	<source src="http://ozmoroz-pub.s3.amazonaws.com/music/Sergey_CPEMS1_techno_remix.mp3" type='audio/mpeg'>
+	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Sergey_CPEMS1_techno_remix.mp3" type='audio/mpeg'>
 </audio>

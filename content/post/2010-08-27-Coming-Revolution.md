@@ -14,7 +14,7 @@ Soon a small black box will enter our living rooms, and that will
 change the way we spend time in front of TVs forever.  It will
 happen on Nov. 4, 2010, and the name of this phenomenon is Kinect.
 
-![Microsoft Kinect](http://lh6.ggpht.com/_DtpewJgJY78/THPKkrt8uPI/AAAAAAAADSw/8l7vTJ32LpA/s800/kinect.jpg)
+![Microsoft Kinect](https://lh6.ggpht.com/_DtpewJgJY78/THPKkrt8uPI/AAAAAAAADSw/8l7vTJ32LpA/s800/kinect.jpg)
 
 In my student days I was an avid gamer and has played virtually all
 "big" games that came out for  PC, luckily for me those days it

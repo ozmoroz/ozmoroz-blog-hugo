@@ -19,8 +19,8 @@ changed forever.
 
 I am myself of a younger generation, and looking for a job for me was
 never associated with newspapers. When I look for a job, I go to a web
-sites such as [Seek](http://seek.com.au/) or
-[Monster.com](http://www.monster.com/) and search there. I take it as a given
+sites such as [Seek](https://seek.com.au/) or
+[Monster.com](https://www.monster.com/) and search there. I take it as a given
 that all the jobs I may be interested in are posted there, either
 directly of through recruitment agents.
 This approach is more convenient for both job advertisers and seekers,
@@ -34,8 +34,7 @@ proportional to the square of participants, the probability of "getting
 connected" through a large job web site is much higher than through a
 small one. Thus, size does matter. Indeed, if I want to find a job,
 the first thing I do is look at the largest local job site because this
-is where most jobs are, much like [Willie Sutton](http://www.fbi.gov/libref/historic/famcases/sutton/sutton.htm) robbing banks "Because that's where
-the money is".
+is where most jobs are, much like [Willie Sutton](https://www.fbi.gov/libref/historic/famcases/sutton/sutton.htm) robbing banks "Because that's where the money is".
 
 But that is changing too.
 

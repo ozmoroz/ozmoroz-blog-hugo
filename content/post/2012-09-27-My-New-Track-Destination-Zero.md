@@ -14,7 +14,7 @@ Writing this track was my last assignment for Berklee's Online
 
 <audio name="Destination Zero" controls "controls" preload="none">
     Your user agent does not support the HTML5 Audio element.
-	<source src="http://ozmoroz-pub.s3.amazonaws.com/music/Destination_Zero.mp3" type='audio/mpeg'>
+	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Destination_Zero.mp3" type='audio/mpeg'>
 </audio>
 
-<a href="http://ozmoroz-pub.s3.amazonaws.com/music/Destination_Zero.mp3" download target="_blank">Download the track</a>
+<a href="https://ozmoroz-pub.s3.amazonaws.com/music/Destination_Zero.mp3" download target="_blank">Download the track</a>

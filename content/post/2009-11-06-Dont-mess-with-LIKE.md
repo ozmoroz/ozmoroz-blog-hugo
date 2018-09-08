@@ -12,8 +12,8 @@ aliases:
 As I have [already shown](../../2009/05/Date-conversions-in-Oracle.html) you, implicit type conversion is one of the most dangerous features of Oracle SQL and PL/SQL. It is dangerous because it happens automatically without your knowledge and may lead to unpredictable results. These problems are most common when dealing with DATE conversions, but not limited to them.
 
 For example, let's have a look at this [Stackoverflow.com
-question](http://stackoverflow.com/questions/1676064/) by [James
-Collins](http://stackoverflow.com/users/143194/james-collins).
+question](https://stackoverflow.com/questions/1676064/) by [James
+Collins](https://stackoverflow.com/users/143194/james-collins).
 James had a problem, the following query was slow:
 
 {{<highlight sql>}}
