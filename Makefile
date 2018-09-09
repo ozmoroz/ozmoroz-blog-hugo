@@ -5,17 +5,17 @@ DEVD=devd
 HUGO=hugo
 HUGOOPTS=
 
-#BASEDIR=$(CURDIR)
+BASEDIR=$(CURDIR)
 CONFFILE=config.toml
-#CONTENTDIR=$(BASEDIR)/content
-#OUTPUTDIR=$(BASEDIR)/public
+CONTENTDIR=$(BASEDIR)/content
+OUTPUTDIR=$(BASEDIR)/public
 PORT=1313
 
 # SSH of ozmbox1 Degital Ocean box
-# SSH_HOST="ozmbox1-1"
-# SSH_PORT=22
-# SSH_USER=sergey
-# SSH_TARGET_DIR=/var/www/ozmoroz.com
+SSH_HOST="ozmbox1-1"
+SSH_PORT=22
+SSH_USER=sergey
+SSH_TARGET_DIR=/var/www/ozmoroz.com
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -29,6 +29,7 @@ help:
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make build\					   biild production site              '
 	@echo '   make serve                       serve web site from public directory '
+	@echo '   make publish                     publish to ozmoroz.com
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 build_dev'
 	@echo '                                                                       '
@@ -46,6 +47,12 @@ clean:
 # Serve Hugo web site with devd, allow CORS for tools such as ngrok
 serve:
 	$(DEVD) --port=$(PORT) ./public --crossdomain
+
+publish:
+	rsync -e "ssh" --progress -rvzc --checksum --delete \
+		$(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR)
+	# Set remote flies permissions
+	$(BASEDIR)/publish.sh $(SSH_HOST) $(SSH_TARGET_DIR)
 
 
 .PHONY: help clean serve publish
