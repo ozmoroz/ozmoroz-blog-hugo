@@ -1,4 +1,4 @@
-baseURL = "https://ozmoroz.netlify.com/"
+baseURL = "https://ozmoroz.com/"
 relativeURLs = true
 languageCode = "en-us"
 title = "Sergey Stadnik's blog"
