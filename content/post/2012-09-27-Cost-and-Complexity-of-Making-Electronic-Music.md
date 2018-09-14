@@ -6,8 +6,6 @@ categories: ["lifestyle"]
 Tags: [music_production]
 Slug: cost-and-comlexity-of-making-electronic
 Summary: Does making electronic music has to be as complex and expensive as it is?
-aliases:
-  - /2012/09/cost-and-comlexity-of-making-electronic.html
 ---
 
 ![Piano Laptop](/images/2012-09-27_piano_laptop.jpg)

@@ -4,8 +4,6 @@ Date: 2009-10-02
 Author: Sergey Stadnik
 categories: ["technology"]
 Slug: make-it-beautiful
-aliases:
- -- /2009/10/make-it-beautiful.html
 ---
 
 You only need a single look at Sydney Opera House to recognise that it

@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-7
 Summary: On that day Julia planned filming her TV project. On the reef near Pescador Island, where we dived a few days earlier, was an arch in the reef under the water – "The Cathedral". The arch's entry was at 18 meters depth, and the exit at 28. Julia wanted to film herself and few other freedivers swimming through the arch.
-aliases:
-  - /2011/02/freediving-in-philippines-day-7.html
 ---
 
 On that day Julia planned filming her TV project. On the reef near

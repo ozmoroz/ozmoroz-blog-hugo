@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-6
 Summary: Having arrived, as usual, at 10 a.m. after breakfast at Club Serena, I found that almost everyone was so exhausted after the previous day's march, that even the morning yoga hadn't happened.
-aliases:
-  - /2011/02/freediving-in-philippines-day-6.html.html
 ---
 
 Having arrived, as usual, at 10 a.m. after breakfast at Club Serena, I

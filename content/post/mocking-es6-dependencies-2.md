@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript]
 Slug: mocking-es6-dependencies-2
-aliases:
-  - /2017/09/mocking-es6-dependencies-2.html
 ---
 
 In <a href="../../../2017/09/mocking-es6-dependencies-1.html">part one</a>, I wrote about mocking ES6 module dependencies using the ES6 native <code>import * from</code> construct. It works mostly fine. However, you need to be aware of a potential issue:

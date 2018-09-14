@@ -5,8 +5,6 @@ Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [music_production]
 Slug: music-production-for-masses-ios-to
-aliases:
-  - /2013/01/music-production-for-masses-ios-to.html
 ---
 
 Some time ago [I wrote](../../2012/09/cost-and-comlexity-of-making-electronic.html)

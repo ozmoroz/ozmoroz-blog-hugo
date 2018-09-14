@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript]
 Slug: mocking-es6-dependencies-1
-aliases:
-  - /2017/09/mocking-es6-dependencies-1.html
 ---
 
 Not so long ago I faced a problem: I needed to mock ES6 module’s dependencies for unit testing. The reason for mocking dependencies in unit tests is the following: when I write a unit test, I want to test the functionality of a single unit of code, hence a unit test. However, if a module has any dependencies, those dependencies need be satisfied. That may mean importing and executing code in other modules. As a result, the unit test loses its _purity_ – the test results will depend not only on the module I’m focusing on but also on the other code my module depends on.

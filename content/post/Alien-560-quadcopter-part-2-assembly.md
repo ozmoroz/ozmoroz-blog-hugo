@@ -5,8 +5,6 @@ Date: 2016-09-25
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [multirotors]
-aliases:
-  - /2016/09/alien-560-quadcopter-build-part-2-assembly.html
 ---
 
 Unlike a conventional helicopter, a multirotor aircraft contains very few moving parts: no gears, no swash plates, no contrarotating propellers. It only has motors directly driving propellers, and that's it. So there was no complex mechanics to assemble. The frame was probably the most complicated bit. The Alien 560 frame consists of a couple of dozen carbon fibre plates which need to be screwed together by a hundred or so tiny screws.

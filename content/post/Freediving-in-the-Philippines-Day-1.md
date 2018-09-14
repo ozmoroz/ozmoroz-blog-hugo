@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-diary-of
 Summary: Day 1 of my freediving adventure in the Philippines
-aliases:
-  - /2011/01/freediving-in-philippines-diary-of.html
 ---
 
 *In March 2010 I went to Cebu Island of the Philippines with a group of

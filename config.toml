@@ -8,7 +8,7 @@ paginate = 5
 # optionally override the site's footer with custom copyright text
 copyright = "© 2018 Sergey Stadnik. Powered by [Hugo](https://gohugo.io/)"
 googleAnalytics = "UA-5940328-2"
-#disqusShortname = "ozmorozcom"
+disqusShortname = "ozmorozcom"
 enableGitInfo = true
 # Syntax highlighting settings
 pygmentsCodefences = "true"

@@ -6,8 +6,6 @@ categories: ["lifestyle"]
 Tags: [gadgets]
 Slug: coming-revolution
 Summary: "Microsoft Kinect is coming, and it is awesome."
-aliases:
-  - /2010/08/coming-revolution.html
 ---
 
 Soon a small black box will enter our living rooms, and that will

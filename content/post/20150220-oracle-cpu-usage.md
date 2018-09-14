@@ -5,8 +5,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [oracle]
 Slug: oracle-cpu-usage
-aliases:
-  - /2015/02/oracle-cpu-usage.html
 ---
 
 Identifying sessions consuming CPU time is a common task in Oracle performance tuning. However, as simple as it sounds, it is not that straightforward. Oracle recommends using [Enterprise Manager](http://www.oracle.com/technetwork/oem/grid-control/documentation/oem-091904.html) or [Automatic Workload Repository](http://oracle-base.com/articles/10g/automatic-workload-repository-10g.php) for that. The problem is that in real-life situations Enterprise Manager is often not installed, or you may not have access to it. You may not also have necessary privileges to run AWS. Besides, running AWS reports for such a simple task sounds like overkill.

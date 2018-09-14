@@ -4,8 +4,6 @@ Date: 2008-10-30
 Author: Sergey Stadnik
 categories: ["technology"]
 Slug: recruitment-landscape-is-changingagain
-aliases:
-  - /2008/10/recruitment-landscape-is-changingagain.html
 ---
 
 A few days ago I went to a presentation by an Oracle recruiter. He

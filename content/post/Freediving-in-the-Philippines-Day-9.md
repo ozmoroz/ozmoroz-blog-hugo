@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-9
 Summary: The AIDA certification test and my deepest dive.
-aliases:
-  - /2011/02/freediving-in-philippines-day-9
 ---
 
 I began the day with a remarkable feat – I got up early and went to

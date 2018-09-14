@@ -5,8 +5,6 @@ Date: 2016-09-23
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [multirotors]
-aliases:
-  - /2016/09/alien-560-quadcopter-build-part-1-parts.html
 ---
 
 When I was at school, I was an electronics geek. I was spending days in a library looking for schematics of AM radios and circuits of blinking lights and beeping sounds, and then long evenings in an electronics club trying to solder them together. Unfortunately, none of the stuff I built ever worked properly: radios received only static, lights blinked out of order, and beepers screaked. But most of all I was obsessed with remote control models.

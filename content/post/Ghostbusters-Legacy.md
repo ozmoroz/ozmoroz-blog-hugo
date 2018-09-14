@@ -3,8 +3,6 @@ Title: "Ghostbusters: Legacy"
 Date: 2017-09-05
 Author: Sergey Stadnik
 categories: ["lifestyle"]
-aliases:
- - /2017/09/ghostbusters-legacy.html
 ---
 
 Sometimes I see dreams which are like movies: they are vivid, bright and clear. It doesn't happen often, but whenever it does, I rush to write them down first thing in the morning before I forget them.

@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [linux]
 Summary: How to make eth0 autostart on Oracle Linux.
-aliases:
-  - /2012/10/troubleshooting-eth0-in-oracle-linux.html
 ---
 
 A few days ago I installed Oracle Linux in an Oracle VirtualBox VM. Once it was installed I found that eth0 interface wasn't starting upon boot.

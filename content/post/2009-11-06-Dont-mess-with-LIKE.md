@@ -5,8 +5,6 @@ Date: 2009-11-06
 Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [oracle]
-aliases:
-  - /2009/11/dont-mess-with-like.html
 ---
 
 As I have [already shown](../../2009/05/Date-conversions-in-Oracle.html) you, implicit type conversion is one of the most dangerous features of Oracle SQL and PL/SQL. It is dangerous because it happens automatically without your knowledge and may lead to unpredictable results. These problems are most common when dealing with DATE conversions, but not limited to them.

@@ -4,8 +4,6 @@ Date: 2011-02-14
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Slug: make-it-happen
-aliases:
-  - /2011/02/make-it-happen.html
 ---
 
 [Jason Fitzpatrick](http://lifehacker.com/people/jfitzpatrick/) left [Lifehacker](http://lifehacker.com). Here's what he has to say:

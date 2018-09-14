@@ -4,8 +4,6 @@ Date: 2015-09-17
 Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [gadgets]
-aliases:
-  - /2015/09/a-new-chapter.html
 ---
 
 I really like my [OnePlus One](https://oneplus.net/one) phone. It is an exemplary engineering achievement proving that it is possible to design a mobile phone as powerful as leading brand’s flagship models but costing half of their price.

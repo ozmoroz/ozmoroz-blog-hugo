@@ -3,8 +3,6 @@ Title: "James Sinegal: Costco’s Winning Formula"
 Date: 2015-09-16
 Author: Sergey Stadnik
 categories: ["lifestyle"]
-aliases:
-  - /2015/09/james-sinegal-costcos-winning-formula.html
 ---
 
 [Jim Sinegal](https://en.wikipedia.org/wiki/James_Sinegal), co-founder and former CEO of Costco, is one of the most influential business leaders of our time. [Motley Fool]( http://www.fool.com/) recently recorded an interview with him, ["Costco’s Winning Formula"]( http://fool.libsyn.com/costcos-winning-formula). The whole conversation is packed with wisdom. But one quote caught my particular attention:

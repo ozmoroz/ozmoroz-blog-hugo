@@ -4,8 +4,6 @@ Date: 2015-09-24
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [career]
-aliases:
-  - /2015/09/a-new-chapter.html
 ---
 
 Today I was informed that my position was made redundant. I have been here for 3 years and I enjoyed it, but it will soon be over, and I will be on the market again looking for new job. I am a bit disappointed but other than that I’m fine – I’ve been through that before. When something ends, it also manifests a beginning of a new chapter. There is no use to obsess over what has already happened. Instead I need to look into the future and decide what I am going to do next.

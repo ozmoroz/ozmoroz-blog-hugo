@@ -6,8 +6,6 @@ categories: ["lifestyle"]
 Tags: [music_production]
 Author: Sergey Stadnik
 Summary: How to record the output of one MIDI track (for example, arpeggiator’s output) into another MIDI track in FL Studio.
-aliases:
-  - /2014/11/midi-routing-in-fl-studio-via-midi.html
 ---
 
 This tutorial explains how to record the output of one MIDI track (for example, arpeggiator’s output) into another MIDI track.

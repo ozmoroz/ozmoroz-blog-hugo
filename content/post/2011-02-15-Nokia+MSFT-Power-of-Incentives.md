@@ -5,8 +5,6 @@ Author: Sergey Stadnik
 categories: ["lifestyle"]
 Slug: nokiamsft-power-of-incentives
 Summary: "Considering that the present Nokia's CEO Stephen Elop is one of the largest individual shareholders of 	Microsoft, no wonder they tied a knot."
-aliases:
-  - /2011/02/nokiamsft-power-of-incentives.html
 ---
 
 Considering that the present Nokia's CEO Stephen Elop is one of the

@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-3
 Summary: The next day, having arrived at Club Serena at 8 am, I discovered that the yoga had already started. I asked, and it turned out it started at 6:15. Oops! We agreed that I would come at 10 and I went "home" for breakfast.
-aliases:
-  - /2011/01/freediving-in-philippines-day-3.html
 ---
 
 The next day, having arrived at Club Serena at 8 am, I discovered that

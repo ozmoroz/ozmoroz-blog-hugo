@@ -5,8 +5,6 @@ Author: Sergey Stadnik
 categories: ["lifestyle"]
 tags: [music_production]
 Slug: my-new-track-neon-spark
-aliases:
-  - /2016/07/my-new-track-neon-spark.html
 ---
 
 I wrote another track - "Neon Spark". Here it is:

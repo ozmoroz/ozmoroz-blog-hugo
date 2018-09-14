@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript]
 Slug: mocking-es6-dependencies-3
-aliases:
-  - /2017/10/mocking-es6-dependencies-3.html
 ---
 
 There is a subtle issue for which, unfortunately, neither ES6 nor proxyquire provide a solution. It is well described in <a href="https://stackoverflow.com/a/41426098/10557">this stackoverflow.com answer</a>.

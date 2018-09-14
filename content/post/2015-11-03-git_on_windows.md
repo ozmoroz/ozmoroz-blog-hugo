@@ -3,8 +3,6 @@ Title: How to set up Git on Windows
 Date: 2015-11-03
 Author: Sergey Stadnik
 categories: ["technology"]
-aliases:
-  - /2015/11/how-to-set-up-git-on-windows/
 ---
 
 I finally found a way to set up Git on Windows in a way that it isn't painful to use. Here's how to do that:

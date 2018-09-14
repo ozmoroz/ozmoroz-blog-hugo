@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-4-part-2
 Summary: After the "static" we all went fin-swimming. The proper swimming technique is very important for a freediver because it allows him to push himself through the water column most optimally. I decided to try to swim in long freediving fins and borrowed a pair from a guy who had the same foot size as I have.
-aliases:
- -- /2011/01/freediving-in-philippines-day-4-part-2.html.html
 ---
 
 After the "static" we all went fin-swimming. The proper swimming

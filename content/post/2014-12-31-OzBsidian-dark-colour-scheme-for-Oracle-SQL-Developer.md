@@ -5,8 +5,6 @@ Date: 2014-12-31
 categories: ["technology"]
 Tags: [oracle]
 Author: Sergey Stadnik
-aliases:
-  - /2014/12/ozbsidian-dark-colour-scheme-for-oracle.html
 ---
 
 This is a spinoff of Obsidian colour scheme for Oracle SQL Developer. It is based on [Obsidian Eclipse colour scheme by Morinar](http://eclipsecolorthemes.org/?view=theme&id=21).

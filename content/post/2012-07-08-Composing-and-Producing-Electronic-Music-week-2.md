@@ -6,8 +6,6 @@ categories: ["lifestyle"]
 Tags: [music_production]
 Slug: composing-and-producing-electronic
 Summary: How I made a drum groove from Amen Break for second week's assignment of Composing and Producing Electronic Music course.
-aliases:
-  - /2012/07/composing-and-producing-electronic.html
 ---
 
 The assigmnent for week 2 of Composing and Producing Electronic Music

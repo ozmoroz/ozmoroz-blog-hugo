@@ -6,8 +6,6 @@ categories: ["lifestyle"]
 Slug: choosing-flight-controller
 Series: ["Building a small GPS drone"]
 Tags: [multirotors]
-aliases:
-  - /2017/11/why-i-want-autopilot.html
 ---
 
 ![Quadcopter](https://lh3.googleusercontent.com/-1HQcq8c4nPI/WkdMe4ga2pI/AAAAAAAA6H8/zh_5dpq3ZE0IqyvpH4UqO_4rSlCSozBXQCE0YBhgL/s800/pexels-photo-529599.jpeg)

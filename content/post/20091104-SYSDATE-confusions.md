@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [oracle]
 Slug: SYSDATE-confusions
-aliases:
-  - /2009/11/SYSDATE-confusions.html
 ---
 
 `SYSDATE` is one of the most commonly used Oracle functions. Indeed,

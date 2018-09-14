@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-11
 Summary: Our last day at the Philippines.
-aliases:
-  - /2011/02/freediving-in-philippines-day-11
 ---
 
 {{<figure src="https://lh3.googleusercontent.com/-Y3IMJYOiFbo/S5t3Op-gvrI/AAAAAAAADA8/giMPzZt6dyU/s960-Ic42/SDC11663.JPG" caption="A restaurant at \"Blue Orchid\"">}}

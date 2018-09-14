@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-4-part-1
 Summary: The day was long, so I broke it into 2 parts.
-aliases:
-  - /2011/01/freediving-in-philippines-day-4-part-1.html
 ---
 
 _The day was long, so I broke it into 2 parts._

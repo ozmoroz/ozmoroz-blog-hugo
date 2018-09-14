@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-10
 Summary: We are visiting Badian Island Resort.
-aliases:
-  - /2011/02/freediving-in-philippines-day-10
 ---
 
 Surprisingly, I did not have a hangover next morning. Either I did not

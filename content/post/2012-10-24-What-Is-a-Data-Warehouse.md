@@ -5,8 +5,6 @@ author: Sergey Stadnik
 categories: ["technology"]
 slug: what-is-data-warehouse
 Summary: What data warehouses are, how they are different from OLTP databases, and why we may want to use them.
-aliases:
-  - /2012/10/what-is-data-warehouse.html
 ---
 
 ![Data warehouse boxes](/images/2012-10-24_data_boxes.jpg)

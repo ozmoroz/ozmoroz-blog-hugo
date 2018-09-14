@@ -4,8 +4,6 @@ Date: 2009-07-26
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Slug: how-to-get-root-password
-aliases:
-  - /2009/07/how-to-get-root-password.html
 ---
 
 It's been a month since I started playing an involving adventure game

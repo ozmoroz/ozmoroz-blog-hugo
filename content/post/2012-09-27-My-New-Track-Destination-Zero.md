@@ -5,8 +5,6 @@ Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [music_production]
 Slug: my-new-track-destination-zero
-aliases:
-  - /2012/09/my-new-track-destination-zero.html
 ---
 
 Writing this track was my last assignment for Berklee's Online

@@ -5,8 +5,6 @@ Date: 2016-10-09
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [multirotors]
-aliases:
-  - /2016/10/alien-560-quadcopter-build-part-3-transmitter-setup.html
 ---
 
 I wish I could tell you that setting up the transmitter was straightforward, but unfortunately, it wasn't.  I'll do my best to describe what I did, although I'm not sure my process is 100% repeatable.

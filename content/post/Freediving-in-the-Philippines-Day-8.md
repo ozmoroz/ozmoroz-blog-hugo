@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-8
 Summary: Return to the Kawasan Falls
-aliases:
-  - /2011/02/freediving-in-philippines-day-8.html
 ---
 
 There isn't much to write about that day – we didn't dive. Our team divided

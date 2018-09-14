@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [oracle]
 Slug: Date-conversion-in-Oracle-part-2
-aliases:
-  - /2009/05/Date-conversion-in-Oracle-part-2.html
 ---
 
 It's a follow-up to [the previous post](../../2009/05/Date-conversions-in-Oracle.html).

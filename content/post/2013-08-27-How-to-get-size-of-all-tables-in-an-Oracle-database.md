@@ -6,8 +6,6 @@ categories: ["technology"]
 Tags: [oracle]
 Author: Sergey Stadnik
 Summary: An SQL script to get size of all tables in an Oracle database schema.
-aliases:
-  - /2013/08/how-to-get-size-of-all-tables-in-oracle.html
 ---
 
 If you ever wanted to know how what's taking space in an Oracle database, or how large is the table you're working on, here's a script which answers these questions. It shows the size of all the database objects large than 10 Mb in a particular database schema.

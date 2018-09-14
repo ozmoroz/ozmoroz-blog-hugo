@@ -6,8 +6,6 @@ categories: ["lifestyle"]
 Tags: [music_production]
 Slug: my-new-track-chaos-engine
 Summary: Drum'n'Bass track written for Composing and Producing Electronic Music course
-aliases:
-  - /2012/07/my-new-track-chaos-engine.html
 ---
 
 It is a scientific fact that the amount of entropy in the universe

@@ -5,8 +5,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Slug: databases-matter
 Summary: Why every software developer needs to understand how databases work.
-aliases:
-  - /2011/11/databases-matter.html
 ---
 
 ![Database](/images/2011-11-24_database.png)

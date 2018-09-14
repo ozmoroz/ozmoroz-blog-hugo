@@ -7,8 +7,6 @@ categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-5
 Summary: The story of this day will not be as long as the previous ones. We didn't dive on Day 5. Instead, we went canyoning.
-aliases:
-  - /2011/02/freediving-in-philippines-day-5.html
 ---
 
 The story of this day will not be as long as the previous ones. We

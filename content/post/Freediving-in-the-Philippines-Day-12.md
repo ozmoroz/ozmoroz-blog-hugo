@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [freediving]
 Slug: freediving-in-philippines-day-12
-aliases:
-  - /2011/02/freediving-in-philippines-day-12
 ---
 
 Everything comes to an end. It was time for me to say goodbye to the

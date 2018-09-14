@@ -6,8 +6,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [oracle]
 Slug: Date-conversions-in-Oracle
-aliases:
-  - /2009/05/Date-conversions-in-Oracle.html
 ---
 
 When I was going through PL/SQL procedures written by some of my

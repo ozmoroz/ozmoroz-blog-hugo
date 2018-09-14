@@ -4,8 +4,6 @@ Date: 2016-02-05
 Author: Sergey Stadnik
 categories: ["lifestyle"]
 Tags: [windsurfing]
-aliases:
-  - /2016/02/how-to-separate-a-stuck-windsurfing-mast.html
 ---
 
 I’ve been windsurfing a few years but I didn’t have my own board. Whenever I wanted to go for a ride, I rented a board from [SHQ at Sandringham beach]( http://sandybeachhq.com.au/). That was Ok, and I had a lot of fun, but I was confined to a single location. Besides, SHQ only has beginners’ large boards and small sails available for rent, and after some time riding on them started to feel dull.
