@@ -1,5 +1,5 @@
 ---
-Title: "What is PureComponent and when to use it"
+Title: "What is React.PureComponent and when to use it"
 Date: 2018-09-24
 Author: Sergey Stadnik
 categories: ["technology"]
