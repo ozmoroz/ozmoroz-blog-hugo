@@ -47,9 +47,12 @@ Both [functional-based and class-based components](https://ozmoroz.com/2018/08/r
 
 Also, class-based components **always re-render when its state is updated** (`this.setState` is called) **even if the new state is equal to the old state**.
 
-TODO: put this into a coloured box.
-
-*Enter your email into the subscription box at the end of the page, and I will send you a link to my interactive mini case study on functional component vs React.Component vs PureComponent re-rendering.*
+<div class="card bg-light">
+  <div class="card-body">
+    Enter your email into the [subscription box](#mc_embed_signup) at the end of the page, and I will send you a link to my interactive mini case study on functional component vs React.Component vs PureComponent re-rendering.
+  </div>
+</div>
+<br/>
 
 **Moreover, when a parent component re-renders, all of its children are also re-rendered, and their children too, and so on.**
 
