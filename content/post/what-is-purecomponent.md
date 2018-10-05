@@ -87,4 +87,10 @@ On the other hand, you should not use `PureComponent` as a base for you componen
 
 Thank you for reading.
 
+## Other helpful React tips:
+
+- [What is the difference between functional and class-based React components?]({{< relref "react-functional-vs-class-components.md" >}})
+- [How to pass a value to `onClick` event handler in React.js](https://ozmoroz.com/2018/07/pass-value-to-onclick-react/)
+
+
 if you would like to receive helpful tips on React and Javascript like this one, enter your email into the box below to subscribe, and you’ll get them in your inbox fresh out of the oven as soon as I publish them.

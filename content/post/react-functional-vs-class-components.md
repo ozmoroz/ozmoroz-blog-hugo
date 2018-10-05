@@ -128,7 +128,7 @@ Functional components cannot contain refs because they don't have instances.
 
 ### shouldComponentUpdate and PureComponent
 
-[`shouldComponentUpdate`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate) and [`PureComponent`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate) are two advanced performance optimisation techniques only  available to class-based components. React component re-renders if its `props` or `state` change. If that happens very often, that may impact your application's performance.
+[`shouldComponentUpdate`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate) and [`PureComponent`]({{< relref "what-is-purecomponent.md" >}}) are two advanced performance optimisation techniques only  available to class-based components. React component re-renders if its `props` or `state` change. If that happens very often, that may impact your application's performance.
 
 `shouldComponentUpdate` is a special lifecycle method. It allows you to skip the re-rendering even if the `props` or `state` changed.
 
@@ -149,7 +149,7 @@ class MyHello extends React.Component {
 }
 ```
 
-You may choose to derive your class-based component from `React.PureComponent` rather than `React.Component`. In that case React will execute *simplified* checks to detect if the `state` or `props` changes. If your `state` or `props` are very complex objects, that may save you some precious execution time.
+You may choose to derive your class-based component from `React.PureComponent` rather than `React.Component`. In that case React will execute some checks to detect if the `state` or `props` changes. If your `state` or `props` are very complex objects, that may save you some precious execution time.
 
 ```javascript
 // Class-based component derived from React.PureComponent
@@ -217,5 +217,6 @@ if you would like to receive helpful tips on React and Javascript like this one,
 
 ## Other helpful React tips:
 
+- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}}) 
 - [How to pass a value to `onClick` event handler in React.js](https://ozmoroz.com/2018/07/pass-value-to-onclick-react/)
 - [Mocking ES6 module dependencies with import * from](https://ozmoroz.com/2017/09/mocking-es6-dependencies-1/)
