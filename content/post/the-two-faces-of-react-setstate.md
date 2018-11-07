@@ -9,12 +9,22 @@ Slug: the-two-faces-of-react-setstate
 
 `setState` is one of the most essential operations in React. Yet, it is one of the most confusing. If you are new to React, then you may feel that it does not always do what you want it to do. It is almost as it doesn't work. The problem may go like this:
 
-1. You set a state with a setState
-   `this.setState({count: 1})`
-2. Then you follow it with another setState which references the previous state value
-   `this.setState({count: this.state + 1})`
-   Then the state value and it is not what you expect it to be
-   `colsole.log(this.state);  // Prints 1`
+You set a state with a setState
+   
+   ```javascript
+   this.setState({count: 1})
+   ```
+Then you follow it with another setState which references the previous state value
+   
+   ```javascript
+   this.setState({count: this.state + 1})
+   ```
+   
+Then you check the state value, and it is not what you expect it to be
+   
+   ```javascript
+   colsole.log(this.state);  // Prints 1
+   ```
 
 What? Is `setState` broken?
 
