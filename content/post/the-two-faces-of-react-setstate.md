@@ -112,7 +112,7 @@ console.log(this.state.count); // Always prints 2
 
 React guarantees that the functional `setState` calls will be executed in the order they were called.
 
-<blockquote class="twitter-tweet tw-align-center" data-conversation="none" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">It is safe to call setState with a function multiple times. Updates will be queued and later executed in the order they were called. <a href="https://t.co/xNr6EDVdJv">pic.twitter.com/xNr6EDVdJv</a></p>&mdash; Dan Abramov (@dan_abramov) <a href="https://twitter.com/dan_abramov/status/824309659775467527?ref_src=twsrc%5Etfw">January 25, 2017</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">It is safe to call setState with a function multiple times. Updates will be queued and later executed in the order they were called. <a href="https://t.co/xNr6EDVdJv">pic.twitter.com/xNr6EDVdJv</a></p>&mdash; Dan Abramov (@dan_abramov) <a href="https://twitter.com/dan_abramov/status/824309659775467527?ref_src=twsrc%5Etfw">January 25, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Therefore, the values of `state` and `props` arguments of the `setState`'s update functions will always be *"correct"*.
