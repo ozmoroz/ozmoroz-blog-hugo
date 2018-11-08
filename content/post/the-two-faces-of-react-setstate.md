@@ -70,7 +70,9 @@ Turns out, there's a special syntax for that. One of React's best-kept secrets i
 
 For example, this will update `this.state.count` to 1 and `this.state.tempo` to 120. If there are any other values in `this.state`, they will be left unchanged.
 
-`this.setState({count: 1, tempo: 120});`
+```javascript
+this.setState({count: 1, tempo: 120});
+```
 
 **The second form**, known as *functional setState*, is more complex. Instead of an object, it **takes a function as a parameter**.
 
