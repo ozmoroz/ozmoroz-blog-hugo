@@ -1,10 +1,10 @@
 ---
-Title: "The two faces of React setState"
+Title: "Why my setState doesn't work?"
 Date: 2018-11-07
 Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
-Slug: the-two-faces-of-react-setstate
+Slug: why-my-setstate-doesnt-work
 ---
 
 `setState` is one of the most essential operations in React. Yet, it is one of the most confusing. If you are new to React, then you may feel that it does not always do what you want it to do. It is almost as it doesn't work. The problem may go like this:
