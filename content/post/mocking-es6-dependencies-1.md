@@ -126,7 +126,7 @@ However, there is an issues with this approach. As you may have noticed, we can 
 
 Turns out, the content of modules imported via <code>import * as</code> <strong>always</strong> gets evaluated <strong>included their <code>import</code> statements</strong>. That breaks the _unit test purity_ principle: your test will not only depend on the code you're testing, but on the modules it imports, and the modules those modules import, and so on. In practice that is usually fine if your modules only contain functions. But if any of the modules in your import chain contains any global code, it will get executed, and you may get an error.
 
-In [the next part of the series](../mocking-es6-dependencies-1.html), I will explore an alternative technique which can alleviate the above issue - mocking up Javascript module dependencies with [proxyquire](https://github.com/thlorenz/proxyquire).
+In [the next part of the series]({{< relref "mocking-es6-dependencies-2" >}}), I will explore an alternative technique which can alleviate the above issue - mocking up Javascript module dependencies with [proxyquire](https://github.com/thlorenz/proxyquire).
 
 _The source code of the examples for this article can be downloaded from [my Github repository](https://github.com/ozmoroz/es6-unit-mockups)._
 
