@@ -7,6 +7,8 @@ Tags: [javascript, react]
 Slug: why-my-setstate-doesnt-work
 ---
 
+{{<figure src="/images/confused_man.jpg" alt="Confused man" caption="Photo by&nbsp;" attr="Bruce Mars" attrlink="https://www.pexels.com/@olly">}}
+
 `setState` is one of the most essential operations in React. Yet, it is one of the most confusing. If you are new to React, then you may feel that it does not always do what you want it to do. It is almost as it doesn't work. The problem may go like this:
 
 You set a state with a setState
