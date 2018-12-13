@@ -19,7 +19,7 @@ You set a state with a setState
 Then you follow it with another setState which references the previous state value
    
    ```javascript
-   this.setState({count: this.state + 1})
+   this.setState({count: this.state.count + 1})
    ```
    
 Then you check the state value, and it is not what you expect it to be
