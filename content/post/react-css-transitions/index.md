@@ -5,9 +5,10 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: react-css-transitions
+draft: true
 ---
 
-{{<figure src="css-heart.png" width="640px" alt="CSS Heart art" caption="CSS art by&nbsp;" attr="Dennis Harry" attrlink="https://css-heart-animations.netlify.com/">}}
+{{<figure src="/images/css-heart.png" width="640px" alt="CSS Heart art" caption="CSS art by&nbsp;" attr="Dennis Harry" attrlink="https://css-heart-animations.netlify.com/">}}
 
 Animating things on the web is a pretty common task. You often need to animate a menu bar sliding from the top, or an input field expanding and collapsing when you click a button. But how do you do that?
 
