@@ -9,7 +9,6 @@ Slug: react-css-transitions
 
 {{<figure src="css-heart.png" width="640px" alt="CSS Heart art" caption="CSS art by&nbsp;" attr="Dennis Harry" attrlink="https://css-heart-animations.netlify.com/">}}
 
-
 Animating things on the web is a pretty common task. You often need to animate a menu bar sliding from the top, or an input field expanding and collapsing when you click a button. But how do you do that?
 
 Maybe there is a library for that? Yes, lots. But which one you should choose?  When you are pressed with a deadline, you don't have time to plough through lots of libraries and their documentation, you just want to know the simplest way to do what you need as simple and as quick as possible.
