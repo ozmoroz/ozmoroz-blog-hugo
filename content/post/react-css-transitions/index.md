@@ -216,9 +216,11 @@ Here is what the same transition looks like with different timing functions:
 
 ![Timing functions demo](./transition-timing-functions.gif)
 
-> If you enter your email into the **Subscribe** box at the bottom of the page, I will send you a link to an interactive demo page where you can play with above transition types, change their parameters and immediately see the effect.
->
-> **Additionally**, you will get notified straight into your email inbox as soon as I publish a new article.
+{{% card %}}
+  If you enter your email into the **Subscribe** box at the bottom of the page, I will send you a link to an interactive demo page where you can play with above transition types, change their parameters and immediately see the effect.
+  
+  **Additionally**, you will get notified straight into your email inbox as soon as I publish a new article.
+{{% /card %}}
 
 ## When CSS transitions don't work
 
