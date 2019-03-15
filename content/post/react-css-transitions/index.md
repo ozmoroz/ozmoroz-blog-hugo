@@ -247,3 +247,9 @@ Let's face it, there is little reason to show & hide an element as a part of a t
 There you have it, now you know enough about CSS transitions to be dangerous. That will cover most of your typical requirements, and even allow you to do some cool stuff. These [animated hearts](https://css-heart-animations.netlify.com/), for example, were made purely with plain HTML and CSS transitions.
 
 Stay tuned to my next article which will be about animating React elements dynamically inserted into & removed from DOM. Subscribe at the box below, and I'll email you the link as soon as it's out.
+
+## Other helpful React tips:
+
+- [Why my setState doesn't work?]({{< relref "why-my-setstate-doesnt-work.md" >}})
+- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}})
+- [What is the difference between functional and class-based React components?]({{< relref "react-functional-vs-class-components.md" >}})
