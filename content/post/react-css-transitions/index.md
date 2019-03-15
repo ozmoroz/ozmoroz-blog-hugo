@@ -5,7 +5,6 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: react-css-transitions
-draft: true
 ---
 
 {{<responsive-figure src="css-heart.png" width="640px" alt="CSS Heart art" caption="CSS art by " attr="Dennis Harry" attrlink="https://css-heart-animations.netlify.com/">}}
