@@ -1,6 +1,6 @@
 ---
 Title: "Painless React Animations via CSS Transitions"
-Date: 2019-03-03
+Date: 2019-03-14
 Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
