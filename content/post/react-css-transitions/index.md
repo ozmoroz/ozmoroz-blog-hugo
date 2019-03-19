@@ -1,11 +1,10 @@
 ---
 Title: "Painless React Animations via CSS Transitions"
-Date: 2019-03-03
+Date: 2019-03-14
 Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: react-css-transitions
-draft: true
 ---
 
 {{<responsive-figure src="css-heart.png" width="640px" alt="CSS Heart art" caption="CSS art by " attr="Dennis Harry" attrlink="https://css-heart-animations.netlify.com/">}}
@@ -216,9 +215,11 @@ Here is what the same transition looks like with different timing functions:
 
 ![Timing functions demo](./transition-timing-functions.gif)
 
-> If you enter your email into the **Subscribe** box at the bottom of the page, I will send you a link to an interactive demo page where you can play with above transition types, change their parameters and immediately see the effect.
->
-> **Additionally**, you will get notified straight into your email inbox as soon as I publish a new article.
+{{% card %}}
+  If you enter your email into the **Subscribe** box at the bottom of the page, I will send you a link to an interactive demo page where you can play with above transition types, change their parameters and immediately see the effect.
+  
+  **Additionally**, you will get notified straight into your email inbox as soon as I publish a new article.
+{{% /card %}}
 
 ## When CSS transitions don't work
 
@@ -245,3 +246,9 @@ Let's face it, there is little reason to show & hide an element as a part of a t
 There you have it, now you know enough about CSS transitions to be dangerous. That will cover most of your typical requirements, and even allow you to do some cool stuff. These [animated hearts](https://css-heart-animations.netlify.com/), for example, were made purely with plain HTML and CSS transitions.
 
 Stay tuned to my next article which will be about animating React elements dynamically inserted into and removed from DOM. Subscribe at the box below, and I'll email you the link as soon as it's out.
+
+## Other helpful React tips:
+
+- [Why my setState doesn't work?]({{< relref "why-my-setstate-doesnt-work.md" >}})
+- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}})
+- [What is the difference between functional and class-based React components?]({{< relref "react-functional-vs-class-components.md" >}})
