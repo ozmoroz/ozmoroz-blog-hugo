@@ -1,0 +1,356 @@
+/*
+ * From the Bootstrap 4.0 blog example
+ * See: https://getbootstrap.com/docs/4.0/examples/blog/blog.css
+ */
+
+/*
+ * Globals
+ */
+
+html {
+  @include media-breakpoint-down('sm') {
+    font-size: 19px;
+  }
+  @include media-breakpoint-up('md') {
+    font-size: 18px;
+  }
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+body {
+  color: #555;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: normal;
+  color: #333;
+  a,
+  a:hover,
+  a:focus {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+  max-width: 60rem;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 1rem;
+
+  > .container {
+    @include media-breakpoint-down('md') {
+      padding: 0;
+    }
+    @include media-breakpoint-up('lg') {
+      padding: 0 2rem;
+    }
+  }
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+
+  @include media-breakpoint-down('sm') {
+    padding: 0.5rem;
+
+    &:last-of-type {
+      margin-bottom: 1rem;
+    }
+  }
+  @include media-breakpoint-up('md') {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.nav-link.active {
+  background-color: #1a242f;
+}
+
+.navbar-toggler {
+  margin: 0.4rem 0;
+}
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.05rem solid #eee;
+}
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  margin-top: 2rem;
+  @include media-breakpoint-down('sm') {
+    padding: 0 15px;
+  }
+  @include media-breakpoint-only('md') {
+    padding: 0 25px;
+  }
+  @include media-breakpoint-up('lg') {
+    padding: 0;
+  }
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 1rem;
+  /*margin: 0 -1rem 1rem;*/
+}
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 0.25rem;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+article img {
+  max-width: 100%;
+  height: auto;
+  margin: 13px auto;
+}
+// add margin to sharing icons (except the first one)
+.sharing-icons .nav-item + .nav-item {
+  margin-left: 1rem;
+}
+/* add a margin above the disqus comments only if the preceeding sharing section
+is present (because sharing can be hidden, and the margin isn't always needed */
+section + #disqus_thread {
+  margin-top: 1rem;
+}
+
+// style all blockquotes, not just Bootstrap's default of class="blockquote"
+// see: node_modules/bootstrap/scss/_type.scss
+article blockquote {
+  margin-bottom: $spacer;
+  font-size: $blockquote-font-size;
+}
+
+// Syntax highlighting
+article div.highlight > pre {
+  border: 1px solid $gray-300;
+}
+
+/*
+ * Blog Archives
+ */
+
+#blog-archives {
+  time {
+    color: $gray-700;
+    margin-right: 2.5rem;
+  }
+  margin-bottom: 4rem;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 1rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+  margin-top: 4rem;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+article.blog-post {
+  a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+  }
+
+  .blog-post-title a {
+    border-bottom: inherit;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+article.blog-post .read-more {
+  display: inline-block;
+  border-width: 2px;
+  color: #ffffff;
+  background-color: #95a5a6;
+  border-color: #95a5a6;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/*
+ * Images in the blog posts rendering
+ */
+
+article.blog-post {
+  figure {
+    text-align: center;
+    figcaption {
+      font-size: 0.9rem;
+    }
+  }
+
+  img {
+    display: block;
+    text-align: center;
+  }
+}
+
+// Format captions
+
+article.blog-post .caption {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/*
+ * Formt tables in blog posts
+ */
+
+article.blog-post table {
+  margin-bottom: 1rem;
+
+  tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  tr:nth-child(odd) {
+    background: #fff;
+  }
+
+  td {
+    padding: 0.3rem;
+  }
+}
+
+/*
+ * Format code blocks
+ */
+
+article.blog-post pre {
+  padding: 0.5rem;
+}
+
+/*
+ * Format related posts section
+ */
+
+article.blog-post .related-posts {
+  padding: 1.25rem;
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  a {
+    border-bottom: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/*
+ * Format blockquotes
+ */
+
+article.blog-post blockquote {
+  padding: 0.4rem 1.5rem;
+  border-left: 5px solid #ecf0f1;
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+
+/* Pagination */
+.pagination {
+  border-radius: unset;
+  justify-content: center;
+
+  .page-item .page-link {
+    border-radius: 0.25rem;
+  }
+}
+
+/*
+ * Mailchimp signup form
+ */
+#mc_embed_signup {
+  margin-bottom: 2rem;
+}
+
+/*
+ * Shortcodes
+ */
+
+ .card {
+   margin: 1rem 0;
+ }
