@@ -12,18 +12,18 @@ Slug: why-my-setstate-doesnt-work
 `setState` is one of the most essential operations in React. Yet, it is one of the most confusing. If you are new to React, then you may feel that it does not always do what you want it to do. It is almost as it doesn't work. The problem may go like this:
 
 You set a state with a setState
-   
+
    ```javascript
    this.setState({count: 1})
    ```
 Then you follow it with another setState which references the previous state value
-   
+
    ```javascript
    this.setState({count: this.state.count + 1})
    ```
-   
+
 Then you check the state value, and it is not what you expect it to be
-   
+
    ```javascript
    colsole.log(this.state);  // Prints 1
    ```
@@ -130,12 +130,49 @@ this.setState(state => ({...state, count: state.count + 1}));
 console.log(this.state.count); // Always prints 2
 ```
 
+## What about useState hook?
+
+[Hooks](https://reactjs.org/docs/hooks-intro.html) were introduced to React in version 16.8.0, and they became an immediate hit among developers. I won't be exaggerating if I claim that the most popular hook is `useState`. With its help, we can finally add state to functional React components.
+
+When using a `useState` hook, we start with getting an *initial value* of the state and a *setter function* as a resut of `useState` call:
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+Where **0** passed to `useState` is the initial value of `count` state.
+
+When we want to update the state value, we call `setCount` setter we got from `useState` call with an updated value:
+
+```javascript
+setCount(1); // Count value is now 1
+```
+
+But what if our new value *depends* on the old one? Will this work?
+
+```javascript
+setCount(count + 1);
+```
+
+Turns out the same rule I outlined for `setState` applies to `useState` hook. To reiterate:
+
+ **You can't rely on your new state values you apply in `useState` to be applied immediately. If your `setState` depends on the current value of the state or props, you need to use the functional (the second) form.**
+
+Yes, there is a functional form of the `useState`  setter. It works pretty much in the same way as for `setState`:
+
+The setter function (in our case `setCount`) can take a *function* as a parameter. That function should take a *current* value of the state and return a *new* one.
+
+```javascript
+setCount(count => count + 1);
+```
+
 ## Let's recap what we learned:
 
 1. `setState` calls are not guaranteed to be applied immediately.
 2. There are two forms of `setState`: one takes an object, and the other takes a function.
 3. If your `setState` relies on `state` or `props` values, you need to use the *functional* form.
-4. Never refer to `this.state` or `this.props` inside your `setState`. Instead use `state` and `props` arguments of the `setState`\`s update function. 
+4. Never refer to `this.state` or `this.props` inside your `setState`. Instead use `state` and `props` arguments of the `setState`\`s update function.
+5. `useState` hook is no different. Use a *functional* form of its setter if your new state value depends of its previous value.
 
 Happy coding!
 
