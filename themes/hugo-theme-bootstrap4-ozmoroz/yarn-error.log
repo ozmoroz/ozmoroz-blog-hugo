@@ -1,0 +1,69 @@
+Arguments: 
+  /Users/sstadnik/.nvm/versions/node/v8.6.0/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js build
+
+PATH: 
+  /Users/sstadnik/.avn/bin:/Users/sstadnik/.nvm/versions/node/v8.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/sstadnik/bin:./node_modules/.bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "hugo-theme-bootstrap4-blog",
+    "version": "0.0.1",
+    "description": "A Bootstrap v4 theme for the Hugo static site generator.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/alanorth/hugo-theme-bootstrap4-blog.git"
+    },
+    "scripts": {
+      "build:css":
+        "node-sass --output-style expanded --precision 6 source/scss/style.scss static/css/style.css.tmp && cleancss --level 1 static/css/style.css.tmp -o static/css/style.css",
+      "build:fonts": "cp node_modules/font-awesome/fonts/* static/fonts",
+      "build:cookieconsent":
+        "cp node_modules/cookieconsent/build/cookieconsent.min.css static/css && cp node_modules/cookieconsent/build/cookieconsent.min.js static/js",
+      "build:generatesri": "node build/sri.js > data/sri.toml",
+      "build":
+        "npm run build:css && npm run build:fonts && npm run build:cookieconsent && npm run build:generatesri && npm run clean",
+      "clean": "rm static/css/style.css.tmp"
+    },
+    "keywords": "hugo",
+    "author": "Alan Orth",
+    "license": "GPL-3.0",
+    "devDependencies": {
+      "bootstrap": "4.0.0-beta.3",
+      "bootswatch": "^4.0.0-beta.3",
+      "clean-css-cli": "^4.1.6",
+      "cookieconsent": "^3.0.4",
+      "font-awesome": "^4.7.0",
+      "node-sass": "^4.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c npm run build:css && npm run build:fonts && npm run build:cookieconsent && npm run build:generatesri && npm run clean
+  Directory: /Users/sstadnik/Projects/ozmoroz_hugo/themes/hugo-theme-bootstrap4-ozmoroz
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:30281:17)
+      at emitTwo (events.js:125:13)
+      at ChildProcess.emit (events.js:213:7)
+      at maybeClose (internal/child_process.js:927:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
