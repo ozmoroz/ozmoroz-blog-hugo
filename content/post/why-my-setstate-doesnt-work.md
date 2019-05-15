@@ -64,7 +64,7 @@ console.log(this.state.count);
 
 Would you like to make a guess about what is printed in the last line? The problem is, you can never be sure. It may be 2 if the changes from the first `setState` have come through. Or it may be 1 if the first `setState` was scheduled for the later execution.
 
-## How do you deal with that?
+## How do you deal with that? {#how-to-deal}
 
 Turns out, there's a special syntax for that. One of React's best-kept secrets is that `setState` comes in two flavours [^1].
 
@@ -130,7 +130,7 @@ this.setState(state => ({...state, count: state.count + 1}));
 console.log(this.state.count); // Always prints 2
 ```
 
-## What about useState hook?
+## What about useState hook? {#usestate-hook}
 
 [Hooks](https://reactjs.org/docs/hooks-intro.html) were introduced to React in version 16.8.0, and they became an immediate hit among developers. I won't be exaggerating if I claim that the most popular hook is `useState`. With its help, we can finally add state to functional React components.
 
@@ -166,7 +166,7 @@ The setter function (in our case `setCount`) can take a *function* as a paramete
 setCount(count => count + 1);
 ```
 
-## Let's recap what we learned:
+## Let's recap what we learned: {#recap}
 
 1. `setState` calls are not guaranteed to be applied immediately.
 2. There are two forms of `setState`: one takes an object, and the other takes a function.
@@ -176,7 +176,7 @@ setCount(count => count + 1);
 
 Happy coding!
 
-## Other helpful React tips:
+## Other helpful React tips: {#other-tips}
 
 - [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}})
 - [What is the difference between functional and class-based React components?]({{< relref "react-functional-vs-class-components.md" >}})
