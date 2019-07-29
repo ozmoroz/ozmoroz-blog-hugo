@@ -12,6 +12,8 @@
 // see: node_modules/bootstrap/scss/bootstrap.scss
 @import 'source/scss/bootstrap';
 
+@import '~bootswatch/dist/flatly/bootswatch';
+
 // local style overrides
 @import 'source/scss/main';
 

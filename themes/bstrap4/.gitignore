@@ -1,5 +1,5 @@
 .idea/
-node_modules
+node_modules/
 exampleSite/themes
 yarn.lock
 .DS_Store
