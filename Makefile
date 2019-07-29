@@ -29,6 +29,7 @@ help:
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make build\					   biild production site              '
 	@echo '   make serve                       serve web site from public directory '
+	@echo '   make theme                       build there '
 	@echo '   make publish                     publish to ozmoroz.com
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 build_dev'
@@ -47,6 +48,10 @@ clean:
 # Serve Hugo web site with devd, allow CORS for tools such as ngrok
 serve:
 	$(DEVD) --port=$(PORT) ./public --crossdomain
+
+# Build the theme
+theme:
+	cd themes/bstrap4; npm run build
 
 publish:
 	rsync -e "ssh" --progress -rvzc --checksum --delete \

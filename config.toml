@@ -2,11 +2,11 @@ baseURL = "https://ozmoroz.com/"
 relativeURLs = true
 languageCode = "en-us"
 title = "Sergey Stadnik's blog"
-theme = "hugo-theme-bootstrap4-ozmoroz"
+theme = "bstrap4"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
 # optionally override the site's footer with custom copyright text
-copyright = "© 2018 Sergey Stadnik. Powered by [Hugo](https://gohugo.io/)"
+copyright = "© 2019 Sergey Stadnik. Powered by [Hugo](https://gohugo.io/)"
 googleAnalytics = "UA-5940328-2"
 disqusShortname = "ozmorozcom"
 enableGitInfo = true
