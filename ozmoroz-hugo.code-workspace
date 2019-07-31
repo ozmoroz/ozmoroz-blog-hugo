@@ -17,6 +17,7 @@
         "comments": false,
         "strings": false
       }
-    }
+    },
+    "workbench.settings.editor": "json"
   }
 }
