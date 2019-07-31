@@ -22,8 +22,8 @@ Here we go.
 CSS Transitions actually has nothing to do with React.  Quoting [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions),
 
 >  **CSS Transitions** is a module of CSS that lets you create
-> gradual transitions between the values of specific CSS properties. The 
-> behaviour of these transitions can be controlled by specifying their 
+> gradual transitions between the values of specific CSS properties. The
+> behaviour of these transitions can be controlled by specifying their
 > timing function, duration, and other attributes.
 
 Because CSS transitions is a pure CSS, they can be used in React applications, Angular, plain Javascript or even old-school plain HTML with no Javascript at all.
@@ -165,7 +165,7 @@ However, that is not exactly what we wanted. If you look closely, you may notice
 
 However, the reverse transition is not quite right: instead of shrinking first and then fading out it simply fades out.
 
-To understand what's going on, let's have a look at the browser animation view. 
+To understand what's going on, let's have a look at the browser animation view.
 
 To access that view in Chrome bring up Developer Tools → Elements pane. Then click on the dotted menu icon, choose More Tools → Animations.
 
@@ -217,7 +217,7 @@ Here is what the same transition looks like with different timing functions:
 
 {{% card %}}
   If you enter your email into the **Subscribe** box at the bottom of the page, I will send you a link to an interactive demo page where you can play with above transition types, change their parameters and immediately see the effect.
-  
+
   **Additionally**, you will get notified straight into your email inbox as soon as I publish a new article.
 {{% /card %}}
 
@@ -245,7 +245,7 @@ Let's face it, there is little reason to show & hide an element as a part of a t
 
 There you have it, now you know enough about CSS transitions to be dangerous. That will cover most of your typical requirements, and even allow you to do some cool stuff. These [animated hearts](https://css-heart-animations.netlify.com/), for example, were made purely with plain HTML and CSS transitions.
 
-Stay tuned to my next article which will be about animating React elements dynamically inserted into and removed from DOM. Subscribe at the box below, and I'll email you the link as soon as it's out.
+if you would like to receive helpful tips on React and Javascript like this one, enter your email into the box below to subscribe, and you'll get them in your inbox fresh out of the oven as soon as I publish them.
 
 ## Other helpful React tips:
 
