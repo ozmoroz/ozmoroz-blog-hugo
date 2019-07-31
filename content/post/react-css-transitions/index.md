@@ -245,7 +245,7 @@ Let's face it, there is little reason to show & hide an element as a part of a t
 
 There you have it, now you know enough about CSS transitions to be dangerous. That will cover most of your typical requirements, and even allow you to do some cool stuff. These [animated hearts](https://css-heart-animations.netlify.com/), for example, were made purely with plain HTML and CSS transitions.
 
-if you would like to receive helpful tips on React and Javascript like this one, enter your email into the box below to subscribe, and you'll get them in your inbox fresh out of the oven as soon as I publish them.
+If you would like to receive helpful tips on React and Javascript like this one, enter your email into the box below to subscribe, and you'll get them in your inbox fresh out of the oven as soon as I publish them.
 
 ## Other helpful React tips:
 
