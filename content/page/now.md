@@ -16,7 +16,7 @@ I work as a Senior Developer at [Marketplacer](https://marketplacer.com/)
 
 ## At home
 
-- Studying. I'm doing a [Golang course](https://www.udemy.com/go-the-complete-developers-guide/) on Udemy. Beside that, I enrolled in [30x500 Academy](https://30x500.com/academy/) and slowly working my way through.
+- Studying. I'm doing a [Golang course](https://www.udemy.com/go-the-complete-developers-guide/) on Udemy.
 - Riding an [electric skateboard](/tags/esk8/).
 - [Building and flying remote-controlled quadcopters](/tags/multirotors/).
 - The books I'm reading:  
