@@ -15,7 +15,7 @@ Well, you don't have you use props inside your React components. It is fair that
 
 <!--more-->
 
-Props allow us to write *reusable* components, thus reducing the amount of code we need to write. Reusing the existing code is possibly be the most efficient way to lift a programmer's productivity.
+Props allow us to write *reusable* components, thus reducing the amount of code we need to write. Reusing the existing code is possibly be the most efficient way to lift a programmer's productivity.
 
 Let's look at an example. One day you decide to write a web app to list all the books you want to read. You roll up your sleeves and come up with this React component:
 
@@ -83,7 +83,7 @@ const Books = () => {
       <Book
         cover="/images/harry_potter_sorcerers_stone.jpg"
         title="Harry Potter and the Sorcerer's Stone"
-        author="Author: J.K. Rowling"
+        author="J.K. Rowling"
       />
       <Book
         cover="/images/hunger_games.jpg"
@@ -93,12 +93,12 @@ const Books = () => {
       <Book
         cover="/images/angels_and_demons.jpg"
         title="Angels & Demons"
-        author="Author: Dan Brown"
+        author="Dan Brown"
       />
       <Book
         cover="/images/girl_on_train.jpg"
         title="The Girl on the Train"
-        author="Author: Paula Hawkins"
+        author="Paula Hawkins"
       />
     </div>
   );
@@ -142,14 +142,14 @@ const Book = ({ cover, title, author }) => (
 
 That is a power of components, props and code reuse.
 
-But please bear with me a little longer. I'll show you something cool. The real magic starts if you apply a *data-driven* approach. Let's say you consolidate the data about books into a single array.
+But please bear with me a little longer. I'll show you something cool. The real magic starts if you apply a *data-driven* approach. Let's say you consolidate the data about books into a single array.
 
 ```javascript
 const books = [
   {
     cover: '/images/harry_potter_sorcerers_stone.jpg',
     title: "Harry Potter and the Sorcerer's Stone",
-    author: 'Author: J.K. Rowling'
+    author: 'J.K. Rowling'
   },
   {
     cover: '/images/hunger_games.jpg',
@@ -159,12 +159,12 @@ const books = [
   {
     cover: '/images/angels_and_demons.jpg',
     title: 'Angels & Demons',
-    author: 'Author: Dan Brown'
+    author: 'Dan Brown'
   },
   {
     cover: '/images/girl_on_train.jpg',
     title: 'The Girl on the Train',
-    author: 'Author: Paula Hawkins'
+    author: 'Paula Hawkins'
   }
 ];
 ```
@@ -180,7 +180,7 @@ const Books = () => (
         key={book.title}
         cover={book.cover}
         title={book.title}
-        author={book.title}
+        author={book.author}
       />
     ))}
   </div>
