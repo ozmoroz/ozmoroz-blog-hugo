@@ -203,8 +203,9 @@ Happy coding!
 
 ## Get more React tips
 
-- [What is the difference between functional and class-based React components?]({{< relref "react-functional-vs-class-components.md" >}})
 - [Why my setState doesn’t work?]({{< relref "why-my-setstate-doesnt-work.md" >}})
-- [Painless React Animations via CSS Transitions]({{< relref "react-css-transitions/index.md">}})
+- [Painless React Animations via CSS Transitions]({{< relref "react-css-transitions/index.md" >}})
+- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}})
+
 
 If you would like to receive helpful tips on React and Javascript like these, enter your email into the box below to subscribe, and you’ll get them in your inbox fresh out of the oven as soon as I publish them.
