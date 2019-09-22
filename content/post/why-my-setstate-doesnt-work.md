@@ -172,7 +172,7 @@ setCount(count => count + 1);
 2. There are two forms of `setState`: one takes an object, and the other takes a function.
 3. If your `setState` relies on `state` or `props` values, you need to use the *functional* form.
 4. Never refer to `this.state` or `this.props` inside your `setState`. Instead use `state` and `props` arguments of the `setState`\`s update function.
-5. `useState` hook is no different. Use a *functional* form of its setter if your new state value depends of its previous value.
+5. `useState` hook is no different. Use a *functional* form of its setter if your new state value depends on its previous value.
 
 Happy coding!
 

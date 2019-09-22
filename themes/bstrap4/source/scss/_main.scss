@@ -294,6 +294,12 @@ article.blog-post table {
  * Format code blocks
  */
 
+code {
+  background-color: #f8f8f8;
+  padding: 0.17rem;
+  border-radius: 0.18rem;
+}
+
 article.blog-post pre {
   padding: 0.5rem;
 }
@@ -353,4 +359,5 @@ article.blog-post blockquote {
 
  .card {
    margin: 1rem 0;
+   background-color: #37efc57d;
  }
