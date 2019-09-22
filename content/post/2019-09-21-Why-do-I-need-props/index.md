@@ -142,7 +142,7 @@ const Book = ({ cover, title, author }) => (
 
 That is a power of components, props and code reuse.
 
-But please bear with me a little longer. I'll show you something cool. The real magic starts if you apply a *data-driven* approach. Let's say you consolidate the data about books into a single array.
+But please bear with me a little longer. I'll show you something cool. The real magic starts if you apply a *data-driven* approach. Let's say you consolidate the data about books into a single array.
 
 ```javascript
 const books = [
