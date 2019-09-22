@@ -1,5 +1,5 @@
 ---
-Title: "Why do I need props"
+Title: "Why do I need props?"
 Date: 2019-09-21
 Author: Sergey Stadnik
 categories: ["technology"]
