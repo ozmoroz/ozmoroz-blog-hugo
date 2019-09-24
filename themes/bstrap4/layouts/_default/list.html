@@ -30,7 +30,10 @@
 {{ define "main" }}
 
 {{ $truncate := default true .Site.Params.truncate }}
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+
+{{/* HOME page List ALL posts, while other pages only posts relevant to the context */}}
+{{ $page_source := cond (eq .Kind "home") .Site.RegularPages .Pages }}
+{{ $paginator := .Paginate (where $page_source "Type" "post") }}
 {{ range $paginator.Pages }}
 {{ if $truncate }}
 {{ .Render "summary" }}
