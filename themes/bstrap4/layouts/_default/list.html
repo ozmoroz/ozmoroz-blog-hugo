@@ -42,25 +42,6 @@
 {{ partial "mailchimp/signup-form.html" .}}
 {{ partial "pagination.html" . }}
 
-{{- /*
-{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-<nav class="blog-pagination d-flex justify-content-center">
-  {{ if and (.Paginator.HasPrev) (.Paginator.HasNext) }}
-    <a class="btn btn-outline-primary" href="{{ .Paginator.Prev.URL }}" rel="prev" role="button">{{ i18n "paginatorPrevious" }}</a>
-    <a class="btn btn-outline-primary" style="margin-left:1rem" href="{{ .Paginator.Next.URL }}" rel="next" role="button">{{ i18n "paginatorNext" }}</a>
-  {{ end }}
-  {{ if and (.Paginator.HasPrev) (not .Paginator.HasNext) }}
-    <a class="btn btn-outline-primary" href="{{ .Paginator.Prev.URL }}" rel="prev" role="button">{{ i18n "paginatorPrevious" }}</a>
-    <a class="btn btn-outline-primary disabled" style="margin-left:1rem" href="#" role="button" aria-disabled="true">{{ i18n "paginatorNext" }}</a>
-  {{ end }}
-  {{ if and (not .Paginator.HasPrev) (.Paginator.HasNext) }}
-    <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">{{ i18n "paginatorPrevious" }}</a>
-    <a class="btn btn-outline-primary" style="margin-left:1rem" href="{{ .Paginator.Next.URL }}" rel="next" role="button">{{ i18n "paginatorNext" }}</a>
-  {{ end }}
-</nav>
-{{ end }}
-*/}}
-
 {{ end }}
 
 {{- /* vim: set ts=2 sw=2 et: */}}
