@@ -33,8 +33,8 @@
 
   <body>
 
-    <div class="blog-masthead">     
-      <!-- nav blog-nav -->      
+    <div class="blog-masthead">
+      <!-- nav blog-nav -->
       <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <div class="container">
           <a class="navbar-brand" href="{{ .Site.BaseURL | absLangURL }}">{{ .Site.Params.Brand }}</a>
@@ -68,13 +68,6 @@
       </nav>
     </div>
 
-    {{/* <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | safeHTML }}</a></h1>
-        {{ if .Site.Params.description }}<p class="lead blog-description">{{ .Site.Params.description | markdownify }}</p>{{ end }}
-      </div>
-    </header> */}}
-
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 blog-main">
@@ -91,7 +84,7 @@
 
       </div> {{ "<!-- /.row -->" | safeHTML }}
     </div> {{ "<!-- /.container -->" | safeHTML }}
-    
+
     <footer class="blog-footer">
       <p>
       {{ if .Site.Copyright }}
@@ -104,7 +97,7 @@
       <a href="#">{{ i18n "backToTop" }}</a>
       </p>
     </div>
-    </footer>    
+    </footer>
     <!-- Bootstrap Javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
