@@ -176,12 +176,4 @@ setCount(count => count + 1);
 
 Happy coding!
 
-## Other helpful React tips: {#other-tips}
-
-- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}})
-- [What is the difference between functional and class-based React components?]({{< relref "react-functional-vs-class-components.md" >}})
-- [How to pass a value to `onClick` event handler in React.js](https://ozmoroz.com/2018/07/pass-value-to-onclick-react/)
-
-if you would like to receive helpful tips on React and Javascript like this one, enter your email into the box below to subscribe, and you’ll get them in your inbox fresh out of the oven as soon as I publish them.
-
 [^1]: Well, not really a secret. In fact, React team [tells everyone who wants to listen](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous) about the `setState`'s duality. Still surprisingly few people know about that.

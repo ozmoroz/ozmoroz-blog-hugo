@@ -122,13 +122,3 @@ As of 2019, this method is considered superior. Facebook [has been using it inte
 Or, even better, drop class-based components altogether and switch to functional components with [hooks](https://reactjs.org/docs/hooks-intro.html).
 
 Happy coding!
-
-## Get more React tips
-
-- [When should I use “this” keyword?]({{< relref "2019-09-26-When-should-i-use-this-keyword/index.md" >}})
-- [Why do I need props?]({{< relref "2019-09-21-Why-do-I-need-props/index.md" >}})
-- [How to pass a value to onClick event handler in React.js]({{< relref "pass-value-to-onclick-react.md" >}})
-
-If you would like to receive helpful tips on React and Javascript like
-these, enter your email into the box below to subscribe, and you’ll get
-them in your inbox fresh out of the oven as soon as I publish them.
