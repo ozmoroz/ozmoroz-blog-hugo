@@ -80,25 +80,25 @@
     {{ end }}
   </ul>
   {{ end }}  
+</article> <!-- /.blog-post -->
 
+<aside>
   {{ partial "series-index.html" . }}
   {{ partial "more-react-tips.html" . }}
   {{ partial "mailchimp/signup-form.html" .}}
+</aside>
 
-  {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
-    <hr>
-    <footer>
-      {{ if (ne ($.Param "sharingicons") false) }}
-        {{ partial "sharing-icons.html" . }}
-      {{ end }}
+{{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
+  <footer>
+    {{ if (ne ($.Param "sharingicons") false) }}
+      {{ partial "sharing-icons.html" . }}
+    {{ end }}
 
-      {{ if and (.Site.DisqusShortname) (ne .Params.comments false) }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-    </footer>
-  {{ end }}
-
-</article> <!-- /.blog-post -->
+    {{ if and (.Site.DisqusShortname) (ne .Params.comments false) }}
+      {{ template "_internal/disqus.html" . }}
+    {{ end }}
+  </footer>
+{{ end }}
 
 {{ end }}
 
