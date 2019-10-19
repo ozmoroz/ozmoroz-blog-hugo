@@ -80,13 +80,13 @@
     {{ end }}
   </ul>
   {{ end }}  
-</article> <!-- /.blog-post -->
 
-<aside>
-  {{ partial "series-index.html" . }}
-  {{ partial "more-react-tips.html" . }}
-  {{ partial "mailchimp/signup-form.html" .}}
-</aside>
+  <aside>
+    {{ partial "series-index.html" . }}
+    {{ partial "more-react-tips.html" . }}
+    {{ partial "mailchimp/signup-form.html" .}}
+  </aside>
+</article> <!-- /.blog-post -->
 
 {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
   <footer>
