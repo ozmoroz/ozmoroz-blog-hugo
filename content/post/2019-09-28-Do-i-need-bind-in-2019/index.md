@@ -112,7 +112,7 @@ There are 3 ways to solve it:
       ...
       setText = () => {
         this.setState({ text: "123" });
-        }
+      }
       ...
     }
 ```
