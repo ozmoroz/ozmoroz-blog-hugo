@@ -112,6 +112,10 @@ disableAliases = true
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"
 
+  # Do not include auto-generated "Other React tips" section on the page
+  # if its publish date is earlier that this
+  generated_more_react_tips = "2018-11-07"
+
   # verification string for Google Webmaster Tools
   #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
 

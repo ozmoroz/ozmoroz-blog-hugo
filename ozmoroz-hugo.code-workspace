@@ -5,9 +5,6 @@
     }
   ],
   "settings": {
-    "files.associations": {
-      "*.html": "gohtml"
-    },
     "[html]": {
       "editor.formatOnSave": false
     },

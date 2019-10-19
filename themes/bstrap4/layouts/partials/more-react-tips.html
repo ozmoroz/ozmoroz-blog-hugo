@@ -1,0 +1,30 @@
+{{/*  Partial for "Other React tips" section  */}}
+{{/*  Generates a random list of 3 related articles  */}}
+
+  {{/*  {{ .Slug }}  */}}
+  {{/*  {{ .PublishDate }}  */}}
+
+{{/*  Do not include this section if the page's publis date is before generated_read_more_start_date ite parameter  */}}
+{{ $start_date :=  .Site.Params.generated_more_react_tips }}
+{{ if and (ge .PublishDate (time $start_date)) (in .Params.tags "react" ) }}
+
+  {{/*  Exclusion list - do not include any of these pages, including this page  */}}
+  {{ $exclusions := slice .Slug "react-functional-vs-class-components" }}
+
+  {{/*  Pages with the same category and tags  */}}
+  {{ $all_tag_pages := where (where .Site.RegularPages "Params.categories" "intersect" .Params.categories) "Params.tags" "intersect" .Params.Tags }}
+  {{/*  Exclude the pages in the exclusion list  */}}
+  {{ $included_pages := where $all_tag_pages "Slug" "not in" $exclusions }}
+
+  <h2>More React tips</h2>
+  <ul>
+    {{ range $included_pages | shuffle | first 3 }}
+    <li>
+      <a href={{ .RelPermalink }}>{{ .Title }}</a>
+    </li>
+  {{ end }}
+  </ul>
+
+  <p>if you would like to receive helpful tips on React and Javascript like these, enter your email into the box below to subscribe, and you’ll get them in your inbox fresh out of the oven as soon as I publish them.</p>
+
+{{ end }}
