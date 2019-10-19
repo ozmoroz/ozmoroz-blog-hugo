@@ -15,18 +15,20 @@ One of Reddit members asked me a question in follow-up to my answer to a [questi
 
 ### Short answer
 
-You don't need to use `bind`. If you use the following syntax to declare *class methods*, then `this` in them **will be automatically bound to the current *class instance***. It's magic.
+You don't need to use `bind`. If you use the following syntax to declare *class methods*, then `this` in them **will be automatically bound to the current _class instance_**. It's magic.
 
 ![It's magic](magic.webp)
 
-    class MyComponent extends React.Component {
-      myMethod1 = () => {
-        ...
-      }
-      myMethod2 = () => {
-        ...
-      }
-    }
+```js
+class MyComponent extends React.Component {
+  myMethod1 = () => {
+    ...
+  }
+  myMethod2 = () => {
+    ...
+  }
+}
+```
 
 Note the absence of `const` keyword.
 
