@@ -19,7 +19,7 @@ Unfortunately, that is the truth of life. That's just the way it is. Sooner or l
 
 Don't lose your cool.
 
-I would suggest that the best way to deal with that is to learn to read the documentation. React has very good documentation - one of the best in the business.  All of it is freely available at [https://reactjs.org/docs/](https://reactjs.org/docs/)
+I would suggest that the best way to deal with that is to learn to read the documentation. React has excellent documentation - one of the best in the business.  All of it is freely available at [https://reactjs.org/docs/](https://reactjs.org/docs/)
 
 Moreover, you can turn those roadblocks into learning opportunities. Once you stumble on something not working, stop right there and take that opportunity to understand **why**. In the long term that experience will be far more valuable than just following tutorials.
 
