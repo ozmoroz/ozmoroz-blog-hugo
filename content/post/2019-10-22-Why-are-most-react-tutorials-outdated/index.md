@@ -13,7 +13,7 @@ If you are learning React using a book or an online tutorial, you may be in for 
 
 <!--more-->
 
-Take a deep breathe.
+Take a deep breath.
 
 Unfortunately, that is the truth of life. That's just the way it is. Sooner or later all tutorials will be outdated, and my bet is on sooner. React itself is a work in progress. For example, a year ago we didn't know what the hooks were, now we can't live without them.
 
