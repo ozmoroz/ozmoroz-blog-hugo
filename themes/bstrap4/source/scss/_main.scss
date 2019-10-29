@@ -226,6 +226,10 @@ article.blog-post {
   a {
     text-decoration: none;
     border-bottom: 1px dotted;
+
+    code {
+      border-bottom: inherit;
+    }
   }
 
   .blog-post-title a {
