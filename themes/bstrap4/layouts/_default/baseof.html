@@ -3,10 +3,7 @@
 
   <head>
     {{ partial "head-meta.html" . }}
-
-    {{ block "schema-dot-org" . }}
-      <!-- schema.org metadata differs for Nodes and Pages -->
-    {{ end }}
+    {{ partial "site-schema.html" . }} 
 
     <link rel="canonical" href="{{ .Permalink }}">
 
@@ -86,13 +83,11 @@
     </div> {{ "<!-- /.container -->" | safeHTML }}
 
     <footer class="blog-footer">
-      <p>
       {{ if .Site.Copyright }}
+      <p>
       {{ .Site.Copyright | markdownify }}
-      {{ else }}
-      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
-      {{ end }}
       </p>
+      {{ end }}
       <p>
       <a href="#">{{ i18n "backToTop" }}</a>
       </p>
