@@ -5,7 +5,7 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+    <h1 class="blog-post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
     <p class="blog-post-meta">
       {{ $postDate := .Date | default .Lastmod }}
       {{ if eq .Type "Page" }} Last updated on {{ end }}
