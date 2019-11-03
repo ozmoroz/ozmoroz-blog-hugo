@@ -7,7 +7,7 @@ Tags: [javascript, react]
 Slug: why-do-i-need-props
 ---
 
-{{<responsive-figure src="props.jpg" width="640px" alt="Props???">}}
+{{<responsive-figure src="props.jpg" width="640" alt="Props???">}}
 
 If you are new to React, you may be wondering what that *props* business is all about. Components make sense. But why do they need props? Why should you use them, or then, or how? After all, you can build a perfectly functioning React application without those pesky *props*.
 

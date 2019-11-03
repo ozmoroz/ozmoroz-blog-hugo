@@ -7,7 +7,7 @@ Tags: [javascript, react]
 Slug: when-should-i-use-this-keyword
 ---
 
-{{<responsive-figure src="this-or-not.jpg" width="640px" alt="To this or not to this?">}}
+{{<responsive-figure src="this-or-not.jpg" width="640" alt="To this or not to this?">}}
 
 When you browse through Javascript code, you often see function calls prepended with `this.` keyword, like `this.functionName()`. However, sometimes `this` is missing and it's just `functionName()`. What is the difference and when you should use one over the other?
 
