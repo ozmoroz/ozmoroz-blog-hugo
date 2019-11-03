@@ -17,7 +17,7 @@ One of Reddit members asked me a question in follow-up to my answer to a [questi
 
 You don't need to use `bind`. If you use the following syntax to declare *class methods*, then `this` in them **will be automatically bound to the current _class instance_**. It's magic.
 
-![It's magic](magic.webp)
+![It's magic](./magic.webp)
 
 ```js
 class MyComponent extends React.Component {
