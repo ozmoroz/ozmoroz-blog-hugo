@@ -7,6 +7,8 @@
 {{ $paginator := .Paginate (where $page_source "Type" "post") }}
 {{ range $paginator.Pages }}
 {{ if $truncate }}
+{{/*  Add a hidden h1 tag to the home page  */}}
+<h1 class="d-none">Blog posts</h1>
 {{ .Render "summary" }}
 {{ else }}
 {{ .Render "content" }}
