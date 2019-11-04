@@ -165,7 +165,7 @@ disableAliases = true
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+    # twitter = "username"
 
   # Logo and image for ld+json site schema
   # [params.logo]
