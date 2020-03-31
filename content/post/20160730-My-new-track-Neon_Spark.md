@@ -9,10 +9,12 @@ Slug: my-new-track-neon-spark
 
 I wrote another track - "Neon Spark". Here it is:
 
+<div>
 <audio name="Neon Spark" controls "controls" preload="none">
     Your user agent does not support the HTML5 Audio element.
 	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Neon_Spark.m4a" type='audio/mp4'>
 </audio>
+</div>
 
 ![Neon Spark artwork](/images/triumph_by_ba86irl.jpg)
 

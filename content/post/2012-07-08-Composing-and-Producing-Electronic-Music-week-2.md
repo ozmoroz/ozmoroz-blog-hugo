@@ -62,10 +62,12 @@ Then I added an orchestral hit into the same step sequencer. And again, adjusted
 
 Here’s final Amen Break in MIDI:
 
+<div>
 <audio controls "controls" preload="none" name="CPEMS2 Sergey Amen Break MIDI">
     Your user agent does not support the HTML5 Audio element.
-	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey_Amen_Break_MIDI.mp3" type='audio/mpeg'>
+    <source src="https://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey_Amen_Break_MIDI.mp3" type='audio/mpeg'>
 </audio>
+</div>
 
 Just to add a little variety I found a DnB an appropriate drum kit in
 [Drumaxx](http://www.image-line.com/support/FLHelp/html/plugins/Drumaxx.htm)
@@ -102,10 +104,12 @@ reckon it’s actually better that way.
 
 Here's the end result:
 
+<div>
 <audio controls "controls" preload="none" name="CPEMS2 Sergey final groove">
     Your user agent does not support the HTML5 Audio element.
 	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/CPEMS2_Sergey.mp3" type='audio/mpeg'>
 </audio>
+</div>
 
 That’s all for this assignment. If I had more time, I would program 1 or
 more different drum patterns a switched them after 8 or 16 bars.

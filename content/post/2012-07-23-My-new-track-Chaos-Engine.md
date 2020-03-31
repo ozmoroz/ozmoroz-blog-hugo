@@ -14,9 +14,11 @@ leading to a new Big Bang.
 
 Entropy is the Engine of Chaos, and this is its song of destruction.
 
+<div>
 <audio controls "controls" preload="none" name="Chaos Engine">
     Your user agent does not support the HTML5 Audio element.
 	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Chaos_Engine.mp3" type='audio/mpeg'>
 </audio>
+</div>
 
 <a href="https://ozmoroz-pub.s3.amazonaws.com/music/Chaos_Engine.mp3" download target="_blank">Download the track</a>

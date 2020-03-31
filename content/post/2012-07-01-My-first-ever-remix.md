@@ -12,14 +12,18 @@ Here's my first ever remix made as an assignment for [Composing and Producing El
 
 This is the original tune by [Loudon Stearns](http://loudonstearns.com/) (who teaches this course).
 
+<div>
 <audio controls "controls" preload="none">
 	Your user agent does not support the HTML5 Audio element.
 	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Sergey_CPEMS1.mp3" type='audio/mpeg'>
 </audio>
+</div>
 
 And here is my techno remix
 
+<div>
 <audio controls "controls" preload="none" name="Sergey CPEMS1 techno remix">
 	Your user agent does not support the HTML5 Audio element.
 	<source src="https://ozmoroz-pub.s3.amazonaws.com/music/Sergey_CPEMS1_techno_remix.mp3" type='audio/mpeg'>
 </audio>
+</div>
