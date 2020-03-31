@@ -54,6 +54,10 @@ disableAliases = true
   home = [ "HTML", "RSS", "REDIR", "HEADERS" ]
   section = [ "HTML", "RSS"]
 
+# Allow RAW HTML in markdown
+[markup.goldmark.renderer]
+unsafe = true
+
 [mediaTypes]
 [mediaTypes."text/netlify"]
   delimiter = ""
