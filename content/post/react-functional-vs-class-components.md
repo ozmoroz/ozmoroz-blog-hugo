@@ -42,7 +42,7 @@ class MyHello extends React.Component {
 
 ### Class-based components can have state
 
-Apart from props, the component rendered from a class-based component can depend on its [state](https://reactjs.org/docs/state-and-lifecycle.html). Here is an example of a class-based component which maintains a counter in its state. The counter is incremented every time a user clicks on a button which is rendered inside a component. 
+Apart from props, the component rendered from a class-based component can depend on its [state](https://reactjs.org/docs/state-and-lifecycle.html). Here is an example of a class-based component which maintains a counter in its state. The counter is incremented every time a user clicks on a button which is rendered inside a component.
 
 ```javascript
 class MyHello extends React.Component {
@@ -217,6 +217,6 @@ if you would like to receive helpful tips on React and Javascript like this one,
 
 ## Other helpful React tips:
 
-- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}}) 
+- [What is React.PureComponent and when to use it]({{< relref "what-is-purecomponent.md" >}})
 - [How to pass a value to `onClick` event handler in React.js](https://ozmoroz.com/2018/07/pass-value-to-onclick-react/)
 - [Mocking ES6 module dependencies with import * from](https://ozmoroz.com/2017/09/mocking-es6-dependencies-1/)

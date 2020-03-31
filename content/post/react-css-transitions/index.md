@@ -32,7 +32,7 @@ It is not the most versatile or powerful technique. But since in most cases, the
 
 CSS Transitions are also [well-supported by all major browsers](https://caniuse.com/#feat=css-transitions) with a notable exception of Opera Mini and IE below version 10.
 
-CSS Transitions give us an ability to **animate between two CSS states**. Let's say you want to animate the opening and closing of a drawer, triggered by a click on a button. Let's assume we have a [flex] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) container around the drawer. When the drawer is opened, we want it to occupy 100% of the container width, therefore its `max-width` should be 100%. When it is closed, its width should be 0. We can create two CSS styles:
+CSS Transitions give us an ability to **animate between two CSS states**. Let's say you want to animate the opening and closing of a drawer, triggered by a click on a button. Let's assume we have a [flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) container around the drawer. When the drawer is opened, we want it to occupy 100% of the container width, therefore its `max-width` should be 100%. When it is closed, its width should be 0. We can create two CSS styles:
 
 ```js
 /* This CSS style is applied when the drawer is opened */
@@ -244,4 +244,3 @@ However, even if you don't want to animate CSS `display` property but just have 
 Let's face it, there is little reason to show & hide an element as a part of a transition. A much better way is to achieve the same result with a transitionable property such as `width` or `opacity`. If you set `width` and `opacity` to 0, you effectively hide the element. However, If you absolutely must hide & show the element as a part of a transition, use [CSS `visibility` property](https://developer.mozilla.org/en-US/docs/Web/CSS/visibility) instead of `display`.
 
 There you have it, now you know enough about CSS transitions to be dangerous. That will cover most of your typical requirements, and even allow you to do some cool stuff. These [animated hearts](https://css-heart-animations.netlify.com/), for example, were made purely with plain HTML and CSS transitions.
-

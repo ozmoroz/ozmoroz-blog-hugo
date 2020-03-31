@@ -48,8 +48,10 @@ __Dave:__ I reckon it's up to 1 Mb, but I need to clarify it.
 
 __Bob:__ I need to find out if I need to compress it. Then I try to send
 the e-mail. If it is sent successfully, I report Ok status back to Dave.
-If it's failed, I report failure status with the error message.<br>
-...<br>
+If it's failed, I report failure status with the error message.
+
+...
+
 And so on.
 
 That would give all the participants the understanding of how the end
