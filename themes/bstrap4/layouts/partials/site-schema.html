@@ -59,13 +59,7 @@
   {{/* Find a featured image either from "images" front matter field */}}
   {{/* or from an image with a name of *feature*, *cover* or *thumbnail* */}}
   {{- with $.Params.images -}}
-  {{- $featured_image := string (index . 0 | absURL) }}}
-  "image": {
-    "@type": "ImageObject",
-    "url": {{ $featured_image.Permalink }},
-    "width": {{ $featured_image.Width }},
-    "height": {{ $featured_image.Height }}
-  },
+  "image": {{ index . 0 | absURL }},
   {{ else -}}
   {{- $images := $.Resources.ByType "image" -}}
   {{- $featured_image := $images.GetMatch "*feature*" -}}
