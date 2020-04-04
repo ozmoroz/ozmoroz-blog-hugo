@@ -34,6 +34,19 @@
     "query-input": "required"
   } */}}
 {{- else if .IsPage -}}
+{{/* Google structured data for a page */}}
+{{/* https://developers.google.com/search/docs/data-types/article#non-amp-sd */}}
+
+{{/* Find a featured image either from "images" front matter field */}}
+{{/* or from an image with a name of *feature*, *cover* or *thumbnail* */}}
+{{- with $.Params.images -}}
+{{- $featured_image := string (index . 0 | absURL) }}}
+{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured_image := $images.GetMatch "*feature*" -}}
+{{- $featured_image := cond (ne $featured_image nil) $featured_image ($images.GetMatch "{*cover*,*thumbnail*}") -}}
+{{- .Scratch.Set "featured_image" $featured_image }}
+{{- end }}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -43,21 +56,29 @@
     "@type": "WebPage",
     "@id": {{ .Permalink }}
   },
-  {{ if ge (.Param "lua.image.width") 696 -}}
+  {{/* Find a featured image either from "images" front matter field */}}
+  {{/* or from an image with a name of *feature*, *cover* or *thumbnail* */}}
+  {{- with $.Params.images -}}
+  {{- $featured_image := string (index . 0 | absURL) }}}
   "image": {
     "@type": "ImageObject",
-    "url": {{ .Param "lua.image.url" | absURL }},
-    "width": {{ .Param "lua.image.width" }},
-    "height": {{ .Param "lua.image.height" }}
+    "url": {{ $featured_image.Permalink }},
+    "width": {{ $featured_image.Width }},
+    "height": {{ $featured_image.Height }}
   },
-  {{- else if ge .Site.Params.image.width 696 -}}
-   "image": {
+  {{ else -}}
+  {{- $images := $.Resources.ByType "image" -}}
+  {{- $featured_image := $images.GetMatch "*feature*" -}}
+  {{- $featured_image := cond (ne $featured_image nil) $featured_image ($images.GetMatch "{*cover*,*thumbnail*}") -}}
+  {{- with $featured_image -}}
+  "image": {
     "@type": "ImageObject",
-    "url": {{ .Site.Params.image.url | absURL }},
-    "width": {{ .Site.Params.image.width }},
-    "height": {{ .Site.Params.image.height }}
+    "url": {{ .Permalink }},
+    "width": {{ .Width }},
+    "height": {{ .Height }}
   },
-  {{- end }}
+  {{- end -}}
+  {{- end -}}
   "genre": {{ .Type }},
   {{ if .Keywords -}}
   "keywords": {{ delimit .Keywords ", " }},
