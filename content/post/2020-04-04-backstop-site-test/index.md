@@ -5,7 +5,7 @@ Author: Sergey Stadnik
 categories: ['technology']
 Tags: []
 Slug: introducing-backstop-site-test
-Reddit: https://www.reddit.com/r/webdev/comments/fuofkh/introducing_backstopsitetest_a_visual_regression/
+Twitter: https://twitter.com/stadniks/status/1246339233641426945
 ---
 
 {{<responsive-figure src="film-ruler.jpg" width="640" alt="Person with blue plastic ruler on mouth" caption="Photo by " attr="Linus Strandholm on Scopio" attrlink="https://scop.io/collections/vendors?q=Linus+Strandholm">}}
