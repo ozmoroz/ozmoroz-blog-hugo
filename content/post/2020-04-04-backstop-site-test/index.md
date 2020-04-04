@@ -5,10 +5,11 @@ Author: Sergey Stadnik
 categories: ['technology']
 Tags: []
 Slug: introducing-backstop-site-test
+Description: I asked myself, "Can I somehow test the entire site for regression and detect problems before I push the site into production?" I rolled up my sleeves and made this.
 Twitter: https://twitter.com/stadniks/status/1246339233641426945
 ---
 
-{{<responsive-figure src="film-ruler.jpg" width="640" alt="Person with blue plastic ruler on mouth" caption="Photo by " attr="Linus Strandholm on Scopio" attrlink="https://scop.io/collections/vendors?q=Linus+Strandholm">}}
+{{<responsive-figure src="feature-film-ruler.jpg" width="640" alt="Person with blue plastic ruler on mouth" caption="Photo by " attr="Linus Strandholm on Scopio" attrlink="https://scop.io/collections/vendors?q=Linus+Strandholm">}}
 
 This site is built with [Hugo static site generator](https://gohugo.io/). Being a static site, it doesn't have a fancy back-end engine. No database either. Nothing breaks if left alone.
 
