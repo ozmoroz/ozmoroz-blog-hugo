@@ -36,3 +36,5 @@ Here's how it fits into a site upgrade workflow:
 I used it on this site when I did the last upgrade a few days ago. Thanks to it, I found a few broken elements across multiple pages I would have missed.
 
 I hope it will be useful not just for me. It is still an early version but it works. If you find a bug, raise a GitHub issue, or better, fix it and send me a pull request.
+
+[Discuss on Reddit](https://www.reddit.com/r/webdev/comments/fuofkh/introducing_backstopsitetest_a_visual_regression/)
