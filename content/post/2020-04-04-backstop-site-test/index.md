@@ -30,9 +30,9 @@ It is a visual regression tool for static sites. It is a very thin wrapper aroun
 
 Here's how it fits into a site upgrade workflow:
 
-- You run the tool before you make a change. It parses a site map into a list off all the site's pages and takes reference screenshots of all the pages.
+- Run the tool before you make a change. It parses a site map into a list off all the site's pages and takes reference screenshots of all the pages.
 - Then you do the change.
-- After the change, you run the tool again. It takes new screenshots, compares them to the reference ones and shows you the difference.
+- After the change, run the tool again. It takes new screenshots, compares them to the reference ones and shows you the difference.
 
 I used it on this site when I did the last upgrade a few days ago. Thanks to it, I found a few broken elements across multiple pages I would have missed.
 
