@@ -23,7 +23,7 @@ Having been through that a few time, I asked myself: can I do that better? Can I
 
 I rolled up my sleeves and made a thing.
 
-Welcome [backstop-site-test](https://github.com/ozmoroz/backstop-site-test).
+Say hello to [backstop-site-test](https://github.com/ozmoroz/backstop-site-test).
 
 <!--more-->
 
