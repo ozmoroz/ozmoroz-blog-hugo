@@ -71,6 +71,7 @@ FPV Communities:
 
 - [Drone Racing Australia Facebook group](https://www.facebook.com/groups/droneracingaus/)
 - [Melbourne Drone Flyers Facebook group](https://www.facebook.com/groups/1303898433018286/)
+- [FPV Buddy Melbourne Facebook group](https://www.facebook.com/groups/1076658265726317/)
 - [FPV Drone Trader Buy Sell And Swap Australia Facebook group](https://www.facebook.com/groups/516252151905261/)
 - [Melbourne Drone Flyers Buy/Sell Portal Facebook group](https://www.facebook.com/groups/262431344229417/)
 - [Eastside FPV Melbourne drone racing club](http://www.eastsidefpv.com.au/)
