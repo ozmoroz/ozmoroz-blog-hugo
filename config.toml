@@ -164,9 +164,6 @@ unsafe = true
     # hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"
     host="https://remark42.sergeystadnik.com"
     site_id="ozmoroz-com"
-    # optional param; if it isn't defined
-    # `window.location.origin + window.location.pathname` will be used,
-    page_url="fsdf"
     # optional param; if it isn't defined default value (15) will be used
     max_shown_comments=10
     # optional param; if it isn't defined default value ('light') will be used
