@@ -162,7 +162,7 @@ unsafe = true
   # https://github.com/umputun/remark42
   [params.remark42]
     # hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"
-    host="https://remark42.sergeystadnik.com"
+    host="https://comments.ozmoroz.com"
     site_id="ozmoroz-com"
     # optional param; if it isn't defined default value (15) will be used
     max_shown_comments=10
