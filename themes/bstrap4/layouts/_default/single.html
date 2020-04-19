@@ -34,6 +34,11 @@
     {{ partial "more-react-tips.html" . }}
     {{ partial "mailchimp/signup-form.html" .}}
   </aside>
+  <aside>
+  {{/* Render remark42 comments */}}
+  <h2>Comments</h2>
+  <div id="remark42"></div>
+  </aside>
 </article> <!-- /.blog-post -->
 
 {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
@@ -47,7 +52,7 @@
     {{ end }}
   </footer>
 {{ end }}
-
+{{ partial "remark42/init.html" . }}
 {{ end }}
 
 {{- /* vim: set ts=2 sw=2 et: */}}

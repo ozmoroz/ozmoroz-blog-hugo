@@ -158,6 +158,24 @@ unsafe = true
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
 
+  # Parameters related to remark42 comments engine
+  # https://github.com/umputun/remark42
+  [params.remark42]
+    # hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"
+    host="https://remark42.sergeystadnik.com"
+    site_id="ozmoroz-com"
+    # optional param; if it isn't defined
+    # `window.location.origin + window.location.pathname` will be used,
+    page_url="fsdf"
+    # optional param; if it isn't defined default value (15) will be used
+    max_shown_comments=10
+    # optional param; if it isn't defined default value ('light') will be used
+    theme="light"
+    # optional param; if it isn't defined `document.title` will be used
+    # page_title="Moving to Remark42"
+    # set up locale and language, if it isn't defined default value ('en') will be used
+    locale="en"
+
   # [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
     # about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
