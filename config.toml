@@ -22,11 +22,11 @@ disableAliases = true
 [privacy]
   [privacy.disqus]
     disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = false
+  # [privacy.googleAnalytics]
+    # anonymizeIP = true
+    # disable = false
+    # respectDoNotTrack = true
+    # useSessionStorage = false
   [privacy.instagram]
     disable = false
     simple = false
