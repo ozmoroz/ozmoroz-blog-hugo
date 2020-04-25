@@ -158,6 +158,8 @@ custom_navbar = true
 name = "Sergey Stadnik's blog"
 [params.publisher.logo]
 url = "images/sergey_photo.jpg"
+width = 400
+height = 533
 
 [params.remark42]
 # hostname of remark server, same as REMARK_URL in backend config, e.g. "https://demo.remark42.com"

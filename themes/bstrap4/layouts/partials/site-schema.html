@@ -17,7 +17,9 @@
     "name": {{ .name }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ .logo.url | absURL }}
+      "url": {{ .logo.url | absURL }},
+      "width": {{ .logo.width}},
+      "height": {{ .logo.height }}
     }
   },
   {{- end }}
@@ -78,7 +80,7 @@
   "image": {
     "@type": "ImageObject",
     "url": {{ .Permalink }},
-    "width": {{ .Width }},
+    "width": {{ .Width}},
     "height": {{ .Height }}
   },
   {{- end -}}
@@ -110,7 +112,9 @@
     "name": {{ .name }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ .logo.url | absURL }}
+      "url": {{ .logo.url | absURL }},
+      "width": {{ .logo.width}},
+      "height": {{ .logo.height }}
     }
   },
   {{- end }}
