@@ -8,7 +8,7 @@ Slug: do-i-need-bind-in-2019
 Description: Why you no longer need to bind your JavaScript class methods.
 ---
 
-{{<responsive-figure src="to_bind_or_not_to_bind.jpg" width="640" alt="To bind or not to bind - that is the question">}}
+{{<responsive-figure src="feature-to_bind_or_not_to_bind.jpg" width="640" alt="To bind or not to bind - that is the question">}}
 
 One of Reddit members asked me a question in follow-up to my answer to a [question](https://www.reddit.com/r/reactjs/comments/cy93lg/beginners_thread_easy_questions_september_2019/f1aph1h?utm_source=share&utm_medium=web2x) about `this` keyword:
 

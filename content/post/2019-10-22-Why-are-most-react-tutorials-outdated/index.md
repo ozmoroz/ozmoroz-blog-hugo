@@ -8,7 +8,7 @@ Slug: why-are-most-react-tutorials-outdated
 Description: Why most React and JavaScript tutorials are outdated.
 ---
 
-{{<responsive-figure src="never_stop_learning.jpg" width="640" alt="Never stop learning">}}
+{{<responsive-figure src="feature-never_stop_learning.jpg" width="640" alt="Never stop learning">}}
 
 If you are learning React using a book or an online tutorial, you may be in for an unpleasant surprise. One minute you are following along, and then you get pissed off once you realise that the instructions you are following are hopelessly outdated. Even 5-star tutorials are best-selling books won't protect you from that.
 

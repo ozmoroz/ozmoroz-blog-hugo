@@ -8,7 +8,7 @@ Slug: introduction-to-asynchronous-javascript
 Description: What asynchronous operations are and why we need them. What operations can be asynchronous in JavaScript.
 ---
 
-{{<responsive-figure src="synchronous-asynchronous.jpg" width="640" alt="Synchronous / Asynchronous">}}
+{{<responsive-figure src="feature-synchronous-asynchronous.jpg" width="640" alt="Synchronous / Asynchronous">}}
 
 If you are learning JavaScript, you no doubt came across things like [callbacks](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced), [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), [generators](https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950), and [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) / [`await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await). Those are *asynchronous programming paradigms.* In Javascript they are everywhere. If you want to understand JavaScript, you need to understand them. However, there is a problem.
 
