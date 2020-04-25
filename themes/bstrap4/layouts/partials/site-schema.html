@@ -11,6 +11,16 @@
     "@type": "Person",
     "name": {{ .Site.Author.name }}
   },
+  {{ with .Site.Params.publisher -}}
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .name }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ .logo.url | absURL }}
+    }
+  },
+  {{- end }}
   {{- end }}
   {{ if .Site.Params.description -}}
   "description": {{ .Site.Params.description }},
@@ -100,9 +110,7 @@
     "name": {{ .name }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ .logo.url | absURL }},
-      "width": {{ .logo.width }},
-      "height": {{ .logo.height }}
+      "url": {{ .logo.url | absURL }}
     }
   },
   {{- end }}
