@@ -5,7 +5,7 @@ Author: Sergey Stadnik
 categories: ['lifestyle']
 Tags: ['multirotors']
 Slug: fpv-drones-on-jay-boston-show
-Description: Here’s me talking about what you need to know to start with FPV drones on Jay Boston show.
+Description: Sergey Stadnik talking about what you need to know to start with FPV drones on Jay Boston show.
 Twitter: https://twitter.com/stadniks/status/1246604596396474368
 ---
 

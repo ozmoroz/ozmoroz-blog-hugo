@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: react-functional-vs-class-components
+Description: The difference between functional and class-based components in React.
 ---
 
 React offers two ways to define components: they can be functional or class-based. If you are new to React, you may be wondering what the difference is between them. [The React documentation](https://reactjs.org/docs/components-and-props.html#functional-and-class-components) doesn't clearly explain when and why you would use one or the other, and what the pros and cons of each type are.

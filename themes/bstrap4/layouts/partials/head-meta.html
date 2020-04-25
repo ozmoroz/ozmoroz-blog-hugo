@@ -16,6 +16,10 @@
 <meta name="yandex-verification" content="{{ . }}" />
 {{ end }}
 
+{{- with .Description -}}
+<meta name="description" content="{{ . }}" />
+{{ end }}
+
 {{- hugo.Generator -}}
 
 {{- /* vim: set ts=2 sw=2 et: */}}

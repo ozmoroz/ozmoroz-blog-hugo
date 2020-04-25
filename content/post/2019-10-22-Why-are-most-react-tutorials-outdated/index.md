@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: why-are-most-react-tutorials-outdated
+Description: Why most React and JavaScript tutorials are outdated.
 ---
 
 {{<responsive-figure src="never_stop_learning.jpg" width="640" alt="Never stop learning">}}

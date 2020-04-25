@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: what-is-purecomponent
+Description: When and why you would want to use React.PureComponent.
 ---
 
 React 15.3 introduced [`PureComponent`](https://reactjs.org/docs/react-api.html#reactcomponent) - a new way of implementing class-based components. It is now available to us alongside function-based components and components derived from `React.Component`.

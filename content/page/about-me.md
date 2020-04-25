@@ -5,6 +5,7 @@ type: Page
 url: about/
 slug: "about"
 Date: 2018-06-20
+Description: About Sergey Stadnik
 ---
 
 ![My photo](/images/sergey_photo.jpg)
@@ -13,7 +14,7 @@ I am a software developer living in Melbourne, Australia.
 
 I always liked pushing buttons as a kid. I was excited by a look of complex machines with lots of buttons and blinking lights I saw on TV. When I saw a real computer the first time, I was blown away. It was an [ATARI 2600](https://en.wikipedia.org/wiki/Atari_2600) arcade machine, and I ended up blowing all my pocket money playing it regularly. When I got my own computer for a birthday, I was super excited. Now suddenly I could play games at home! After a short time, just playing games became boring. I taught myself programming. First BASIC, then Assembler and Pascal. And started creating. That’s how I got hooked up, and I have remained ever since.
 
-My core professional specialities are front-end web development and Oracle database, but my experience is much wider, and my interests are as broad as the technology universe itself. After many years I am still passionate about technology, and I never stop learning.
+My core professional speciality is front-end web development with JavaScript and React, but my experience is much wider, and my interests are as broad as the technology universe itself. After many years I am still passionate about technology, and I never stop learning.
 
 ## My technical competencies
 

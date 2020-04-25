@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: why-do-i-need-props
+Description: How React props make writing reusable components possible.
 ---
 
 {{<responsive-figure src="props.jpg" width="640" alt="Props???">}}

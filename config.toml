@@ -114,7 +114,7 @@ unsafe = true
   brand = "Sergey Stadnik" # Site's brand banner
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "React & Javascript for beginners: tips, HOWTOs and tutorials"
+  description = "Sergey Stadnik. JavaScript, React, FPV drones."
 
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"

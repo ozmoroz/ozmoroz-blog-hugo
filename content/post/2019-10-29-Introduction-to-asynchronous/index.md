@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: introduction-to-asynchronous-javascript
+Description: What asynchronous operations are and why we need them. What operations can be asynchronous in JavaScript.
 ---
 
 {{<responsive-figure src="synchronous-asynchronous.jpg" width="640" alt="Synchronous / Asynchronous">}}
@@ -65,7 +66,7 @@ When I say *we are busy*, that in Javascript means the *main thread*. A *thread*
 
 Now, an important question. What do *we* do while our *butler* does the job? We can sit idling, waiting until he's done, **or** we can do other stuff.
 
-Indeed, **asynchronous operations are non-blocking. They do not block the main thread.** And that is the reason for having them. Even if an asynchronous operation is very, very long, we don't need to wait until it completes. We can continue with our programme (if we want). And when later we get notified about the asynchronous operation's completion, we can take care of its result.
+Indeed, **asynchronous operations are non-blocking. They do not block the main thread.** And that is the reason for having them. Even if an asynchronous operation is very, very long, we don't need to wait until it completes. We can continue with our program (if we want). And when later we get notified about the asynchronous operation's completion, we can take care of its result.
 
 ## Who's the butler?
 

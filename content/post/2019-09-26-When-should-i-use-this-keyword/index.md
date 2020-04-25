@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: when-should-i-use-this-keyword
+Description: When you should use this keyword to refer to your Javascript class members.
 ---
 
 {{<responsive-figure src="this-or-not.jpg" width="640" alt="To this or not to this?">}}

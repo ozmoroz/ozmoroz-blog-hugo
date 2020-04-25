@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: why-my-setstate-doesnt-work
+Description: setState operation is asynchronous in React. If you new state depends on the values of the old state, you should use a functional form of setState.
 ---
 
 {{<figure src="/images/confused_man.jpg" alt="Confused man" caption="Photo by&nbsp;" attr="Bruce Mars" attrlink="https://www.pexels.com/@olly">}}

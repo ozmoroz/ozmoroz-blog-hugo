@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: do-i-need-bind-in-2019
+Description: Why you no longer need to bind your JavaScript class methods.
 ---
 
 {{<responsive-figure src="to_bind_or_not_to_bind.jpg" width="640" alt="To bind or not to bind - that is the question">}}
@@ -117,7 +118,7 @@ There are 3 ways to solve it:
     }
 ```
 
-As of 2019, this method is considered superior. Facebook [has been using it internally](https://github.com/facebook/react/issues/9851#issuecomment-306221157) since 2017: 
+As of 2019, this method is considered superior. Facebook [has been using it internally](https://github.com/facebook/react/issues/9851#issuecomment-306221157) since 2017:
 
 ![Dan Abramov: we use class properties internally](dan_abramov_on_class_properties.png)
 

@@ -5,6 +5,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: pass-value-to-onclick-react
+Description: How to pass values to onClick event handler in React via data attributes.
 ---
 
 ### The problem
