@@ -6,7 +6,7 @@
 {{ $page_source := cond (eq .Kind "home") .Site.RegularPages .Pages }}
 {{ $paginator := .Paginate (where $page_source "Type" "post") }}
 {{ range $paginator.Pages }}
-{{ if $truncate }}
+{{ if or $truncate (in .RawContent "<!--more-->") }}
 {{/*  Add a hidden h1 tag to the home page  */}}
 <h1 class="d-none">Blog posts</h1>
 {{ .Render "summary" }}
