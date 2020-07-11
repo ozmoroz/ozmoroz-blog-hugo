@@ -39,7 +39,7 @@ I asked around. One of my friends suggested that the slowdown was caused by a he
 Over the next few days I tried a few different things to fix that:
 
 - I checked my SSD for filesystem errors, found a few and had them repaired. I thought that could fix the slowdown. Nope.
-- Upgraded to MacOS Catalina hoping that would make the problem go away. It didn't.
+- Upgraded to macOS Catalina hoping that would make the problem go away. It didn't.
 - I reset the [SMC](https://support.apple.com/en-au/HT201295) and [NVRAM](https://support.apple.com/en-au/HT204063). Didn't help.
 - I even tried to install Windows under Bootcamp on my MacBook pro. I was hoping that the performance problems I was having won't happen under Windows. I was wrong :-( I had exactly the same CPU throttling problem when I tried to play Velocidrone on Windows under Bootcamp.
 
@@ -52,13 +52,13 @@ The problem was not isolated to playing 3D games. Anything that required even a 
 
 In my case, everything was fine while the Intel GPU was in charge. But the Radeon was causing problems.
 
-I would be happy with Intel graphics. I didn't play demanding 3D games on that laptop. And Velocidrone worked fine on Intel. However, I had no control over it. In the past, there was a way to tell MacOS which GPU it should use. [gfxCardStatus](https://gfx.io/) could do that. However, no more. Apple in their wisdom took it away. These days applications can demand a switch to desecrate graphics and there's nothing you user can do about that.
+I would be happy with Intel graphics. I didn't play demanding 3D games on that laptop. And Velocidrone worked fine on Intel. However, I had no control over it. In the past, there was a way to tell macOS which GPU it should use. [gfxCardStatus](https://gfx.io/) could do that. However, no more. Apple in their wisdom took it away. These days applications can demand a switch to desecrate graphics and there's nothing you user can do about that.
 
 After some time I found that I am was dealing with a known problem. It [has been described before](https://www.makeuseof.com/tag/fix-mac-kernel-task-high-cpu-usage/) by Kris Wouk. There may be a variety of reasons for that. In my case, most likely, it is due to misbehaving thermal management.
 
 **Once CPU load goes up and CPU heats up beyond a dangerous level, the system thinks that the CPU is overheating. Then it curbs the CPU usage to cool the system down. It does that by taking CPU cycles away from the process which uses a lot of it and giving them to "kernel tasks" process which effectively does nothing.**
 
-Strictly speaking, "kernel tasks" is not a process (although Apple themselves [call it a "process"](https://support.apple.com/en-au/HT207359)). It is MacOS itself, its kernel. When a system overheats, MacOS takes CPU cycles upon itself by creating a bogus load manifesting itself as a CPU-heavy "kernel task" process.
+Strictly speaking, "kernel tasks" is not a process (although Apple themselves [call it a "process"](https://support.apple.com/en-au/HT207359)). It is macOS itself, its kernel. When a system overheats, macOS takes CPU cycles upon itself by creating a bogus load manifesting itself as a CPU-heavy "kernel task" process.
 
 **I was dealing with a textbook example of [thermal throttling](https://www.pcmag.com/encyclopedia/term/thermal-throttling).**
 
@@ -72,7 +72,7 @@ I thought about taking the laptop to Apple. They would most likely tell me that 
 
 One solution I could see was getting an [external GPU](https://egpu.io/). Since my MacBook Pro had a Thunderbolt 3 ports, I could use one of them to plug in an external GPU enclosure such as [Razer Core](https://www.razer.com/gaming-laptops/razer-core-x). That would off-load my built-in discrete graphics chip. And, as a bonus, that would give me desktop-class performance. If I wanted, I could play demanding 3D games.
 
-I started researching external video cards. They looked tempting. But I finally decided against getting one after reading [this article on Business Insider](https://www.businessinsider.com.au/razer-core-x-review-best-egpu-2019-6?r=US&IR=T). I came to the conclusion that I didn't want my desk space occupied by a large box. Besides, the enclosure itself is expensive. By itself, without a video card, it is more than $500 AUD. That cost doesn't contribute to anything. Then I'd need to spend at least a few hundred dollars on the video card. And then there was a problem with compatibility. MacOS does not support NVidia video cards, so my choice would be limited to AMD. However, not every AMD Radeon is supported too. I potentially could buy an unsupported video card and be stuck with it.
+I started researching external video cards. They looked tempting. But I finally decided against getting one after reading [this article on Business Insider](https://www.businessinsider.com.au/razer-core-x-review-best-egpu-2019-6?r=US&IR=T). I came to the conclusion that I didn't want my desk space occupied by a large box. Besides, the enclosure itself is expensive. By itself, without a video card, it is more than $500 AUD. That cost doesn't contribute to anything. Then I'd need to spend at least a few hundred dollars on the video card. And then there was a problem with compatibility. macOS does not support NVidia video cards, so my choice would be limited to AMD. However, not every AMD Radeon is supported too. I potentially could buy an unsupported video card and be stuck with it.
 
 Besides, it wasn't guaranteed that an external video card would solve my problems after all.
 
