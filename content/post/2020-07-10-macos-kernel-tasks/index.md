@@ -14,7 +14,7 @@ I occasionally play [Velocidrone FPV racing simulator](https://www.velocidrone.c
 
 However, this time it was a different story.
 
-Once I started the game, the CPU wen to 100% and the frame rate dropped from above 40FPS to one frame per few seconds. That lasted for about 30 seconds. Then everything sped back up, only to go back down in another 20 seconds. And so on.
+Once I started the game, the CPU went to 100% and the frame rate dropped from above 40FPS to one frame per few seconds. That lasted for about 30 seconds. Then everything sped back up, only to go back down in another 20 seconds. And so on.
 
 When I looked at the CPU load chart it looked like this:
 
