@@ -8,7 +8,7 @@ Slug: macos-kernel-tasks
 Description: How I stopped kernel_task process from consuming 100% of CPU on my MacBook Pro.
 ---
 
-Recently I stated experiencing a weird issue with my 2016 MacBook Pro.
+Recently I started experiencing a weird issue with my 2016 MacBook Pro.
 
 I occasionally play [Velocidrone FPV racing simulator](https://www.velocidrone.com/) on it. So far it worked fine. Although MacBook Pro doesn't have enough power to run it in 4K resolution, it works reasonably well in 1280x1024.
 
@@ -30,7 +30,7 @@ And this is what it looked like when it came back to normal:
 
 No matter how much I tried, I wasn't able to find a reason for that behaviour.
 
-What was that mysterious "kernel task"? The search on the interned didn't bring clarity. One thing was clear - something was hogging my CPU.
+What was that mysterious "kernel task"? The search on the internet didn't bring clarity. One thing was clear - something was hogging my CPU.
 
 <!--more-->
 
@@ -38,7 +38,7 @@ I asked around. One of my friends suggested that the slowdown was caused by a he
 
 Over the next few days I tried a few different things to fix that:
 
-- I checked my SSD for filesystem errors, found a few and had them repaired. I though that could fix the slowdown. Nope.
+- I checked my SSD for filesystem errors, found a few and had them repaired. I thought that could fix the slowdown. Nope.
 - Upgraded to MacOS Catalina hoping that would make the problem go away. It didn't.
 - I reset the [SMC](https://support.apple.com/en-au/HT201295) and [NVRAM](https://support.apple.com/en-au/HT204063). Didn't help.
 - I even tried to install Windows under Bootcamp on my MacBook pro. I was hoping that the performance problems I was having won't happen under Windows. I was wrong :-( I had exactly the same CPU throttling problem when I tried to play Velocidrone on Windows under Bootcamp.
@@ -52,9 +52,9 @@ The problem was not isolated to playing 3D games. Anything that required even a 
 
 In my case, everything was fine while the Intel GPU was in charge. But the Radeon was causing problems.
 
-I would be happy with Intel graphics. I didn't really play demanding 3D games on that laptop. And Velocidrone worked fine on Intel. However, I had no control over it. In the past, there was a way to tell MacOS which GPU it should use. [gfxCardStatus](https://gfx.io/) could do that. However, no more. Apple in their wisdom took it away. These days applications can demand a switch to desecrate graphics and there's nothing you user can do about that.
+I would be happy with Intel graphics. I didn't play demanding 3D games on that laptop. And Velocidrone worked fine on Intel. However, I had no control over it. In the past, there was a way to tell MacOS which GPU it should use. [gfxCardStatus](https://gfx.io/) could do that. However, no more. Apple in their wisdom took it away. These days applications can demand a switch to desecrate graphics and there's nothing you user can do about that.
 
-After some time I found that I am in fact was dealing with a known problem. It [has been described before](https://www.makeuseof.com/tag/fix-mac-kernel-task-high-cpu-usage/) by Kris Wouk. There may be a variety of reasons for that. In my case, most likely, it is due to misbehaving thermal management.
+After some time I found that I am was dealing with a known problem. It [has been described before](https://www.makeuseof.com/tag/fix-mac-kernel-task-high-cpu-usage/) by Kris Wouk. There may be a variety of reasons for that. In my case, most likely, it is due to misbehaving thermal management.
 
 **Once CPU load goes up and CPU heats up beyond a dangerous level, the system thinks that the CPU is overheating. Then it curbs the CPU usage to cool the system down. It does that by taking CPU cycles away from the process which uses a lot of it and giving them to "kernel tasks" process which effectively does nothing.**
 
@@ -86,7 +86,7 @@ I downloaded [Valley UNIGINE benchmark](https://benchmark.unigine.com/valley). I
 
 All the above lead me to the conclusion that the issue may be with my MacBook's cooling system. In particular with the GPU's cooling.
 
-A friend pointed me at [iStat Menus](https://bjango.com/mac/istatmenus/) - a system monitor that can show a myriad of different stats such as reading of temperature sensors. And a MacBook has a lot of them.
+A friend pointed me at [iStat Menus](https://bjango.com/mac/istatmenus/) - a system monitor that can show a myriad of different stats such as readings of temperature sensors. And a MacBook has a lot of them.
 
 {{<responsive-figure src="macbook-sensors.png" width="420" alt="Macbook thermal sensors">}}
 
@@ -108,7 +108,7 @@ There were a few recommended fixes.
 
 For instance, to apply a piece of thermal pad between the CPU, GPU or heat pipe and the aluminium case. Indeed, since the MacBook's case is metal it can serve as a large heatsink and effectively dissipate heat. That has a downside too. The downside of the laptop would quickly heat up potentially all the way up to 90 degrees C or more. Since I often worked with the laptop on my laps, that solution wasn't ideal.
 
-Luckily there is more ways to improve the cooling.
+Luckily there are more ways to improve the cooling.
 
 This Snazzy Labs' video suggests that the quality of the *thermal paste* Apple applies between the CPU, GPU and heat pipe isn't good. And replacing it with something of better quality makes a difference even on a healthy laptop.
 
