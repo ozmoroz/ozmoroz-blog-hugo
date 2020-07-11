@@ -8,7 +8,7 @@ Slug: macos-kernel-tasks
 Description: How I stopped kernel_tasks process from consuming 100% of CPU on my MacBook Pro.
 ---
 
-Recently I stated experiencing a weight issue with my 2016 MacBook Pro.
+Recently I stated experiencing a weird issue with my 2016 MacBook Pro.
 
 I occasionally play [Velocidrone FPV racing simulator](https://www.velocidrone.com/) on it. So far it worked fine. Although MacBook Pro doesn't have enough power to run it in 4K resolution, it works reasonably well in 1280x1024.
 
