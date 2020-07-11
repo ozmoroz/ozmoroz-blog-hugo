@@ -1,11 +1,11 @@
 ---
-Title: "How I fixed kernel_tasks consuming 100% of my MacBook's CPU"
+Title: "How I fixed kernel_task consuming 100% of my MacBook's CPU"
 Date: 2020-07-10
 Author: Sergey Stadnik
 categories: ["technology"]
 Tags: []
 Slug: macos-kernel-tasks
-Description: How I stopped kernel_tasks process from consuming 100% of CPU on my MacBook Pro.
+Description: How I stopped kernel_task process from consuming 100% of CPU on my MacBook Pro.
 ---
 
 Recently I stated experiencing a weird issue with my 2016 MacBook Pro.
@@ -20,13 +20,13 @@ When I looked at the CPU load chart it looked like this:
 
 {{<responsive-figure src="feature-sawlike-cpu-load.png" width="640" alt="Saw-like CPU load chart">}}
 
-The CPU was consumed by "kernel_tasks" whatever that was
+The CPU was consumed by "kernel_task" whatever that was
 
-{{<responsive-figure src="kernel-tasks-consumes-cpu.png" width="640" alt="CPU is consumed by kernel_tasks process">}}
+{{<responsive-figure src="kernel-tasks-consumes-cpu.png" width="640" alt="CPU is consumed by kernel_task process">}}
 
 And this is what it looked like when it came back to normal:
 
-{{<responsive-figure src="cpu-load-without-kernel-tasks.png" width="640" alt="Normal CPU load without kernel_tasks">}}
+{{<responsive-figure src="cpu-load-without-kernel-tasks.png" width="640" alt="Normal CPU load without kernel_task">}}
 
 No matter how much I tried, I wasn't able to find a reason for that behaviour.
 
