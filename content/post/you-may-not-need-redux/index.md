@@ -28,7 +28,7 @@ Redux was revolutionary when it appeared in 2015. It brought two big ideas to Re
 
 Redux used a [context API](https://reactjs.org/docs/legacy-context.html) under the hood, which at the time was intended for React internal use only and was cumbersome to use.
 
-Fast forward to 2019. A lot has changed. We now have hooks and the stable public [context API](https://reactjs.org/docs/context.html) which is ready for the prime time. An action - reducer pattern is now readily available via [useReducer hook](https://reactjs.org/docs/hooks-reference.html#usereducer). We don't need Redux for that any more.
+Fast forward to 2020. A lot has changed. We now have hooks and the stable public [context API](https://reactjs.org/docs/context.html) which is ready for the prime time. An action - reducer pattern is now readily available via [useReducer hook](https://reactjs.org/docs/hooks-reference.html#usereducer). We don't need Redux for that any more.
 
 The modern React [context API](https://reactjs.org/docs/context.html) is simpler, more efficient than before and comes with [hooks support](https://reactjs.org/docs/hooks-reference.html#usecontext). In most cases, [wrapping your application state in a context](https://kentcdodds.com/blog/application-state-management-with-react) is all you need to access it anywhere in your app.
 
