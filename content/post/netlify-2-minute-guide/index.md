@@ -13,7 +13,7 @@ Slug: netlify-2-minute-guide
 Up until a couple of years ago, I hosted this site, all of my React applications, code demos etc on virtual private servers (VPS). I tried AWS, Digital Ocean and others. Some of them were more convenient to deal with. But frankly, all of them were a huge pain in the butt. In the start, I had to spin up my own VPS, configure a web server, security, firewall, user logins, SSH keys, SSL certificates, DNS records. And that took a day if I worked fast. Then I had to figure out a way to deploy my apps.
 
 If that was it I could live with it. But that was just a starting step.
-Then comes maintenance: constant, security updates and so on. Over years that added to a massive amount of time. The time that I would rather spend making things. And did I mention that I had to pay for my virtual servers?
+Then comes maintenance: security updates, OS upgrades and so on. Over years that added to a massive amount of time. The time that I would rather spend making things. And did I mention that I had to pay for my virtual servers?
 
 Then I discovered [Netlify cloud](https://netlify.com). I switched and never looked back. Today this site ozmoroz.com is hosted on Netlify. As well as my code examples such as this [CSS Transitions demo](https://react-css-transitions-demo.netlify.app/).
 
