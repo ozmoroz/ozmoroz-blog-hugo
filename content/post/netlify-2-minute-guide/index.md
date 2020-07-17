@@ -15,11 +15,11 @@ Up until a couple of years ago, I hosted this site, all of my React applications
 If that was it I could live with it. But that was just a starting step.
 Then comes maintenance: constant, security updates and so on. Over years that added to a massive amount of time. The time that I would rather spend making things. And did I mention that I had to pay for my virtual servers?
 
-Then I discovered [Netlify cloud](https://netlify.com). I switched and never looked back. Today this site ozmoroz.com is hosted on Netlify. As well as my code examples such as CSS Transitions demo.
+Then I discovered [Netlify cloud](https://netlify.com). I switched and never looked back. Today this site ozmoroz.com is hosted on Netlify. As well as my code examples such as this [CSS Transitions demo](https://react-css-transitions-demo.netlify.app/).
 
 Netlify cloud platform makes deploying applications to the cloud extremely easy. Setting up your app on Netlify takes just a couple of minutes. After that, all subsequent deployments are as easy as pushing your code to Git.
 
-It gets better. Netlify is effectively free. You'll need to pay when you hit certain limits. However, they are very generous. I host multiple sites and apps on Netlify, and I am yet to pay a cent.
+It gets better. Netlify is effectively free. You'll need to pay when you hit certain limits. However, they are [very generous](https://www.netlify.com/pricing/). I host multiple sites and apps on Netlify, and I am yet to pay a cent.
 
 Sounds good? I encourage you to check it out yourself. In this step-by-step guide, I'll show your how to deploy your React app to Netlify.
 
