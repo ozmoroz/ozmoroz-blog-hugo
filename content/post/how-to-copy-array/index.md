@@ -1,5 +1,5 @@
 ---
-title: "How to make a copy of a an array in JavaScript"
+title: "How to make a copy of an array in JavaScript"
 date: 2020-07-20T17:51:56+10:00
 draft: false
 Author: Sergey Stadnik
