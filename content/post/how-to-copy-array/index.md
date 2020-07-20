@@ -97,7 +97,7 @@ Is a equal b?  false
 
 Ok, that's all good. But here's a trick question. What if we want to clone a two-dimensional array? Is doing `[...a]` enough?
 
-Not quite. In Javascript, a two-dimensional array is just an array of arrays. Therefore, cloning one dimension is not enough. We also need to clone all the sub-dimension arrays. Here's how we do that:
+Not quite. In JavaScript, a two-dimensional array is just an array of arrays. Therefore, cloning one dimension is not enough. We also need to clone all the sub-dimension arrays. Here's how we do that:
 
 ```jsx
 function cloneGrid(grid) {
