@@ -126,3 +126,5 @@ Or if we take advantage of [ES6 Array.map](https://developer.mozilla.org/en-US/d
 ```jsx
 const cloneGrid = (grid) => [...grid].map(row => [...row])
 ```
+
+Happy coding!
