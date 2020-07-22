@@ -300,8 +300,14 @@ article.blog-post table {
 
 code {
   background-color: #f8f8f8;
+  color: black;
   padding: 0.17rem;
   border-radius: 0.18rem;
+  border: 1px solid $gray-300;
+}
+
+pre > code {
+  border: none;
 }
 
 article.blog-post pre {
