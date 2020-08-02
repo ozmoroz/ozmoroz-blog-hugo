@@ -50,9 +50,7 @@ That is interesting. That is a little dirty secret of `async` keyword - it turns
 
 In our case, it is a promise that *resolves* to a `number`.
 
-> 💡 `async` function only wraps the return result into a Promise if it is not already a promise.
-
-Therefore these three functions below are effectively the same:
+Therefore these two functions below are effectively the same:
 
 ```jsx
 async function myAsyncFunc() {
@@ -60,10 +58,6 @@ async function myAsyncFunc() {
 }
 
 function myPromiseFunc() {
-  return Promise.resolve(0);
-}
-
-async function myAsyncFunc2() {
   return Promise.resolve(0);
 }
 ```
