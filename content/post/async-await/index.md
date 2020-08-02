@@ -4,13 +4,13 @@ date: 2020-08-02T16:07:47+10:00
 draft: false
 Author: Sergey Stadnik
 categories: ["technology"]
-Tags: [javascript]
+Tags: [javascript, react]
 Slug: async-await
 Description: What "async" and "await" really mean in JavaScript async/await syntax. How async/await is different from promises. Why you want to choose async/await over promises.
 ---
 {{<responsive-figure src="feature.jpg" alt="Road marks: there and back">}}
 
-`async...await` syntax only appeared in JavaScript recently - it was introduced in ECMAScript 2017. However, it still remains a bit of mystery. Most articles I read state that ***async...await is syntactic sugar over JavaScript promises. B***ut what does that mean exactly?
+`async...await` syntax only appeared in JavaScript recently - it was introduced in ECMAScript 2017. However, it still remains a bit of mystery. Most articles I read state that ***async...await is syntactic sugar over JavaScript promises.*** But what does that mean exactly?
 
 Are `async` and `await` two parts of the same syntax, or they are two separate things?
 
