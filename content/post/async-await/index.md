@@ -6,6 +6,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: async-await
+Description: What "async" and "await" really mean in JavaScript async/await syntax. How async/await is different from promises. Why you want to choose async/await over promises.
 ---
 {{<responsive-figure src="feature.jpg" alt="Road marks: there and back">}}
 
