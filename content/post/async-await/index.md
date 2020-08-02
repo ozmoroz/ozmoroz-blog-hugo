@@ -163,7 +163,7 @@ You may be thinking, "***That's all wonderful. But why would I use async/await i
 
 It makes sense if we need to chain multiple *asynchronous operations* together.
 
-> (To learn more about asynchronous operations, click [here](https://ozmoroz.com/2019/10/introduction-to-asynchronous-javascript/)).
+> 💡To learn more about asynchronous operations, click [here](https://ozmoroz.com/2019/10/introduction-to-asynchronous-javascript/).
 
 Let's imagine that `asyncOp1`, `asyncOp2` and `asyncOp3` are asynchronous functions. They all execute legitimate *asynchronous operations* and return promises. We need to string them together:
 
