@@ -64,7 +64,7 @@ function myPromiseFunc() {
 
 That is what `async` keyword does. That's **all** it does.
 
-`async` **wraps the return value into a promise if it is not already a promise.**
+> 💡 `async` **wraps the return value into a promise.**
 
 Now let's talk about `await`.
 
@@ -152,18 +152,20 @@ async function printValue2() {
 
 If we wrap calling an `async` function into a `try` block, and the promise returned from that `async` function is ***rejected*** (which most likely means an error), then the execution jumps to the `catch` block. That blocks receives an error object.
 
+>💡 `await` allows us to use JavaScript `try`...`catch` error handling with asynchronous code.
+
 ## Putting it all together
 
 You may be thinking, "***That's all wonderful. But why would I use async/await instead of plain old promises? How is that any better?***"
 
 It makes sense if we need to chain multiple *asynchronous operations* together.
 
-> 💡To learn more about asynchronous operations, click [here](https://ozmoroz.com/2019/10/introduction-to-asynchronous-javascript/).
+> 💡(To learn more about asynchronous operations, click [here](https://ozmoroz.com/2019/10/introduction-to-asynchronous-javascript/)).
 
-Let's imagine that `asyncOp1`, `asyncOp2` and `asyncOp3` are asynchronous functions. They all execute legitimate *asynchronous operations* and return promises. We need to string them together:
+Let's imagine that `asyncOp1` and `asyncOp3` are asynchronous functions. They all execute legitimate *asynchronous operations* and return promises. We also have `op2` which is a normal *synchronous* function. We need to string them together in the following way:
 
 - First, we run `asyncOp1`.
-- Then, once it is completed, we want to run `asyncOp2`.
+- Then, once it is completed, we want to run `op2`.
 - And only when it is completed too we need to run `asyncOp3`.
 
 Each of the subsequent operation takes the result of the previous one as a parameter.
@@ -172,19 +174,20 @@ If you think that we can do simply this:
 
 ```jsx
 const a = asyncOp1();
-const b = asyncOp2(a);
+const b = op2(a);
 const c = asyncOp3(b);
 ```
 
 then you're are wrong.
 
-Remember, `asyncOp1` returns a promise. However, the asynchronous operation it executes is not completed **until that promise resolves**. Therefore, we have to do this:
+Remember, an asynchronous function such as `asyncOp1` and `asyncOp3` returns a promise. However, the asynchronous operation it executes is not completed **until that promise resolves**. Therefore, we have to do this:
 
 ```jsx
 let c;
 asyncOp1().then(
   a => asyncOp2(a).then(
-    b => asyncOp3(b).then(
+    b => op2(a)
+    asyncOp3(b).then(
      result => c = result
     )
   )
@@ -197,11 +200,15 @@ However, we can write the same code as
 
 ```jsx
 const a = await asyncOp1();
-const b = await asyncOp2(a);
+const b = asyncOp2(a);
 const c = await asyncOp3(b);
 ```
 
-Looks much nicer, isn't it? I hope by now you can see the clear advantages or `async` ... `await` over promises.
+Looks much nicer, isn't it? In fact, it looks remarkably similar to the synchronous code, as if all three functions were synchronous.
+
+> 💡`await` simplifies asynchronous code, making it look like synchronous.
+
+I hope by now you can see the clear advantages or `async` ... `await` over promises.
 
 However, there is a catch.
 
@@ -227,7 +234,7 @@ If we omit `async` from the declaration of `printValue2` then we get this JavaSc
 
 ***'await' expressions are only allowed within async functions and at the top levels of modules.***
 
-At the time of writing, `await` is only allowed inside `async` functions or [at the top-level Node.js modules](https://github.com/tc39/proposal-top-level-await) starting with Node.js 14.3.
+At the time of writing, `await` is only allowed inside `async` functions or [at the top-level Node.js modules](https://github.com/tc39/proposal-top-level-await) starting with Node.js 14.2.
 
 That is an odd restriction. No matter how much I googled I wasn't able to find a reason for that. After all, `await` is just *syntactic sugar* for promises. And promises are allowed outside of `async` functions.
 
@@ -261,11 +268,11 @@ try {
 }
 ```
 
-- `async` ... `await` simplifies chaining of asynchronous operations:
+- `await` simplifies asynchronous code, making it look like synchronous.
 
 ```jsx
 const a = await asyncOp1();
-const b = await asyncOp2(a);
+const b = op2(a);
 const c = await asyncOp3(b);
 ```
 
