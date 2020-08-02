@@ -8,7 +8,7 @@ Tags: [javascript, react]
 Slug: netlify-2-minute-guide
 ---
 
-{{<responsive-figure src="feature.jpg" width="640" alt="Plug into cloud">}}
+{{<responsive-figure src="feature.jpg" alt="Plug into cloud">}}
 
 Up until a couple of years ago, I hosted this site, all of my React applications, code demos etc on virtual private servers (VPS). I tried AWS, Digital Ocean and others. Some of them were more convenient to deal with. But frankly, all of them were a huge pain in the butt. In the start, I had to spin up my own VPS, configure a web server, security, firewall, user logins, SSH keys, SSL certificates, DNS records. And that took a day if I worked fast. Then I had to figure out a way to deploy my apps.
 

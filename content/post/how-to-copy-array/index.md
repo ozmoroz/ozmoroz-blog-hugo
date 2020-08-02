@@ -8,7 +8,7 @@ Tags: [javascript, react]
 Slug: how-to-copy-array
 ---
 
-{{<responsive-figure src="feature.jpg" width="640" alt="Copy machine">}}
+{{<responsive-figure src="feature.jpg" alt="Copy machine">}}
 ---
 
 Making copies of arrays in JavaScript is not as straightforward as it seems. It certainly not as easy as `b = a`.

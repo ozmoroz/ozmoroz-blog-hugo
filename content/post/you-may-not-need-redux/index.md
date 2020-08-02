@@ -9,7 +9,7 @@ Slug: you-may-not-need-redux
 Description: Why you probably don't need to use Redux in your React project any more.
 ---
 
-{{<responsive-figure src="feature.jpg" width="640" alt="Erasing complexity">}}
+{{<responsive-figure src="feature.jpg" alt="Erasing complexity">}}
 
 If you were starting a new React project a few years ago, that almost always meant that you'd include [Redux](https://redux.js.org/). React and Redux were thought to be one indivisible entity. When I was learning React myself I did that with the help of Stephen Grider's excellent course [Modern React with Redux](https://www.udemy.com/course/react-redux/). That course is a true bestseller. Nearly 200,000 students watched it since it was released. Stephen keeps it updated so that it includes the latest React features. You got it - that bestselling course on React has "Redux" in its title.
 
