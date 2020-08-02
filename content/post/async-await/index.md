@@ -176,7 +176,6 @@ If you think that we can do simply this:
 const a = asyncOp1();
 const b = op2(a);
 const c = asyncOp3(b);
-/* Do something with c */
 ```
 
 then you're are wrong.
@@ -189,7 +188,6 @@ asyncOp1().then(a => {
   const b = op2(a);
   asyncOp3(b).then(result => (c = result));
 });
-/* Do something with c */
 ```
 
 I may have made a typo or two there. I'm sure you can see why. That syntax is far from obvious.
