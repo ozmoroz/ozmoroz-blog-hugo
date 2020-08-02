@@ -176,6 +176,7 @@ If you think that we can do simply this:
 const a = asyncOp1();
 const b = op2(a);
 const c = asyncOp3(b);
+/* Do something with c */
 ```
 
 then you're are wrong.
@@ -184,14 +185,11 @@ Remember, an asynchronous function such as `asyncOp1` and `asyncOp3` returns a p
 
 ```jsx
 let c;
-asyncOp1().then(
-  a => asyncOp2(a).then(
-    b = op2(a)
-    asyncOp3(b).then(
-     result => c = result
-    )
-  )
-)
+asyncOp1().then(a => {
+  const b = op2(a);
+  asyncOp3(b).then(result => (c = result));
+});
+/* Do something with c */
 ```
 
 I may have made a typo or two there. I'm sure you can see why. That syntax is far from obvious.
