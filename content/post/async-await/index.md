@@ -186,7 +186,7 @@ Remember, an asynchronous function such as `asyncOp1` and `asyncOp3` returns a p
 let c;
 asyncOp1().then(
   a => asyncOp2(a).then(
-    b => op2(a)
+    b = op2(a)
     asyncOp3(b).then(
      result => c = result
     )
