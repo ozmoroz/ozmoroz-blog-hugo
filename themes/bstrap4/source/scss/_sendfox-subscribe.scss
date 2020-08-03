@@ -1,13 +1,20 @@
 /* Sendfox embedded subscribe form */
 
 .sendfox-form {
+  padding: 1rem;
   margin-bottom: 2rem;
+  background-color: #d2fff3;
+  text-align: center;
 
   h2 {
     font-weight: bold;
     padding: 0;
     margin: 15px 0;
     font-size: 1.4em;
+  }
+
+  .form-group {
+    text-align: left;
   }
   // input[type='checkbox'] {
   //   -webkit-appearance: checkbox;
@@ -31,6 +38,7 @@
     position: relative;
     top: 5px;
   }
+
   // .clear {
   //   clear: both;
   // }
