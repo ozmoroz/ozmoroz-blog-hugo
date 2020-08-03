@@ -26,7 +26,7 @@ Let's find out.
 
 ## Typescript to the rescue
 
-While writing this article, I wanted to know the difference between the return types of plain functions and `async` functions. However, since JavaScript is a *dynamically-typed language*, the type information is not available to us at the time we write the code. *Some* type information is available at runtime, yet it's tricky to access. However, we have a secret weapon - [Typescript](https://www.typescriptlang.org/)! It is a *strongly-typed language* build on top of JavaScript. Unlike JavaScript, the type information in TypeScript is available upfront. In modern IDEs and code editors, it is captured by a Typescript *language server* and made available to us at the time we write our code. [Visual Studio Code](https://code.visualstudio.com/) does that. As do [Codesandbox](https://codesandbox.io) and [StackBlitz](https://stackblitz.com/) when you start a [Typescript](https://stackblitz.com/) project in them.
+While writing this article, I wanted to know the difference between the return types of plain functions and `async` functions. However, since JavaScript is a *dynamically-typed language*, the type information is not available to us at the time we write the code. *Some* type information is available at runtime, yet it's tricky to access. However, we have a secret weapon - [Typescript](https://www.typescriptlang.org/)! It is a *strongly-typed language* build on top of JavaScript. Unlike JavaScript, the type information in TypeScript is available upfront. In modern IDEs and code editors, it is captured by a Typescript *language server* and made available to us at the time we write our code. [Visual Studio Code](https://code.visualstudio.com/) does that. As do [Codesandbox](https://codesandbox.io) and [StackBlitz](https://stackblitz.com/) when you start a [Typescript](https://stackblitz.com/) project in them. When we hover a cursor over a definition of a function or variable, it shows its type to us in a pop-up. You'll see that on screenshots in this post.
 
 ## What does `async` really mean?
 
@@ -200,7 +200,7 @@ const b = asyncOp2(a);
 const c = await asyncOp3(b);
 ```
 
-Looks much nicer, isn't it? In fact, it looks remarkably similar to the synchronous code, as if all three functions were synchronous.
+Looks much nicer, isn't it? Indeed, it looks remarkably similar to the synchronous code, as if all three functions were synchronous.
 
 > 💡`await` simplifies asynchronous code, making it look like synchronous.
 
@@ -238,42 +238,42 @@ That is an odd restriction. No matter how much I googled I wasn't able to find a
 
 - Putting `async` in front of the function makes that function returns a ***promise*** which ***resolves*** with the value the function returns.
 
-```jsx
-async function myAsyncFunc() {
-  return 0;
-}
-```
+  ```jsx
+  async function myAsyncFunc() {
+    return 0;
+  }
+  ```
 
-returns `Promise.resolve(0)`
+  returns `Promise.resolve(0)`
 
 - Putting `await` in front of calling a function which returns a promise pauses the execution until that promise resolves, then the result evaluates to the value the promise resolves with.
 
-```jsx
-const a = await myAsyncFunc()
+  ```jsx
+  const a = await myAsyncFunc()
 
-// a equals 0
-```
+  // a equals 0
+  ```
 
 - `async` ... `await` allows using the usual JavaScript [try...catch syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) for catching errors.
 
-```jsx
-try {
-  await myAsyncFunc();
-} catch (err) {
-  console.log("An error was caught: ", err);
-}
-```
+  ```jsx
+  try {
+    await myAsyncFunc();
+  } catch (err) {
+    console.log("An error was caught: ", err);
+  }
+  ```
 
 - `await` simplifies asynchronous code, making it look like synchronous.
 
-```jsx
-const a = await asyncOp1();
-const b = op2(a);
-const c = await asyncOp3(b);
-```
+  ```jsx
+  const a = await asyncOp1();
+  const b = op2(a);
+  const c = await asyncOp3(b);
+  ```
 
 - `await` can only be used inside of `async` functions or at the top level of Node.js modules with Node.js version 14.2 or higher.
 
-As always, if you have any questions, leave then in the comments section below (you'll need to log in).
+As always, if you have any questions, leave them in the comments section below (you'll need to log in).
 
 Happy coding!
