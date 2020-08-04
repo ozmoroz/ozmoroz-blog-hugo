@@ -12,7 +12,7 @@
     {{ if $pag.HasPrev }}
       <li class="page-item">
         <a class="page-link" href="{{ $pag.Prev.URL }}" aria-label="Previous">
-          <i class="fa fa-angle-left"></i>
+          <i class="fas fa-angle-left"></i>
         </a>
       </li>
     {{ end }}
@@ -27,7 +27,7 @@
       {{ $showNumber := or $showNumber (and (lt $right (sub $numbersToShow 2)) (gt $pag.PageNumber (add 3 (sub $pag.TotalPages $numbersToShow)))) }}
       {{/* show 3 buttons in the middle of the range */}}
       {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2)))  }}
-      {{ if $showNumber }} 
+      {{ if $showNumber }}
           {{ $.Scratch.Set "__paginator.ellipsed" false }}
           {{ $.Scratch.Set "__paginator.shouldEllipse" false }}
       {{ else }}
@@ -45,7 +45,7 @@
     {{ if $pag.HasNext }}
       <li class="page-item">
         <a class="page-link" href="{{ $pag.Next.URL }}" aria-label="Next">
-          <i class="fa fa-angle-right"></i>
+          <i class="fas fa-angle-right"></i>
         </a>
       </li>
     {{ end }}
