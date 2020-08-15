@@ -90,5 +90,3 @@ When I’m not busy coding, hacking, tweaking and fiddling with computers, I can
   <li><img alt="LinkedIn icon" style="display: inline-block" src="/images/In-2C-21px-TM.png"><a href="https://au.linkedin.com/in/sergeystadnik">  LinkedIn Profile</a></li>
   <li><img alt="Twitter icon" style="display: inline-block" src="/images/twitter_32.png"><a href="https://twitter.com/stadniks">@stadniks</a><br></li>
 </ul>
-
-Have anything to say? Send me an email at <sergey@ozmoroz.com>.
