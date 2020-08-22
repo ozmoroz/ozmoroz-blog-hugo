@@ -91,7 +91,7 @@ Is a equal b?  false
 
 `[...a]` effectively makes a new array (for real) with all the elements the same as the original array. If we assign it to `b`, then `b` will still be a *reference*, however, it will point to **the new** array and not the original. Note that `a == b` is `false`. That's how we know that `a` and `b` do not refer to the same array any more.
 
-> Yes, comparing reference types in JavaScript is not simple either. What to know more? Let me know by commenting under that post.
+> Yes, comparing reference types in JavaScript is not simple either. What to know more? Let me know by commenting under this post.
 
 ## Cloning a two-dimensional array
 
