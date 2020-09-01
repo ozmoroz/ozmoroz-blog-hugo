@@ -6,6 +6,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript,react]
 Slug: how-to-copy-array
+Description: How to make a true copy of an array in JavaScript.
 ---
 
 {{<responsive-figure src="feature.jpg" alt="Copy machine">}}

@@ -6,6 +6,7 @@ Author: Sergey Stadnik
 categories: ["technology"]
 Tags: [javascript, react]
 Slug: netlify-2-minute-guide
+Description: How to deploy your React app to Netlify cloud in two mnutes.
 ---
 
 {{<responsive-figure src="feature.jpg" alt="Plug into cloud">}}
