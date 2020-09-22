@@ -87,7 +87,7 @@ function printValue() {
 }
 ```
 
-`myPromiseFunc` returns a Promise. Once that promise resolves, it calls a function passed as an argument to `then`.  That function receives the ***resolved value*** as an argument***.*** In our case, it is an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) which prints the value. Because `myPromiseFunc` resolves with 0, `printValue` will print "The value is  0".
+`myPromiseFunc` returns a Promise. Once that promise resolves, it calls a function passed as an argument to `then`.  That function receives the ***resolved value*** as an argument. In our case, it is an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) which prints the value. Because `myPromiseFunc` resolves with 0, `printValue` will print "The value is  0".
 
 However, we can rewrite `printValue` function like this:
 
