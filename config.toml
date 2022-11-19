@@ -7,7 +7,7 @@ title        = "Sergey Stadnik's blog"
 paginate = 5
 # optionally override the site's footer with custom copyright text
 # copyright = "© 2019 Sergey Stadnik. Powered by [Hugo](https://gohugo.io/)"
-googleAnalytics = "UA-5940328-2"
+# googleAnalytics = "UA-5940328-2"
 # disqusShortname = "ozmorozcom"
 enableGitInfo = true
 # Syntax highlighting settings
