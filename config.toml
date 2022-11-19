@@ -95,10 +95,10 @@ name   = "About me"
 url    = "/about/"
 weight = 1
 
-[[menu.navbar]]
-name   = "Now"
-url    = "/now/"
-weight = 2
+#[[menu.navbar]]
+#name   = "Now"
+#url    = "/now/"
+#weight = 2
 
 [[menu.navbar]]
 name   = "Technology"

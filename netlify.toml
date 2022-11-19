@@ -8,7 +8,7 @@ publish = "public"
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV           = "production"
-HUGO_VERSION       = "0.72.0"
+HUGO_VERSION       = "0.92.2"
 
 # [context.split1]
 # command = "hugo --enableGitInfo"

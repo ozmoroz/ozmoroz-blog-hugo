@@ -7,6 +7,7 @@ url: now/
 Author: Sergey Stadnik
 Date: 2019-09-26
 Description: What Sergey Stadnik is doing these days.
+draft: true
 ---
 
 *This page complies with Derek Sivers' [Now Page Movement](https://sivers.org/nowff).*
